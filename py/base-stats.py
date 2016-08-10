@@ -54,10 +54,10 @@ lookup = OrderedDict(sorted(lookup.items(), key=lambda t: t[0]))
 # Include metadata for licenses,
 meta = OrderedDict()
 meta["title"] = "Generation 1 Base stats JSON for all 151 Pokémon (Red/Blue/Yellow)"
+meta["project"] = "https://github.com/olehermanse/pokres"
 meta["author"] = { "url": "http://github.com/olehermanse",
 "name":"Ole Herman Schumacher Elgesem"}
 meta["credits"] = ["Bulbagarden", "Nintendo"]
-meta["project"] = "https://github.com/olehermanse/pokres"
 meta["license"] = {"data": "https://creativecommons.org/licenses/by-nc-sa/2.5/",
                    "software": "https://opensource.org/licenses/MIT"}
 c =["Bulbapedia web content used in compliance with their license. ",
@@ -66,7 +66,7 @@ c =["Bulbapedia web content used in compliance with their license. ",
     "This project and its author is in no way affiliated with Nintendo, ",
     "Pokémon Company or Bulbagarden."]
 meta["copyright"] = c
-meta["time created"] = datetime.datetime.utcnow().isoformat()
+meta["updated"] = datetime.datetime.utcnow().isoformat()
 meta["source"] = {"title" : soup.title.string, "url" :
 "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)"}
 
