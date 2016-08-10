@@ -3,18 +3,11 @@
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-79005632-1', 'auto');
-
-// Redirect if url is not olehelg.at.ifi.uio.no:
-function redirect(){
-  if(window.location.href.indexOf("olehelg.at.ifi.uio.no")<=-1){
-    window.location.replace("http://olehelg.at.ifi.uio.no");
-  }
-}
+ga('create', 'UA-79005632-2', 'auto');
 
 // Change url in address bar, add history entry and load new "site" into main:
 function navigate(site){
-  window.history.pushState(site, "olehelg - "+site, "/index.html?site="+site);
+  window.history.pushState(site, "PokRes - "+site, "/pokres/index.html?site="+site);
   loadMain(site);
 }
 
@@ -60,7 +53,7 @@ $.urlParam = function(name){
 // Put the contents of a "site"(.html) into the main div:
 // http://stackoverflow.com/a/6949658
 function loadMain(site){
-  $("#main").load('sites/'+site+'.html', dataInclude);
+  $("#main").load('web/sites/'+site+'.html', dataInclude);
   ga('set', 'location', window.location.href);
   ga('send', 'pageview');
 }
