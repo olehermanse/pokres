@@ -20,7 +20,7 @@
             "This project and its author is in no way affiliated with Nintendo, ",
             "Pokémon Company or Bulbagarden."
         ],
-        "time created": "2016-08-10T18:53:50.284677",
+        "time created": "2016-08-10T18:58:29.188599",
         "source": {
             "url": "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)",
             "title": "List of Pokémon by base stats (Generation I) - Bulbapedia, the community-driven Pokémon encyclopedia"
@@ -181,1967 +181,1967 @@
     },
     "dex": {
         "001": {
-            "number": 1,
-            "number_string": "001",
             "stats": {
+                "HP": 45,
                 "ATK": 49,
                 "DEF": 49,
-                "SPC": 65,
-                "HP": 45,
-                "SPD": 45
+                "SPD": 45,
+                "SPC": 65
             },
             "icon": "http://cdn.bulbagarden.net/upload/e/ec/001MS.png",
-            "name": "Bulbasaur"
+            "name": "Bulbasaur",
+            "number": 1,
+            "number_string": "001"
         },
         "002": {
-            "number": 2,
-            "number_string": "002",
             "stats": {
+                "HP": 60,
                 "ATK": 62,
                 "DEF": 63,
-                "SPC": 80,
-                "HP": 60,
-                "SPD": 60
+                "SPD": 60,
+                "SPC": 80
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/6b/002MS.png",
-            "name": "Ivysaur"
+            "name": "Ivysaur",
+            "number": 2,
+            "number_string": "002"
         },
         "003": {
-            "number": 3,
-            "number_string": "003",
             "stats": {
+                "HP": 80,
                 "ATK": 82,
                 "DEF": 83,
-                "SPC": 100,
-                "HP": 80,
-                "SPD": 80
+                "SPD": 80,
+                "SPC": 100
             },
             "icon": "http://cdn.bulbagarden.net/upload/d/df/003MS.png",
-            "name": "Venusaur"
+            "name": "Venusaur",
+            "number": 3,
+            "number_string": "003"
         },
         "004": {
-            "number": 4,
-            "number_string": "004",
             "stats": {
+                "HP": 39,
                 "ATK": 52,
                 "DEF": 43,
-                "SPC": 50,
-                "HP": 39,
-                "SPD": 65
+                "SPD": 65,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/b/bb/004MS.png",
-            "name": "Charmander"
+            "name": "Charmander",
+            "number": 4,
+            "number_string": "004"
         },
         "005": {
-            "number": 5,
-            "number_string": "005",
             "stats": {
+                "HP": 58,
                 "ATK": 64,
                 "DEF": 58,
-                "SPC": 65,
-                "HP": 58,
-                "SPD": 80
+                "SPD": 80,
+                "SPC": 65
             },
             "icon": "http://cdn.bulbagarden.net/upload/d/dc/005MS.png",
-            "name": "Charmeleon"
+            "name": "Charmeleon",
+            "number": 5,
+            "number_string": "005"
         },
         "006": {
-            "number": 6,
-            "number_string": "006",
             "stats": {
+                "HP": 78,
                 "ATK": 84,
                 "DEF": 78,
-                "SPC": 85,
-                "HP": 78,
-                "SPD": 100
+                "SPD": 100,
+                "SPC": 85
             },
             "icon": "http://cdn.bulbagarden.net/upload/0/01/006MS.png",
-            "name": "Charizard"
+            "name": "Charizard",
+            "number": 6,
+            "number_string": "006"
         },
         "007": {
-            "number": 7,
-            "number_string": "007",
             "stats": {
+                "HP": 44,
                 "ATK": 48,
                 "DEF": 65,
-                "SPC": 50,
-                "HP": 44,
-                "SPD": 43
+                "SPD": 43,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/9/92/007MS.png",
-            "name": "Squirtle"
+            "name": "Squirtle",
+            "number": 7,
+            "number_string": "007"
         },
         "008": {
-            "number": 8,
-            "number_string": "008",
             "stats": {
+                "HP": 59,
                 "ATK": 63,
                 "DEF": 80,
-                "SPC": 65,
-                "HP": 59,
-                "SPD": 58
+                "SPD": 58,
+                "SPC": 65
             },
             "icon": "http://cdn.bulbagarden.net/upload/f/f3/008MS.png",
-            "name": "Wartortle"
+            "name": "Wartortle",
+            "number": 8,
+            "number_string": "008"
         },
         "009": {
-            "number": 9,
-            "number_string": "009",
             "stats": {
+                "HP": 79,
                 "ATK": 83,
                 "DEF": 100,
-                "SPC": 85,
-                "HP": 79,
-                "SPD": 78
+                "SPD": 78,
+                "SPC": 85
             },
             "icon": "http://cdn.bulbagarden.net/upload/c/cb/009MS.png",
-            "name": "Blastoise"
+            "name": "Blastoise",
+            "number": 9,
+            "number_string": "009"
         },
         "010": {
-            "number": 10,
-            "number_string": "010",
             "stats": {
+                "HP": 45,
                 "ATK": 30,
                 "DEF": 35,
-                "SPC": 20,
-                "HP": 45,
-                "SPD": 45
+                "SPD": 45,
+                "SPC": 20
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/69/010MS.png",
-            "name": "Caterpie"
+            "name": "Caterpie",
+            "number": 10,
+            "number_string": "010"
         },
         "011": {
-            "number": 11,
-            "number_string": "011",
             "stats": {
+                "HP": 50,
                 "ATK": 20,
                 "DEF": 55,
-                "SPC": 25,
-                "HP": 50,
-                "SPD": 30
+                "SPD": 30,
+                "SPC": 25
             },
             "icon": "http://cdn.bulbagarden.net/upload/c/ce/011MS.png",
-            "name": "Metapod"
+            "name": "Metapod",
+            "number": 11,
+            "number_string": "011"
         },
         "012": {
-            "number": 12,
-            "number_string": "012",
             "stats": {
+                "HP": 60,
                 "ATK": 45,
                 "DEF": 50,
-                "SPC": 80,
-                "HP": 60,
-                "SPD": 70
+                "SPD": 70,
+                "SPC": 80
             },
             "icon": "http://cdn.bulbagarden.net/upload/1/14/012MS.png",
-            "name": "Butterfree"
+            "name": "Butterfree",
+            "number": 12,
+            "number_string": "012"
         },
         "013": {
-            "number": 13,
-            "number_string": "013",
             "stats": {
+                "HP": 40,
                 "ATK": 35,
                 "DEF": 30,
-                "SPC": 20,
-                "HP": 40,
-                "SPD": 50
+                "SPD": 50,
+                "SPC": 20
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/65/013MS.png",
-            "name": "Weedle"
+            "name": "Weedle",
+            "number": 13,
+            "number_string": "013"
         },
         "014": {
-            "number": 14,
-            "number_string": "014",
             "stats": {
+                "HP": 45,
                 "ATK": 25,
                 "DEF": 50,
-                "SPC": 25,
-                "HP": 45,
-                "SPD": 35
+                "SPD": 35,
+                "SPC": 25
             },
             "icon": "http://cdn.bulbagarden.net/upload/8/81/014MS.png",
-            "name": "Kakuna"
+            "name": "Kakuna",
+            "number": 14,
+            "number_string": "014"
         },
         "015": {
-            "number": 15,
-            "number_string": "015",
             "stats": {
+                "HP": 65,
                 "ATK": 80,
                 "DEF": 40,
-                "SPC": 45,
-                "HP": 65,
-                "SPD": 75
+                "SPD": 75,
+                "SPC": 45
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/5a/015MS.png",
-            "name": "Beedrill"
+            "name": "Beedrill",
+            "number": 15,
+            "number_string": "015"
         },
         "016": {
-            "number": 16,
-            "number_string": "016",
             "stats": {
+                "HP": 40,
                 "ATK": 45,
                 "DEF": 40,
-                "SPC": 35,
-                "HP": 40,
-                "SPD": 56
+                "SPD": 56,
+                "SPC": 35
             },
             "icon": "http://cdn.bulbagarden.net/upload/9/9c/016MS.png",
-            "name": "Pidgey"
+            "name": "Pidgey",
+            "number": 16,
+            "number_string": "016"
         },
         "017": {
-            "number": 17,
-            "number_string": "017",
             "stats": {
+                "HP": 63,
                 "ATK": 60,
                 "DEF": 55,
-                "SPC": 50,
-                "HP": 63,
-                "SPD": 71
+                "SPD": 71,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/a/a9/017MS.png",
-            "name": "Pidgeotto"
+            "name": "Pidgeotto",
+            "number": 17,
+            "number_string": "017"
         },
         "018": {
-            "number": 18,
-            "number_string": "018",
             "stats": {
+                "HP": 83,
                 "ATK": 80,
                 "DEF": 75,
-                "SPC": 70,
-                "HP": 83,
-                "SPD": 91
+                "SPD": 91,
+                "SPC": 70
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/68/018MS.png",
-            "name": "Pidgeot"
+            "name": "Pidgeot",
+            "number": 18,
+            "number_string": "018"
         },
         "019": {
-            "number": 19,
-            "number_string": "019",
             "stats": {
+                "HP": 30,
                 "ATK": 56,
                 "DEF": 35,
-                "SPC": 25,
-                "HP": 30,
-                "SPD": 72
+                "SPD": 72,
+                "SPC": 25
             },
             "icon": "http://cdn.bulbagarden.net/upload/4/4d/019MS.png",
-            "name": "Rattata"
+            "name": "Rattata",
+            "number": 19,
+            "number_string": "019"
         },
         "020": {
-            "number": 20,
-            "number_string": "020",
             "stats": {
+                "HP": 55,
                 "ATK": 81,
                 "DEF": 60,
-                "SPC": 50,
-                "HP": 55,
-                "SPD": 97
+                "SPD": 97,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/4/4d/020MS.png",
-            "name": "Raticate"
+            "name": "Raticate",
+            "number": 20,
+            "number_string": "020"
         },
         "021": {
-            "number": 21,
-            "number_string": "021",
             "stats": {
+                "HP": 40,
                 "ATK": 60,
                 "DEF": 30,
-                "SPC": 31,
-                "HP": 40,
-                "SPD": 70
+                "SPD": 70,
+                "SPC": 31
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/5b/021MS.png",
-            "name": "Spearow"
+            "name": "Spearow",
+            "number": 21,
+            "number_string": "021"
         },
         "022": {
-            "number": 22,
-            "number_string": "022",
             "stats": {
+                "HP": 65,
                 "ATK": 90,
                 "DEF": 65,
-                "SPC": 61,
-                "HP": 65,
-                "SPD": 100
+                "SPD": 100,
+                "SPC": 61
             },
             "icon": "http://cdn.bulbagarden.net/upload/3/35/022MS.png",
-            "name": "Fearow"
+            "name": "Fearow",
+            "number": 22,
+            "number_string": "022"
         },
         "023": {
-            "number": 23,
-            "number_string": "023",
             "stats": {
+                "HP": 35,
                 "ATK": 60,
                 "DEF": 44,
-                "SPC": 40,
-                "HP": 35,
-                "SPD": 55
+                "SPD": 55,
+                "SPC": 40
             },
             "icon": "http://cdn.bulbagarden.net/upload/0/0d/023MS.png",
-            "name": "Ekans"
+            "name": "Ekans",
+            "number": 23,
+            "number_string": "023"
         },
         "024": {
-            "number": 24,
-            "number_string": "024",
             "stats": {
+                "HP": 60,
                 "ATK": 85,
                 "DEF": 69,
-                "SPC": 65,
-                "HP": 60,
-                "SPD": 80
+                "SPD": 80,
+                "SPC": 65
             },
             "icon": "http://cdn.bulbagarden.net/upload/d/d3/024MS.png",
-            "name": "Arbok"
+            "name": "Arbok",
+            "number": 24,
+            "number_string": "024"
         },
         "025": {
-            "number": 25,
-            "number_string": "025",
             "stats": {
+                "HP": 35,
                 "ATK": 55,
                 "DEF": 30,
-                "SPC": 50,
-                "HP": 35,
-                "SPD": 90
+                "SPD": 90,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/0/0f/025MS.png",
-            "name": "Pikachu"
+            "name": "Pikachu",
+            "number": 25,
+            "number_string": "025"
         },
         "026": {
-            "number": 26,
-            "number_string": "026",
             "stats": {
+                "HP": 60,
                 "ATK": 90,
                 "DEF": 55,
-                "SPC": 90,
-                "HP": 60,
-                "SPD": 100
+                "SPD": 100,
+                "SPC": 90
             },
             "icon": "http://cdn.bulbagarden.net/upload/d/da/026MS.png",
-            "name": "Raichu"
+            "name": "Raichu",
+            "number": 26,
+            "number_string": "026"
         },
         "027": {
-            "number": 27,
-            "number_string": "027",
             "stats": {
+                "HP": 50,
                 "ATK": 75,
                 "DEF": 85,
-                "SPC": 30,
-                "HP": 50,
-                "SPD": 40
+                "SPD": 40,
+                "SPC": 30
             },
             "icon": "http://cdn.bulbagarden.net/upload/c/c3/027MS.png",
-            "name": "Sandshrew"
+            "name": "Sandshrew",
+            "number": 27,
+            "number_string": "027"
         },
         "028": {
-            "number": 28,
-            "number_string": "028",
             "stats": {
+                "HP": 75,
                 "ATK": 100,
                 "DEF": 110,
-                "SPC": 55,
-                "HP": 75,
-                "SPD": 65
+                "SPD": 65,
+                "SPC": 55
             },
             "icon": "http://cdn.bulbagarden.net/upload/e/e0/028MS.png",
-            "name": "Sandslash"
+            "name": "Sandslash",
+            "number": 28,
+            "number_string": "028"
         },
         "029": {
-            "number": 29,
-            "number_string": "029",
             "stats": {
+                "HP": 55,
                 "ATK": 47,
                 "DEF": 52,
-                "SPC": 40,
-                "HP": 55,
-                "SPD": 41
+                "SPD": 41,
+                "SPC": 40
             },
             "icon": "http://cdn.bulbagarden.net/upload/a/ab/029MS.png",
-            "name": "Nidoran♀"
+            "name": "Nidoran♀",
+            "number": 29,
+            "number_string": "029"
         },
         "030": {
-            "number": 30,
-            "number_string": "030",
             "stats": {
+                "HP": 70,
                 "ATK": 62,
                 "DEF": 67,
-                "SPC": 55,
-                "HP": 70,
-                "SPD": 56
+                "SPD": 56,
+                "SPC": 55
             },
             "icon": "http://cdn.bulbagarden.net/upload/d/d0/030MS.png",
-            "name": "Nidorina"
+            "name": "Nidorina",
+            "number": 30,
+            "number_string": "030"
         },
         "031": {
-            "number": 31,
-            "number_string": "031",
             "stats": {
+                "HP": 90,
                 "ATK": 82,
                 "DEF": 87,
-                "SPC": 75,
-                "HP": 90,
-                "SPD": 76
+                "SPD": 76,
+                "SPC": 75
             },
             "icon": "http://cdn.bulbagarden.net/upload/3/31/031MS.png",
-            "name": "Nidoqueen"
+            "name": "Nidoqueen",
+            "number": 31,
+            "number_string": "031"
         },
         "032": {
-            "number": 32,
-            "number_string": "032",
             "stats": {
+                "HP": 46,
                 "ATK": 57,
                 "DEF": 40,
-                "SPC": 40,
-                "HP": 46,
-                "SPD": 50
+                "SPD": 50,
+                "SPC": 40
             },
             "icon": "http://cdn.bulbagarden.net/upload/f/fb/032MS.png",
-            "name": "Nidoran♂"
+            "name": "Nidoran♂",
+            "number": 32,
+            "number_string": "032"
         },
         "033": {
-            "number": 33,
-            "number_string": "033",
             "stats": {
+                "HP": 61,
                 "ATK": 72,
                 "DEF": 57,
-                "SPC": 55,
-                "HP": 61,
-                "SPD": 65
+                "SPD": 65,
+                "SPC": 55
             },
             "icon": "http://cdn.bulbagarden.net/upload/0/0e/033MS.png",
-            "name": "Nidorino"
+            "name": "Nidorino",
+            "number": 33,
+            "number_string": "033"
         },
         "034": {
-            "number": 34,
-            "number_string": "034",
             "stats": {
+                "HP": 81,
                 "ATK": 92,
                 "DEF": 77,
-                "SPC": 75,
-                "HP": 81,
-                "SPD": 85
+                "SPD": 85,
+                "SPC": 75
             },
             "icon": "http://cdn.bulbagarden.net/upload/1/18/034MS.png",
-            "name": "Nidoking"
+            "name": "Nidoking",
+            "number": 34,
+            "number_string": "034"
         },
         "035": {
-            "number": 35,
-            "number_string": "035",
             "stats": {
+                "HP": 70,
                 "ATK": 45,
                 "DEF": 48,
-                "SPC": 60,
-                "HP": 70,
-                "SPD": 35
+                "SPD": 35,
+                "SPC": 60
             },
             "icon": "http://cdn.bulbagarden.net/upload/f/f9/035MS.png",
-            "name": "Clefairy"
+            "name": "Clefairy",
+            "number": 35,
+            "number_string": "035"
         },
         "036": {
-            "number": 36,
-            "number_string": "036",
             "stats": {
+                "HP": 95,
                 "ATK": 70,
                 "DEF": 73,
-                "SPC": 85,
-                "HP": 95,
-                "SPD": 60
+                "SPD": 60,
+                "SPC": 85
             },
             "icon": "http://cdn.bulbagarden.net/upload/7/75/036MS.png",
-            "name": "Clefable"
+            "name": "Clefable",
+            "number": 36,
+            "number_string": "036"
         },
         "037": {
-            "number": 37,
-            "number_string": "037",
             "stats": {
+                "HP": 38,
                 "ATK": 41,
                 "DEF": 40,
-                "SPC": 65,
-                "HP": 38,
-                "SPD": 65
+                "SPD": 65,
+                "SPC": 65
             },
             "icon": "http://cdn.bulbagarden.net/upload/8/85/037MS.png",
-            "name": "Vulpix"
+            "name": "Vulpix",
+            "number": 37,
+            "number_string": "037"
         },
         "038": {
-            "number": 38,
-            "number_string": "038",
             "stats": {
+                "HP": 73,
                 "ATK": 76,
                 "DEF": 75,
-                "SPC": 100,
-                "HP": 73,
-                "SPD": 100
+                "SPD": 100,
+                "SPC": 100
             },
             "icon": "http://cdn.bulbagarden.net/upload/1/10/038MS.png",
-            "name": "Ninetales"
+            "name": "Ninetales",
+            "number": 38,
+            "number_string": "038"
         },
         "039": {
-            "number": 39,
-            "number_string": "039",
             "stats": {
+                "HP": 115,
                 "ATK": 45,
                 "DEF": 20,
-                "SPC": 25,
-                "HP": 115,
-                "SPD": 20
+                "SPD": 20,
+                "SPC": 25
             },
             "icon": "http://cdn.bulbagarden.net/upload/9/9c/039MS.png",
-            "name": "Jigglypuff"
+            "name": "Jigglypuff",
+            "number": 39,
+            "number_string": "039"
         },
         "040": {
-            "number": 40,
-            "number_string": "040",
             "stats": {
+                "HP": 140,
                 "ATK": 70,
                 "DEF": 45,
-                "SPC": 50,
-                "HP": 140,
-                "SPD": 45
+                "SPD": 45,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/f/f1/040MS.png",
-            "name": "Wigglytuff"
+            "name": "Wigglytuff",
+            "number": 40,
+            "number_string": "040"
         },
         "041": {
-            "number": 41,
-            "number_string": "041",
             "stats": {
+                "HP": 40,
                 "ATK": 45,
                 "DEF": 35,
-                "SPC": 40,
-                "HP": 40,
-                "SPD": 55
+                "SPD": 55,
+                "SPC": 40
             },
             "icon": "http://cdn.bulbagarden.net/upload/9/96/041MS.png",
-            "name": "Zubat"
+            "name": "Zubat",
+            "number": 41,
+            "number_string": "041"
         },
         "042": {
-            "number": 42,
-            "number_string": "042",
             "stats": {
+                "HP": 75,
                 "ATK": 80,
                 "DEF": 70,
-                "SPC": 75,
-                "HP": 75,
-                "SPD": 90
+                "SPD": 90,
+                "SPC": 75
             },
             "icon": "http://cdn.bulbagarden.net/upload/d/d0/042MS.png",
-            "name": "Golbat"
+            "name": "Golbat",
+            "number": 42,
+            "number_string": "042"
         },
         "043": {
-            "number": 43,
-            "number_string": "043",
             "stats": {
+                "HP": 45,
                 "ATK": 50,
                 "DEF": 55,
-                "SPC": 75,
-                "HP": 45,
-                "SPD": 30
+                "SPD": 30,
+                "SPC": 75
             },
             "icon": "http://cdn.bulbagarden.net/upload/a/a5/043MS.png",
-            "name": "Oddish"
+            "name": "Oddish",
+            "number": 43,
+            "number_string": "043"
         },
         "044": {
-            "number": 44,
-            "number_string": "044",
             "stats": {
+                "HP": 60,
                 "ATK": 65,
                 "DEF": 70,
-                "SPC": 85,
-                "HP": 60,
-                "SPD": 40
+                "SPD": 40,
+                "SPC": 85
             },
             "icon": "http://cdn.bulbagarden.net/upload/d/d9/044MS.png",
-            "name": "Gloom"
+            "name": "Gloom",
+            "number": 44,
+            "number_string": "044"
         },
         "045": {
-            "number": 45,
-            "number_string": "045",
             "stats": {
+                "HP": 75,
                 "ATK": 80,
                 "DEF": 85,
-                "SPC": 100,
-                "HP": 75,
-                "SPD": 50
+                "SPD": 50,
+                "SPC": 100
             },
             "icon": "http://cdn.bulbagarden.net/upload/3/3e/045MS.png",
-            "name": "Vileplume"
+            "name": "Vileplume",
+            "number": 45,
+            "number_string": "045"
         },
         "046": {
-            "number": 46,
-            "number_string": "046",
             "stats": {
+                "HP": 35,
                 "ATK": 70,
                 "DEF": 55,
-                "SPC": 55,
-                "HP": 35,
-                "SPD": 25
+                "SPD": 25,
+                "SPC": 55
             },
             "icon": "http://cdn.bulbagarden.net/upload/7/7a/046MS.png",
-            "name": "Paras"
+            "name": "Paras",
+            "number": 46,
+            "number_string": "046"
         },
         "047": {
-            "number": 47,
-            "number_string": "047",
             "stats": {
+                "HP": 60,
                 "ATK": 95,
                 "DEF": 80,
-                "SPC": 80,
-                "HP": 60,
-                "SPD": 30
+                "SPD": 30,
+                "SPC": 80
             },
             "icon": "http://cdn.bulbagarden.net/upload/4/41/047MS.png",
-            "name": "Parasect"
+            "name": "Parasect",
+            "number": 47,
+            "number_string": "047"
         },
         "048": {
-            "number": 48,
-            "number_string": "048",
             "stats": {
+                "HP": 60,
                 "ATK": 55,
                 "DEF": 50,
-                "SPC": 40,
-                "HP": 60,
-                "SPD": 45
+                "SPD": 45,
+                "SPC": 40
             },
             "icon": "http://cdn.bulbagarden.net/upload/1/1e/048MS.png",
-            "name": "Venonat"
+            "name": "Venonat",
+            "number": 48,
+            "number_string": "048"
         },
         "049": {
-            "number": 49,
-            "number_string": "049",
             "stats": {
+                "HP": 70,
                 "ATK": 65,
                 "DEF": 60,
-                "SPC": 90,
-                "HP": 70,
-                "SPD": 90
+                "SPD": 90,
+                "SPC": 90
             },
             "icon": "http://cdn.bulbagarden.net/upload/3/31/049MS.png",
-            "name": "Venomoth"
+            "name": "Venomoth",
+            "number": 49,
+            "number_string": "049"
         },
         "050": {
-            "number": 50,
-            "number_string": "050",
             "stats": {
+                "HP": 10,
                 "ATK": 55,
                 "DEF": 25,
-                "SPC": 45,
-                "HP": 10,
-                "SPD": 95
+                "SPD": 95,
+                "SPC": 45
             },
             "icon": "http://cdn.bulbagarden.net/upload/8/8b/050MS.png",
-            "name": "Diglett"
+            "name": "Diglett",
+            "number": 50,
+            "number_string": "050"
         },
         "051": {
-            "number": 51,
-            "number_string": "051",
             "stats": {
+                "HP": 35,
                 "ATK": 80,
                 "DEF": 50,
-                "SPC": 70,
-                "HP": 35,
-                "SPD": 120
+                "SPD": 120,
+                "SPC": 70
             },
             "icon": "http://cdn.bulbagarden.net/upload/8/86/051MS.png",
-            "name": "Dugtrio"
+            "name": "Dugtrio",
+            "number": 51,
+            "number_string": "051"
         },
         "052": {
-            "number": 52,
-            "number_string": "052",
             "stats": {
+                "HP": 40,
                 "ATK": 45,
                 "DEF": 35,
-                "SPC": 40,
-                "HP": 40,
-                "SPD": 90
+                "SPD": 90,
+                "SPC": 40
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/50/052MS.png",
-            "name": "Meowth"
+            "name": "Meowth",
+            "number": 52,
+            "number_string": "052"
         },
         "053": {
-            "number": 53,
-            "number_string": "053",
             "stats": {
+                "HP": 65,
                 "ATK": 70,
                 "DEF": 60,
-                "SPC": 65,
-                "HP": 65,
-                "SPD": 115
+                "SPD": 115,
+                "SPC": 65
             },
             "icon": "http://cdn.bulbagarden.net/upload/a/a7/053MS.png",
-            "name": "Persian"
+            "name": "Persian",
+            "number": 53,
+            "number_string": "053"
         },
         "054": {
-            "number": 54,
-            "number_string": "054",
             "stats": {
+                "HP": 50,
                 "ATK": 52,
                 "DEF": 48,
-                "SPC": 50,
-                "HP": 50,
-                "SPD": 55
+                "SPD": 55,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/6b/054MS.png",
-            "name": "Psyduck"
+            "name": "Psyduck",
+            "number": 54,
+            "number_string": "054"
         },
         "055": {
-            "number": 55,
-            "number_string": "055",
             "stats": {
+                "HP": 80,
                 "ATK": 82,
                 "DEF": 78,
-                "SPC": 80,
-                "HP": 80,
-                "SPD": 85
+                "SPD": 85,
+                "SPC": 80
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/64/055MS.png",
-            "name": "Golduck"
+            "name": "Golduck",
+            "number": 55,
+            "number_string": "055"
         },
         "056": {
-            "number": 56,
-            "number_string": "056",
             "stats": {
+                "HP": 40,
                 "ATK": 80,
                 "DEF": 35,
-                "SPC": 35,
-                "HP": 40,
-                "SPD": 70
+                "SPD": 70,
+                "SPC": 35
             },
             "icon": "http://cdn.bulbagarden.net/upload/a/ad/056MS.png",
-            "name": "Mankey"
+            "name": "Mankey",
+            "number": 56,
+            "number_string": "056"
         },
         "057": {
-            "number": 57,
-            "number_string": "057",
             "stats": {
+                "HP": 65,
                 "ATK": 105,
                 "DEF": 60,
-                "SPC": 60,
-                "HP": 65,
-                "SPD": 95
+                "SPD": 95,
+                "SPC": 60
             },
             "icon": "http://cdn.bulbagarden.net/upload/f/f1/057MS.png",
-            "name": "Primeape"
+            "name": "Primeape",
+            "number": 57,
+            "number_string": "057"
         },
         "058": {
-            "number": 58,
-            "number_string": "058",
             "stats": {
+                "HP": 55,
                 "ATK": 70,
                 "DEF": 45,
-                "SPC": 50,
-                "HP": 55,
-                "SPD": 60
+                "SPD": 60,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/69/058MS.png",
-            "name": "Growlithe"
+            "name": "Growlithe",
+            "number": 58,
+            "number_string": "058"
         },
         "059": {
-            "number": 59,
-            "number_string": "059",
             "stats": {
+                "HP": 90,
                 "ATK": 110,
                 "DEF": 80,
-                "SPC": 80,
-                "HP": 90,
-                "SPD": 95
+                "SPD": 95,
+                "SPC": 80
             },
             "icon": "http://cdn.bulbagarden.net/upload/3/35/059MS.png",
-            "name": "Arcanine"
+            "name": "Arcanine",
+            "number": 59,
+            "number_string": "059"
         },
         "060": {
-            "number": 60,
-            "number_string": "060",
             "stats": {
+                "HP": 40,
                 "ATK": 50,
                 "DEF": 40,
-                "SPC": 40,
-                "HP": 40,
-                "SPD": 90
+                "SPD": 90,
+                "SPC": 40
             },
             "icon": "http://cdn.bulbagarden.net/upload/1/17/060MS.png",
-            "name": "Poliwag"
+            "name": "Poliwag",
+            "number": 60,
+            "number_string": "060"
         },
         "061": {
-            "number": 61,
-            "number_string": "061",
             "stats": {
+                "HP": 65,
                 "ATK": 65,
                 "DEF": 65,
-                "SPC": 50,
-                "HP": 65,
-                "SPD": 90
+                "SPD": 90,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/3/36/061MS.png",
-            "name": "Poliwhirl"
+            "name": "Poliwhirl",
+            "number": 61,
+            "number_string": "061"
         },
         "062": {
-            "number": 62,
-            "number_string": "062",
             "stats": {
+                "HP": 90,
                 "ATK": 85,
                 "DEF": 95,
-                "SPC": 70,
-                "HP": 90,
-                "SPD": 70
+                "SPD": 70,
+                "SPC": 70
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/5e/062MS.png",
-            "name": "Poliwrath"
+            "name": "Poliwrath",
+            "number": 62,
+            "number_string": "062"
         },
         "063": {
-            "number": 63,
-            "number_string": "063",
             "stats": {
+                "HP": 25,
                 "ATK": 20,
                 "DEF": 15,
-                "SPC": 105,
-                "HP": 25,
-                "SPD": 90
+                "SPD": 90,
+                "SPC": 105
             },
             "icon": "http://cdn.bulbagarden.net/upload/c/cf/063MS.png",
-            "name": "Abra"
+            "name": "Abra",
+            "number": 63,
+            "number_string": "063"
         },
         "064": {
-            "number": 64,
-            "number_string": "064",
             "stats": {
+                "HP": 40,
                 "ATK": 35,
                 "DEF": 30,
-                "SPC": 120,
-                "HP": 40,
-                "SPD": 105
+                "SPD": 105,
+                "SPC": 120
             },
             "icon": "http://cdn.bulbagarden.net/upload/b/b6/064MS.png",
-            "name": "Kadabra"
+            "name": "Kadabra",
+            "number": 64,
+            "number_string": "064"
         },
         "065": {
-            "number": 65,
-            "number_string": "065",
             "stats": {
+                "HP": 55,
                 "ATK": 50,
                 "DEF": 45,
-                "SPC": 135,
-                "HP": 55,
-                "SPD": 120
+                "SPD": 120,
+                "SPC": 135
             },
             "icon": "http://cdn.bulbagarden.net/upload/c/ca/065MS.png",
-            "name": "Alakazam"
+            "name": "Alakazam",
+            "number": 65,
+            "number_string": "065"
         },
         "066": {
-            "number": 66,
-            "number_string": "066",
             "stats": {
+                "HP": 70,
                 "ATK": 80,
                 "DEF": 50,
-                "SPC": 35,
-                "HP": 70,
-                "SPD": 35
+                "SPD": 35,
+                "SPC": 35
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/6c/066MS.png",
-            "name": "Machop"
+            "name": "Machop",
+            "number": 66,
+            "number_string": "066"
         },
         "067": {
-            "number": 67,
-            "number_string": "067",
             "stats": {
+                "HP": 80,
                 "ATK": 100,
                 "DEF": 70,
-                "SPC": 50,
-                "HP": 80,
-                "SPD": 45
+                "SPD": 45,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/0/0f/067MS.png",
-            "name": "Machoke"
+            "name": "Machoke",
+            "number": 67,
+            "number_string": "067"
         },
         "068": {
-            "number": 68,
-            "number_string": "068",
             "stats": {
+                "HP": 90,
                 "ATK": 130,
                 "DEF": 80,
-                "SPC": 65,
-                "HP": 90,
-                "SPD": 55
+                "SPD": 55,
+                "SPC": 65
             },
             "icon": "http://cdn.bulbagarden.net/upload/1/1e/068MS.png",
-            "name": "Machamp"
+            "name": "Machamp",
+            "number": 68,
+            "number_string": "068"
         },
         "069": {
-            "number": 69,
-            "number_string": "069",
             "stats": {
+                "HP": 50,
                 "ATK": 75,
                 "DEF": 35,
-                "SPC": 70,
-                "HP": 50,
-                "SPD": 40
+                "SPD": 40,
+                "SPC": 70
             },
             "icon": "http://cdn.bulbagarden.net/upload/7/7b/069MS.png",
-            "name": "Bellsprout"
+            "name": "Bellsprout",
+            "number": 69,
+            "number_string": "069"
         },
         "070": {
-            "number": 70,
-            "number_string": "070",
             "stats": {
+                "HP": 65,
                 "ATK": 90,
                 "DEF": 50,
-                "SPC": 85,
-                "HP": 65,
-                "SPD": 55
+                "SPD": 55,
+                "SPC": 85
             },
             "icon": "http://cdn.bulbagarden.net/upload/d/d5/070MS.png",
-            "name": "Weepinbell"
+            "name": "Weepinbell",
+            "number": 70,
+            "number_string": "070"
         },
         "071": {
-            "number": 71,
-            "number_string": "071",
             "stats": {
+                "HP": 80,
                 "ATK": 105,
                 "DEF": 65,
-                "SPC": 100,
-                "HP": 80,
-                "SPD": 70
+                "SPD": 70,
+                "SPC": 100
             },
             "icon": "http://cdn.bulbagarden.net/upload/9/9b/071MS.png",
-            "name": "Victreebel"
+            "name": "Victreebel",
+            "number": 71,
+            "number_string": "071"
         },
         "072": {
-            "number": 72,
-            "number_string": "072",
             "stats": {
+                "HP": 40,
                 "ATK": 40,
                 "DEF": 35,
-                "SPC": 100,
-                "HP": 40,
-                "SPD": 70
+                "SPD": 70,
+                "SPC": 100
             },
             "icon": "http://cdn.bulbagarden.net/upload/4/42/072MS.png",
-            "name": "Tentacool"
+            "name": "Tentacool",
+            "number": 72,
+            "number_string": "072"
         },
         "073": {
-            "number": 73,
-            "number_string": "073",
             "stats": {
+                "HP": 80,
                 "ATK": 70,
                 "DEF": 65,
-                "SPC": 120,
-                "HP": 80,
-                "SPD": 100
+                "SPD": 100,
+                "SPC": 120
             },
             "icon": "http://cdn.bulbagarden.net/upload/f/fc/073MS.png",
-            "name": "Tentacruel"
+            "name": "Tentacruel",
+            "number": 73,
+            "number_string": "073"
         },
         "074": {
-            "number": 74,
-            "number_string": "074",
             "stats": {
+                "HP": 40,
                 "ATK": 80,
                 "DEF": 100,
-                "SPC": 30,
-                "HP": 40,
-                "SPD": 20
+                "SPD": 20,
+                "SPC": 30
             },
             "icon": "http://cdn.bulbagarden.net/upload/0/04/074MS.png",
-            "name": "Geodude"
+            "name": "Geodude",
+            "number": 74,
+            "number_string": "074"
         },
         "075": {
-            "number": 75,
-            "number_string": "075",
             "stats": {
+                "HP": 55,
                 "ATK": 95,
                 "DEF": 115,
-                "SPC": 45,
-                "HP": 55,
-                "SPD": 35
+                "SPD": 35,
+                "SPC": 45
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/5c/075MS.png",
-            "name": "Graveler"
+            "name": "Graveler",
+            "number": 75,
+            "number_string": "075"
         },
         "076": {
-            "number": 76,
-            "number_string": "076",
             "stats": {
+                "HP": 80,
                 "ATK": 110,
                 "DEF": 130,
-                "SPC": 55,
-                "HP": 80,
-                "SPD": 45
+                "SPD": 45,
+                "SPC": 55
             },
             "icon": "http://cdn.bulbagarden.net/upload/3/34/076MS.png",
-            "name": "Golem"
+            "name": "Golem",
+            "number": 76,
+            "number_string": "076"
         },
         "077": {
-            "number": 77,
-            "number_string": "077",
             "stats": {
+                "HP": 50,
                 "ATK": 85,
                 "DEF": 55,
-                "SPC": 65,
-                "HP": 50,
-                "SPD": 90
+                "SPD": 90,
+                "SPC": 65
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/55/077MS.png",
-            "name": "Ponyta"
+            "name": "Ponyta",
+            "number": 77,
+            "number_string": "077"
         },
         "078": {
-            "number": 78,
-            "number_string": "078",
             "stats": {
+                "HP": 65,
                 "ATK": 100,
                 "DEF": 70,
-                "SPC": 80,
-                "HP": 65,
-                "SPD": 105
+                "SPD": 105,
+                "SPC": 80
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/66/078MS.png",
-            "name": "Rapidash"
+            "name": "Rapidash",
+            "number": 78,
+            "number_string": "078"
         },
         "079": {
-            "number": 79,
-            "number_string": "079",
             "stats": {
+                "HP": 90,
                 "ATK": 65,
                 "DEF": 65,
-                "SPC": 40,
-                "HP": 90,
-                "SPD": 15
+                "SPD": 15,
+                "SPC": 40
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/6a/079MS.png",
-            "name": "Slowpoke"
+            "name": "Slowpoke",
+            "number": 79,
+            "number_string": "079"
         },
         "080": {
-            "number": 80,
-            "number_string": "080",
             "stats": {
+                "HP": 95,
                 "ATK": 75,
                 "DEF": 110,
-                "SPC": 80,
-                "HP": 95,
-                "SPD": 30
+                "SPD": 30,
+                "SPC": 80
             },
             "icon": "http://cdn.bulbagarden.net/upload/b/b6/080MS.png",
-            "name": "Slowbro"
+            "name": "Slowbro",
+            "number": 80,
+            "number_string": "080"
         },
         "081": {
-            "number": 81,
-            "number_string": "081",
             "stats": {
+                "HP": 25,
                 "ATK": 35,
                 "DEF": 70,
-                "SPC": 95,
-                "HP": 25,
-                "SPD": 45
+                "SPD": 45,
+                "SPC": 95
             },
             "icon": "http://cdn.bulbagarden.net/upload/0/0f/081MS.png",
-            "name": "Magnemite"
+            "name": "Magnemite",
+            "number": 81,
+            "number_string": "081"
         },
         "082": {
-            "number": 82,
-            "number_string": "082",
             "stats": {
+                "HP": 50,
                 "ATK": 60,
                 "DEF": 95,
-                "SPC": 120,
-                "HP": 50,
-                "SPD": 70
+                "SPD": 70,
+                "SPC": 120
             },
             "icon": "http://cdn.bulbagarden.net/upload/0/0c/082MS.png",
-            "name": "Magneton"
+            "name": "Magneton",
+            "number": 82,
+            "number_string": "082"
         },
         "083": {
-            "number": 83,
-            "number_string": "083",
             "stats": {
+                "HP": 52,
                 "ATK": 65,
                 "DEF": 55,
-                "SPC": 58,
-                "HP": 52,
-                "SPD": 60
+                "SPD": 60,
+                "SPC": 58
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/57/083MS.png",
-            "name": "Farfetch'd"
+            "name": "Farfetch'd",
+            "number": 83,
+            "number_string": "083"
         },
         "084": {
-            "number": 84,
-            "number_string": "084",
             "stats": {
+                "HP": 35,
                 "ATK": 85,
                 "DEF": 45,
-                "SPC": 35,
-                "HP": 35,
-                "SPD": 75
+                "SPD": 75,
+                "SPC": 35
             },
             "icon": "http://cdn.bulbagarden.net/upload/f/fc/084MS.png",
-            "name": "Doduo"
+            "name": "Doduo",
+            "number": 84,
+            "number_string": "084"
         },
         "085": {
-            "number": 85,
-            "number_string": "085",
             "stats": {
+                "HP": 60,
                 "ATK": 110,
                 "DEF": 70,
-                "SPC": 60,
-                "HP": 60,
-                "SPD": 100
+                "SPD": 100,
+                "SPC": 60
             },
             "icon": "http://cdn.bulbagarden.net/upload/1/19/085MS.png",
-            "name": "Dodrio"
+            "name": "Dodrio",
+            "number": 85,
+            "number_string": "085"
         },
         "086": {
-            "number": 86,
-            "number_string": "086",
             "stats": {
+                "HP": 65,
                 "ATK": 45,
                 "DEF": 55,
-                "SPC": 70,
-                "HP": 65,
-                "SPD": 45
+                "SPD": 45,
+                "SPC": 70
             },
             "icon": "http://cdn.bulbagarden.net/upload/9/9b/086MS.png",
-            "name": "Seel"
+            "name": "Seel",
+            "number": 86,
+            "number_string": "086"
         },
         "087": {
-            "number": 87,
-            "number_string": "087",
             "stats": {
+                "HP": 90,
                 "ATK": 70,
                 "DEF": 80,
-                "SPC": 95,
-                "HP": 90,
-                "SPD": 70
+                "SPD": 70,
+                "SPC": 95
             },
             "icon": "http://cdn.bulbagarden.net/upload/2/20/087MS.png",
-            "name": "Dewgong"
+            "name": "Dewgong",
+            "number": 87,
+            "number_string": "087"
         },
         "088": {
-            "number": 88,
-            "number_string": "088",
             "stats": {
+                "HP": 80,
                 "ATK": 80,
                 "DEF": 50,
-                "SPC": 40,
-                "HP": 80,
-                "SPD": 25
+                "SPD": 25,
+                "SPC": 40
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/50/088MS.png",
-            "name": "Grimer"
+            "name": "Grimer",
+            "number": 88,
+            "number_string": "088"
         },
         "089": {
-            "number": 89,
-            "number_string": "089",
             "stats": {
+                "HP": 105,
                 "ATK": 105,
                 "DEF": 75,
-                "SPC": 65,
-                "HP": 105,
-                "SPD": 50
+                "SPD": 50,
+                "SPC": 65
             },
             "icon": "http://cdn.bulbagarden.net/upload/b/b4/089MS.png",
-            "name": "Muk"
+            "name": "Muk",
+            "number": 89,
+            "number_string": "089"
         },
         "090": {
-            "number": 90,
-            "number_string": "090",
             "stats": {
+                "HP": 30,
                 "ATK": 65,
                 "DEF": 100,
-                "SPC": 45,
-                "HP": 30,
-                "SPD": 40
+                "SPD": 40,
+                "SPC": 45
             },
             "icon": "http://cdn.bulbagarden.net/upload/4/41/090MS.png",
-            "name": "Shellder"
+            "name": "Shellder",
+            "number": 90,
+            "number_string": "090"
         },
         "091": {
-            "number": 91,
-            "number_string": "091",
             "stats": {
+                "HP": 50,
                 "ATK": 95,
                 "DEF": 180,
-                "SPC": 85,
-                "HP": 50,
-                "SPD": 70
+                "SPD": 70,
+                "SPC": 85
             },
             "icon": "http://cdn.bulbagarden.net/upload/b/bc/091MS.png",
-            "name": "Cloyster"
+            "name": "Cloyster",
+            "number": 91,
+            "number_string": "091"
         },
         "092": {
-            "number": 92,
-            "number_string": "092",
             "stats": {
+                "HP": 30,
                 "ATK": 35,
                 "DEF": 30,
-                "SPC": 100,
-                "HP": 30,
-                "SPD": 80
+                "SPD": 80,
+                "SPC": 100
             },
             "icon": "http://cdn.bulbagarden.net/upload/c/cf/092MS.png",
-            "name": "Gastly"
+            "name": "Gastly",
+            "number": 92,
+            "number_string": "092"
         },
         "093": {
-            "number": 93,
-            "number_string": "093",
             "stats": {
+                "HP": 45,
                 "ATK": 50,
                 "DEF": 45,
-                "SPC": 115,
-                "HP": 45,
-                "SPD": 95
+                "SPD": 95,
+                "SPC": 115
             },
             "icon": "http://cdn.bulbagarden.net/upload/7/71/093MS.png",
-            "name": "Haunter"
+            "name": "Haunter",
+            "number": 93,
+            "number_string": "093"
         },
         "094": {
-            "number": 94,
-            "number_string": "094",
             "stats": {
+                "HP": 60,
                 "ATK": 65,
                 "DEF": 60,
-                "SPC": 130,
-                "HP": 60,
-                "SPD": 110
+                "SPD": 110,
+                "SPC": 130
             },
             "icon": "http://cdn.bulbagarden.net/upload/a/a4/094MS.png",
-            "name": "Gengar"
+            "name": "Gengar",
+            "number": 94,
+            "number_string": "094"
         },
         "095": {
-            "number": 95,
-            "number_string": "095",
             "stats": {
+                "HP": 35,
                 "ATK": 45,
                 "DEF": 160,
-                "SPC": 30,
-                "HP": 35,
-                "SPD": 70
+                "SPD": 70,
+                "SPC": 30
             },
             "icon": "http://cdn.bulbagarden.net/upload/c/cd/095MS.png",
-            "name": "Onix"
+            "name": "Onix",
+            "number": 95,
+            "number_string": "095"
         },
         "096": {
-            "number": 96,
-            "number_string": "096",
             "stats": {
+                "HP": 60,
                 "ATK": 48,
                 "DEF": 45,
-                "SPC": 90,
-                "HP": 60,
-                "SPD": 42
+                "SPD": 42,
+                "SPC": 90
             },
             "icon": "http://cdn.bulbagarden.net/upload/8/8e/096MS.png",
-            "name": "Drowzee"
+            "name": "Drowzee",
+            "number": 96,
+            "number_string": "096"
         },
         "097": {
-            "number": 97,
-            "number_string": "097",
             "stats": {
+                "HP": 85,
                 "ATK": 73,
                 "DEF": 70,
-                "SPC": 115,
-                "HP": 85,
-                "SPD": 67
+                "SPD": 67,
+                "SPC": 115
             },
             "icon": "http://cdn.bulbagarden.net/upload/9/98/097MS.png",
-            "name": "Hypno"
+            "name": "Hypno",
+            "number": 97,
+            "number_string": "097"
         },
         "098": {
-            "number": 98,
-            "number_string": "098",
             "stats": {
+                "HP": 30,
                 "ATK": 105,
                 "DEF": 90,
-                "SPC": 25,
-                "HP": 30,
-                "SPD": 50
+                "SPD": 50,
+                "SPC": 25
             },
             "icon": "http://cdn.bulbagarden.net/upload/4/40/098MS.png",
-            "name": "Krabby"
+            "name": "Krabby",
+            "number": 98,
+            "number_string": "098"
         },
         "099": {
-            "number": 99,
-            "number_string": "099",
             "stats": {
+                "HP": 55,
                 "ATK": 130,
                 "DEF": 115,
-                "SPC": 50,
-                "HP": 55,
-                "SPD": 75
+                "SPD": 75,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/5c/099MS.png",
-            "name": "Kingler"
+            "name": "Kingler",
+            "number": 99,
+            "number_string": "099"
         },
         "100": {
-            "number": 100,
-            "number_string": "100",
             "stats": {
+                "HP": 40,
                 "ATK": 30,
                 "DEF": 50,
-                "SPC": 55,
-                "HP": 40,
-                "SPD": 100
+                "SPD": 100,
+                "SPC": 55
             },
             "icon": "http://cdn.bulbagarden.net/upload/c/c1/100MS.png",
-            "name": "Voltorb"
+            "name": "Voltorb",
+            "number": 100,
+            "number_string": "100"
         },
         "101": {
-            "number": 101,
-            "number_string": "101",
             "stats": {
+                "HP": 60,
                 "ATK": 50,
                 "DEF": 70,
-                "SPC": 80,
-                "HP": 60,
-                "SPD": 140
+                "SPD": 140,
+                "SPC": 80
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/69/101MS.png",
-            "name": "Electrode"
+            "name": "Electrode",
+            "number": 101,
+            "number_string": "101"
         },
         "102": {
-            "number": 102,
-            "number_string": "102",
             "stats": {
+                "HP": 60,
                 "ATK": 40,
                 "DEF": 80,
-                "SPC": 60,
-                "HP": 60,
-                "SPD": 40
+                "SPD": 40,
+                "SPC": 60
             },
             "icon": "http://cdn.bulbagarden.net/upload/a/a6/102MS.png",
-            "name": "Exeggcute"
+            "name": "Exeggcute",
+            "number": 102,
+            "number_string": "102"
         },
         "103": {
-            "number": 103,
-            "number_string": "103",
             "stats": {
+                "HP": 95,
                 "ATK": 95,
                 "DEF": 85,
-                "SPC": 125,
-                "HP": 95,
-                "SPD": 55
+                "SPD": 55,
+                "SPC": 125
             },
             "icon": "http://cdn.bulbagarden.net/upload/d/db/103MS.png",
-            "name": "Exeggutor"
+            "name": "Exeggutor",
+            "number": 103,
+            "number_string": "103"
         },
         "104": {
-            "number": 104,
-            "number_string": "104",
             "stats": {
+                "HP": 50,
                 "ATK": 50,
                 "DEF": 95,
-                "SPC": 40,
-                "HP": 50,
-                "SPD": 35
+                "SPD": 35,
+                "SPC": 40
             },
             "icon": "http://cdn.bulbagarden.net/upload/2/2e/104MS.png",
-            "name": "Cubone"
+            "name": "Cubone",
+            "number": 104,
+            "number_string": "104"
         },
         "105": {
-            "number": 105,
-            "number_string": "105",
             "stats": {
+                "HP": 60,
                 "ATK": 80,
                 "DEF": 110,
-                "SPC": 50,
-                "HP": 60,
-                "SPD": 45
+                "SPD": 45,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/6f/105MS.png",
-            "name": "Marowak"
+            "name": "Marowak",
+            "number": 105,
+            "number_string": "105"
         },
         "106": {
-            "number": 106,
-            "number_string": "106",
             "stats": {
+                "HP": 50,
                 "ATK": 120,
                 "DEF": 53,
-                "SPC": 35,
-                "HP": 50,
-                "SPD": 87
+                "SPD": 87,
+                "SPC": 35
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/60/106MS.png",
-            "name": "Hitmonlee"
+            "name": "Hitmonlee",
+            "number": 106,
+            "number_string": "106"
         },
         "107": {
-            "number": 107,
-            "number_string": "107",
             "stats": {
+                "HP": 50,
                 "ATK": 105,
                 "DEF": 79,
-                "SPC": 35,
-                "HP": 50,
-                "SPD": 76
+                "SPD": 76,
+                "SPC": 35
             },
             "icon": "http://cdn.bulbagarden.net/upload/1/1a/107MS.png",
-            "name": "Hitmonchan"
+            "name": "Hitmonchan",
+            "number": 107,
+            "number_string": "107"
         },
         "108": {
-            "number": 108,
-            "number_string": "108",
             "stats": {
+                "HP": 90,
                 "ATK": 55,
                 "DEF": 75,
-                "SPC": 60,
-                "HP": 90,
-                "SPD": 30
+                "SPD": 30,
+                "SPC": 60
             },
             "icon": "http://cdn.bulbagarden.net/upload/2/25/108MS.png",
-            "name": "Lickitung"
+            "name": "Lickitung",
+            "number": 108,
+            "number_string": "108"
         },
         "109": {
-            "number": 109,
-            "number_string": "109",
             "stats": {
+                "HP": 40,
                 "ATK": 65,
                 "DEF": 95,
-                "SPC": 60,
-                "HP": 40,
-                "SPD": 35
+                "SPD": 35,
+                "SPC": 60
             },
             "icon": "http://cdn.bulbagarden.net/upload/3/3f/109MS.png",
-            "name": "Koffing"
+            "name": "Koffing",
+            "number": 109,
+            "number_string": "109"
         },
         "110": {
-            "number": 110,
-            "number_string": "110",
             "stats": {
+                "HP": 65,
                 "ATK": 90,
                 "DEF": 120,
-                "SPC": 85,
-                "HP": 65,
-                "SPD": 60
+                "SPD": 60,
+                "SPC": 85
             },
             "icon": "http://cdn.bulbagarden.net/upload/2/22/110MS.png",
-            "name": "Weezing"
+            "name": "Weezing",
+            "number": 110,
+            "number_string": "110"
         },
         "111": {
-            "number": 111,
-            "number_string": "111",
             "stats": {
+                "HP": 80,
                 "ATK": 85,
                 "DEF": 95,
-                "SPC": 30,
-                "HP": 80,
-                "SPD": 25
+                "SPD": 25,
+                "SPC": 30
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/67/111MS.png",
-            "name": "Rhyhorn"
+            "name": "Rhyhorn",
+            "number": 111,
+            "number_string": "111"
         },
         "112": {
-            "number": 112,
-            "number_string": "112",
             "stats": {
+                "HP": 105,
                 "ATK": 130,
                 "DEF": 120,
-                "SPC": 45,
-                "HP": 105,
-                "SPD": 40
+                "SPD": 40,
+                "SPC": 45
             },
             "icon": "http://cdn.bulbagarden.net/upload/c/ce/112MS.png",
-            "name": "Rhydon"
+            "name": "Rhydon",
+            "number": 112,
+            "number_string": "112"
         },
         "113": {
-            "number": 113,
-            "number_string": "113",
             "stats": {
+                "HP": 250,
                 "ATK": 5,
                 "DEF": 5,
-                "SPC": 105,
-                "HP": 250,
-                "SPD": 50
+                "SPD": 50,
+                "SPC": 105
             },
             "icon": "http://cdn.bulbagarden.net/upload/e/ea/113MS.png",
-            "name": "Chansey"
+            "name": "Chansey",
+            "number": 113,
+            "number_string": "113"
         },
         "114": {
-            "number": 114,
-            "number_string": "114",
             "stats": {
+                "HP": 65,
                 "ATK": 55,
                 "DEF": 115,
-                "SPC": 100,
-                "HP": 65,
-                "SPD": 60
+                "SPD": 60,
+                "SPC": 100
             },
             "icon": "http://cdn.bulbagarden.net/upload/4/45/114MS.png",
-            "name": "Tangela"
+            "name": "Tangela",
+            "number": 114,
+            "number_string": "114"
         },
         "115": {
-            "number": 115,
-            "number_string": "115",
             "stats": {
+                "HP": 105,
                 "ATK": 95,
                 "DEF": 80,
-                "SPC": 40,
-                "HP": 105,
-                "SPD": 90
+                "SPD": 90,
+                "SPC": 40
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/68/115MS.png",
-            "name": "Kangaskhan"
+            "name": "Kangaskhan",
+            "number": 115,
+            "number_string": "115"
         },
         "116": {
-            "number": 116,
-            "number_string": "116",
             "stats": {
+                "HP": 30,
                 "ATK": 40,
                 "DEF": 70,
-                "SPC": 70,
-                "HP": 30,
-                "SPD": 60
+                "SPD": 60,
+                "SPC": 70
             },
             "icon": "http://cdn.bulbagarden.net/upload/2/23/116MS.png",
-            "name": "Horsea"
+            "name": "Horsea",
+            "number": 116,
+            "number_string": "116"
         },
         "117": {
-            "number": 117,
-            "number_string": "117",
             "stats": {
+                "HP": 55,
                 "ATK": 65,
                 "DEF": 95,
-                "SPC": 95,
-                "HP": 55,
-                "SPD": 85
+                "SPD": 85,
+                "SPC": 95
             },
             "icon": "http://cdn.bulbagarden.net/upload/8/81/117MS.png",
-            "name": "Seadra"
+            "name": "Seadra",
+            "number": 117,
+            "number_string": "117"
         },
         "118": {
-            "number": 118,
-            "number_string": "118",
             "stats": {
+                "HP": 45,
                 "ATK": 67,
                 "DEF": 60,
-                "SPC": 50,
-                "HP": 45,
-                "SPD": 63
+                "SPD": 63,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/9/9b/118MS.png",
-            "name": "Goldeen"
+            "name": "Goldeen",
+            "number": 118,
+            "number_string": "118"
         },
         "119": {
-            "number": 119,
-            "number_string": "119",
             "stats": {
+                "HP": 80,
                 "ATK": 92,
                 "DEF": 65,
-                "SPC": 80,
-                "HP": 80,
-                "SPD": 68
+                "SPD": 68,
+                "SPC": 80
             },
             "icon": "http://cdn.bulbagarden.net/upload/8/88/119MS.png",
-            "name": "Seaking"
+            "name": "Seaking",
+            "number": 119,
+            "number_string": "119"
         },
         "120": {
-            "number": 120,
-            "number_string": "120",
             "stats": {
+                "HP": 30,
                 "ATK": 45,
                 "DEF": 55,
-                "SPC": 70,
-                "HP": 30,
-                "SPD": 85
+                "SPD": 85,
+                "SPC": 70
             },
             "icon": "http://cdn.bulbagarden.net/upload/6/60/120MS.png",
-            "name": "Staryu"
+            "name": "Staryu",
+            "number": 120,
+            "number_string": "120"
         },
         "121": {
-            "number": 121,
-            "number_string": "121",
             "stats": {
+                "HP": 60,
                 "ATK": 75,
                 "DEF": 85,
-                "SPC": 100,
-                "HP": 60,
-                "SPD": 115
+                "SPD": 115,
+                "SPC": 100
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/55/121MS.png",
-            "name": "Starmie"
+            "name": "Starmie",
+            "number": 121,
+            "number_string": "121"
         },
         "122": {
-            "number": 122,
-            "number_string": "122",
             "stats": {
+                "HP": 40,
                 "ATK": 45,
                 "DEF": 65,
-                "SPC": 100,
-                "HP": 40,
-                "SPD": 90
+                "SPD": 90,
+                "SPC": 100
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/58/122MS.png",
-            "name": "Mr. Mime"
+            "name": "Mr. Mime",
+            "number": 122,
+            "number_string": "122"
         },
         "123": {
-            "number": 123,
-            "number_string": "123",
             "stats": {
+                "HP": 70,
                 "ATK": 110,
                 "DEF": 80,
-                "SPC": 55,
-                "HP": 70,
-                "SPD": 105
+                "SPD": 105,
+                "SPC": 55
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/54/123MS.png",
-            "name": "Scyther"
+            "name": "Scyther",
+            "number": 123,
+            "number_string": "123"
         },
         "124": {
-            "number": 124,
-            "number_string": "124",
             "stats": {
+                "HP": 65,
                 "ATK": 50,
                 "DEF": 35,
-                "SPC": 95,
-                "HP": 65,
-                "SPD": 95
+                "SPD": 95,
+                "SPC": 95
             },
             "icon": "http://cdn.bulbagarden.net/upload/f/f5/124MS.png",
-            "name": "Jynx"
+            "name": "Jynx",
+            "number": 124,
+            "number_string": "124"
         },
         "125": {
-            "number": 125,
-            "number_string": "125",
             "stats": {
+                "HP": 65,
                 "ATK": 83,
                 "DEF": 57,
-                "SPC": 85,
-                "HP": 65,
-                "SPD": 105
+                "SPD": 105,
+                "SPC": 85
             },
             "icon": "http://cdn.bulbagarden.net/upload/7/72/125MS.png",
-            "name": "Electabuzz"
+            "name": "Electabuzz",
+            "number": 125,
+            "number_string": "125"
         },
         "126": {
-            "number": 126,
-            "number_string": "126",
             "stats": {
+                "HP": 65,
                 "ATK": 95,
                 "DEF": 57,
-                "SPC": 85,
-                "HP": 65,
-                "SPD": 93
+                "SPD": 93,
+                "SPC": 85
             },
             "icon": "http://cdn.bulbagarden.net/upload/e/e7/126MS.png",
-            "name": "Magmar"
+            "name": "Magmar",
+            "number": 126,
+            "number_string": "126"
         },
         "127": {
-            "number": 127,
-            "number_string": "127",
             "stats": {
+                "HP": 65,
                 "ATK": 125,
                 "DEF": 100,
-                "SPC": 55,
-                "HP": 65,
-                "SPD": 85
+                "SPD": 85,
+                "SPC": 55
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/5c/127MS.png",
-            "name": "Pinsir"
+            "name": "Pinsir",
+            "number": 127,
+            "number_string": "127"
         },
         "128": {
-            "number": 128,
-            "number_string": "128",
             "stats": {
+                "HP": 75,
                 "ATK": 100,
                 "DEF": 95,
-                "SPC": 70,
-                "HP": 75,
-                "SPD": 110
+                "SPD": 110,
+                "SPC": 70
             },
             "icon": "http://cdn.bulbagarden.net/upload/9/95/128MS.png",
-            "name": "Tauros"
+            "name": "Tauros",
+            "number": 128,
+            "number_string": "128"
         },
         "129": {
-            "number": 129,
-            "number_string": "129",
             "stats": {
+                "HP": 20,
                 "ATK": 10,
                 "DEF": 55,
-                "SPC": 20,
-                "HP": 20,
-                "SPD": 80
+                "SPD": 80,
+                "SPC": 20
             },
             "icon": "http://cdn.bulbagarden.net/upload/7/7c/129MS.png",
-            "name": "Magikarp"
+            "name": "Magikarp",
+            "number": 129,
+            "number_string": "129"
         },
         "130": {
-            "number": 130,
-            "number_string": "130",
             "stats": {
+                "HP": 95,
                 "ATK": 125,
                 "DEF": 79,
-                "SPC": 100,
-                "HP": 95,
-                "SPD": 81
+                "SPD": 81,
+                "SPC": 100
             },
             "icon": "http://cdn.bulbagarden.net/upload/a/a0/130MS.png",
-            "name": "Gyarados"
+            "name": "Gyarados",
+            "number": 130,
+            "number_string": "130"
         },
         "131": {
-            "number": 131,
-            "number_string": "131",
             "stats": {
+                "HP": 130,
                 "ATK": 85,
                 "DEF": 80,
-                "SPC": 95,
-                "HP": 130,
-                "SPD": 60
+                "SPD": 60,
+                "SPC": 95
             },
             "icon": "http://cdn.bulbagarden.net/upload/4/4b/131MS.png",
-            "name": "Lapras"
+            "name": "Lapras",
+            "number": 131,
+            "number_string": "131"
         },
         "132": {
-            "number": 132,
-            "number_string": "132",
             "stats": {
+                "HP": 48,
                 "ATK": 48,
                 "DEF": 48,
-                "SPC": 48,
-                "HP": 48,
-                "SPD": 48
+                "SPD": 48,
+                "SPC": 48
             },
             "icon": "http://cdn.bulbagarden.net/upload/5/53/132MS.png",
-            "name": "Ditto"
+            "name": "Ditto",
+            "number": 132,
+            "number_string": "132"
         },
         "133": {
-            "number": 133,
-            "number_string": "133",
             "stats": {
+                "HP": 55,
                 "ATK": 55,
                 "DEF": 50,
-                "SPC": 65,
-                "HP": 55,
-                "SPD": 55
+                "SPD": 55,
+                "SPC": 65
             },
             "icon": "http://cdn.bulbagarden.net/upload/d/de/133MS.png",
-            "name": "Eevee"
+            "name": "Eevee",
+            "number": 133,
+            "number_string": "133"
         },
         "134": {
-            "number": 134,
-            "number_string": "134",
             "stats": {
+                "HP": 130,
                 "ATK": 65,
                 "DEF": 60,
-                "SPC": 110,
-                "HP": 130,
-                "SPD": 65
+                "SPD": 65,
+                "SPC": 110
             },
             "icon": "http://cdn.bulbagarden.net/upload/b/be/134MS.png",
-            "name": "Vaporeon"
+            "name": "Vaporeon",
+            "number": 134,
+            "number_string": "134"
         },
         "135": {
-            "number": 135,
-            "number_string": "135",
             "stats": {
+                "HP": 65,
                 "ATK": 65,
                 "DEF": 60,
-                "SPC": 110,
-                "HP": 65,
-                "SPD": 130
+                "SPD": 130,
+                "SPC": 110
             },
             "icon": "http://cdn.bulbagarden.net/upload/1/16/135MS.png",
-            "name": "Jolteon"
+            "name": "Jolteon",
+            "number": 135,
+            "number_string": "135"
         },
         "136": {
-            "number": 136,
-            "number_string": "136",
             "stats": {
+                "HP": 65,
                 "ATK": 130,
                 "DEF": 60,
-                "SPC": 110,
-                "HP": 65,
-                "SPD": 65
+                "SPD": 65,
+                "SPC": 110
             },
             "icon": "http://cdn.bulbagarden.net/upload/3/30/136MS.png",
-            "name": "Flareon"
+            "name": "Flareon",
+            "number": 136,
+            "number_string": "136"
         },
         "137": {
-            "number": 137,
-            "number_string": "137",
             "stats": {
+                "HP": 65,
                 "ATK": 60,
                 "DEF": 70,
-                "SPC": 75,
-                "HP": 65,
-                "SPD": 40
+                "SPD": 40,
+                "SPC": 75
             },
             "icon": "http://cdn.bulbagarden.net/upload/f/f7/137MS.png",
-            "name": "Porygon"
+            "name": "Porygon",
+            "number": 137,
+            "number_string": "137"
         },
         "138": {
-            "number": 138,
-            "number_string": "138",
             "stats": {
+                "HP": 35,
                 "ATK": 40,
                 "DEF": 100,
-                "SPC": 90,
-                "HP": 35,
-                "SPD": 35
+                "SPD": 35,
+                "SPC": 90
             },
             "icon": "http://cdn.bulbagarden.net/upload/9/97/138MS.png",
-            "name": "Omanyte"
+            "name": "Omanyte",
+            "number": 138,
+            "number_string": "138"
         },
         "139": {
-            "number": 139,
-            "number_string": "139",
             "stats": {
+                "HP": 70,
                 "ATK": 60,
                 "DEF": 125,
-                "SPC": 115,
-                "HP": 70,
-                "SPD": 55
+                "SPD": 55,
+                "SPC": 115
             },
             "icon": "http://cdn.bulbagarden.net/upload/2/2a/139MS.png",
-            "name": "Omastar"
+            "name": "Omastar",
+            "number": 139,
+            "number_string": "139"
         },
         "140": {
-            "number": 140,
-            "number_string": "140",
             "stats": {
+                "HP": 30,
                 "ATK": 80,
                 "DEF": 90,
-                "SPC": 45,
-                "HP": 30,
-                "SPD": 55
+                "SPD": 55,
+                "SPC": 45
             },
             "icon": "http://cdn.bulbagarden.net/upload/1/1e/140MS.png",
-            "name": "Kabuto"
+            "name": "Kabuto",
+            "number": 140,
+            "number_string": "140"
         },
         "141": {
-            "number": 141,
-            "number_string": "141",
             "stats": {
+                "HP": 60,
                 "ATK": 115,
                 "DEF": 105,
-                "SPC": 70,
-                "HP": 60,
-                "SPD": 80
+                "SPD": 80,
+                "SPC": 70
             },
             "icon": "http://cdn.bulbagarden.net/upload/0/08/141MS.png",
-            "name": "Kabutops"
+            "name": "Kabutops",
+            "number": 141,
+            "number_string": "141"
         },
         "142": {
-            "number": 142,
-            "number_string": "142",
             "stats": {
+                "HP": 80,
                 "ATK": 105,
                 "DEF": 65,
-                "SPC": 60,
-                "HP": 80,
-                "SPD": 130
+                "SPD": 130,
+                "SPC": 60
             },
             "icon": "http://cdn.bulbagarden.net/upload/d/d1/142MS.png",
-            "name": "Aerodactyl"
+            "name": "Aerodactyl",
+            "number": 142,
+            "number_string": "142"
         },
         "143": {
-            "number": 143,
-            "number_string": "143",
             "stats": {
+                "HP": 160,
                 "ATK": 110,
                 "DEF": 65,
-                "SPC": 65,
-                "HP": 160,
-                "SPD": 30
+                "SPD": 30,
+                "SPC": 65
             },
             "icon": "http://cdn.bulbagarden.net/upload/d/d6/143MS.png",
-            "name": "Snorlax"
+            "name": "Snorlax",
+            "number": 143,
+            "number_string": "143"
         },
         "144": {
-            "number": 144,
-            "number_string": "144",
             "stats": {
+                "HP": 90,
                 "ATK": 85,
                 "DEF": 100,
-                "SPC": 125,
-                "HP": 90,
-                "SPD": 85
+                "SPD": 85,
+                "SPC": 125
             },
             "icon": "http://cdn.bulbagarden.net/upload/0/04/144MS.png",
-            "name": "Articuno"
+            "name": "Articuno",
+            "number": 144,
+            "number_string": "144"
         },
         "145": {
-            "number": 145,
-            "number_string": "145",
             "stats": {
+                "HP": 90,
                 "ATK": 90,
                 "DEF": 85,
-                "SPC": 125,
-                "HP": 90,
-                "SPD": 100
+                "SPD": 100,
+                "SPC": 125
             },
             "icon": "http://cdn.bulbagarden.net/upload/3/3f/145MS.png",
-            "name": "Zapdos"
+            "name": "Zapdos",
+            "number": 145,
+            "number_string": "145"
         },
         "146": {
-            "number": 146,
-            "number_string": "146",
             "stats": {
+                "HP": 90,
                 "ATK": 100,
                 "DEF": 90,
-                "SPC": 125,
-                "HP": 90,
-                "SPD": 90
+                "SPD": 90,
+                "SPC": 125
             },
             "icon": "http://cdn.bulbagarden.net/upload/f/fe/146MS.png",
-            "name": "Moltres"
+            "name": "Moltres",
+            "number": 146,
+            "number_string": "146"
         },
         "147": {
-            "number": 147,
-            "number_string": "147",
             "stats": {
+                "HP": 41,
                 "ATK": 64,
                 "DEF": 45,
-                "SPC": 50,
-                "HP": 41,
-                "SPD": 50
+                "SPD": 50,
+                "SPC": 50
             },
             "icon": "http://cdn.bulbagarden.net/upload/2/26/147MS.png",
-            "name": "Dratini"
+            "name": "Dratini",
+            "number": 147,
+            "number_string": "147"
         },
         "148": {
-            "number": 148,
-            "number_string": "148",
             "stats": {
+                "HP": 61,
                 "ATK": 84,
                 "DEF": 65,
-                "SPC": 70,
-                "HP": 61,
-                "SPD": 70
+                "SPD": 70,
+                "SPC": 70
             },
             "icon": "http://cdn.bulbagarden.net/upload/4/4e/148MS.png",
-            "name": "Dragonair"
+            "name": "Dragonair",
+            "number": 148,
+            "number_string": "148"
         },
         "149": {
-            "number": 149,
-            "number_string": "149",
             "stats": {
+                "HP": 91,
                 "ATK": 134,
                 "DEF": 95,
-                "SPC": 100,
-                "HP": 91,
-                "SPD": 80
+                "SPD": 80,
+                "SPC": 100
             },
             "icon": "http://cdn.bulbagarden.net/upload/c/cc/149MS.png",
-            "name": "Dragonite"
+            "name": "Dragonite",
+            "number": 149,
+            "number_string": "149"
         },
         "150": {
-            "number": 150,
-            "number_string": "150",
             "stats": {
+                "HP": 106,
                 "ATK": 110,
                 "DEF": 90,
-                "SPC": 154,
-                "HP": 106,
-                "SPD": 130
+                "SPD": 130,
+                "SPC": 154
             },
             "icon": "http://cdn.bulbagarden.net/upload/1/1a/150MS.png",
-            "name": "Mewtwo"
+            "name": "Mewtwo",
+            "number": 150,
+            "number_string": "150"
         },
         "151": {
-            "number": 151,
-            "number_string": "151",
             "stats": {
+                "HP": 100,
                 "ATK": 100,
                 "DEF": 100,
-                "SPC": 100,
-                "HP": 100,
-                "SPD": 100
+                "SPD": 100,
+                "SPC": 100
             },
             "icon": "http://cdn.bulbagarden.net/upload/a/a7/151MS.png",
-            "name": "Mew"
+            "name": "Mew",
+            "number": 151,
+            "number_string": "151"
         }
     }
 }

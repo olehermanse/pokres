@@ -44,7 +44,7 @@ for m in lines:
     for td in m.find_all("td"):
         fields.append(td)
     monster["icon"] = fields[1].find_all("img")[0].get("src")
-    stats = {}
+    stats = OrderedDict()
     for i,stat in enumerate(stat_names):
         stats[stat] = int(fields[i+3].string)
     monster["stats"] = stats
