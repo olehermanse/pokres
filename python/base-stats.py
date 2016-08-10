@@ -45,7 +45,7 @@ for m in lines:
     for i,stat in enumerate(stat_names):
         stats[stat] = int(fields[i+3].string)
     monster["stats"] = stats
-    # monster["icon"] = fields[1].find_all("img")[0].get("src")
+    monster["icon"] = fields[1].find_all("img")[0].get("src")
     monsters[titles[0]] = monster
     lookup[titles[1]] = titles[0]
 
