@@ -1,5 +1,6 @@
 {
     "meta": {
+        "title": "Generation 1 Base stats JSON for all 151 Pokémon (Red/Blue/Yellow)",
         "author": {
             "name": "Ole Herman Schumacher Elgesem",
             "url": "http://github.com/olehermanse"
@@ -20,10 +21,10 @@
             "This project and its author is in no way affiliated with Nintendo, ",
             "Pokémon Company or Bulbagarden."
         ],
-        "time created": "2016-08-10T19:08:29.833542",
+        "time created": "2016-08-10T19:13:42.480650",
         "source": {
-            "url": "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)",
-            "title": "List of Pokémon by base stats (Generation I) - Bulbapedia, the community-driven Pokémon encyclopedia"
+            "title": "List of Pokémon by base stats (Generation I) - Bulbapedia, the community-driven Pokémon encyclopedia",
+            "url": "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)"
         }
     },
     "lookup": {
