@@ -36,18 +36,18 @@ for m in lines:
                 title = title[:-10]
             titles.append(title)
     assert len(titles) > 0
-    monster = {}
+    monster = OrderedDict()
     monster["number"] = int(titles[0])
     monster["number_string"] = titles[0]
     monster["name"] = titles[1]
     fields = []
     for td in m.find_all("td"):
         fields.append(td)
-    monster["icon"] = fields[1].find_all("img")[0].get("src")
     stats = OrderedDict()
     for i,stat in enumerate(stat_names):
         stats[stat] = int(fields[i+3].string)
     monster["stats"] = stats
+    monster["icon"] = fields[1].find_all("img")[0].get("src")
     monsters[titles[0]] = monster
     lookup[titles[1]] = titles[0]
 
