@@ -1,18 +1,17 @@
 {
     "meta": {
         "title": "Generation 1 Base stats JSON for all 151 Pokémon (Red/Blue/Yellow)",
-        "project": "https://github.com/olehermanse/pokres",
-        "author": {
-            "name": "Ole Herman Schumacher Elgesem",
-            "url": "http://github.com/olehermanse"
-        },
-        "credits": [
-            "Bulbagarden",
-            "Nintendo"
-        ],
-        "license": {
-            "data": "https://creativecommons.org/licenses/by-nc-sa/2.5/",
-            "software": "https://opensource.org/licenses/MIT"
+        "project": {
+            "author": "Ole Herman Schumacher Elgesem",
+            "url": "https://github.com/olehermanse/pokres",
+            "license": {
+                "software": "https://opensource.org/licenses/MIT",
+                "data/resources": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+            },
+            "credits": [
+                "Bulbagarden",
+                "Nintendo"
+            ]
         },
         "copyright": [
             "Bulbapedia web content used in compliance with their license. ",
@@ -21,10 +20,10 @@
             "This project and its author is in no way affiliated with Nintendo, ",
             "Pokémon Company or Bulbagarden."
         ],
-        "updated": "2016-08-10T19:22:13.310407",
+        "updated": "2016-08-10T19:28:27.466547",
         "source": {
-            "url": "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)",
-            "title": "List of Pokémon by base stats (Generation I) - Bulbapedia, the community-driven Pokémon encyclopedia"
+            "title": "List of Pokémon by base stats (Generation I) - Bulbapedia, the community-driven Pokémon encyclopedia",
+            "url": "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)"
         }
     },
     "lookup": {
