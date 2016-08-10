@@ -53,6 +53,7 @@ lookup = OrderedDict(sorted(lookup.items(), key=lambda t: t[0]))
 
 # Include metadata for licenses,
 meta = OrderedDict()
+meta["title"] = "Generation 1 Base stats JSON for all 151 Pokémon (Red/Blue/Yellow)"
 meta["author"] = { "url": "http://github.com/olehermanse",
 "name":"Ole Herman Schumacher Elgesem"}
 meta["credits"] = ["Bulbagarden", "Nintendo"]
