@@ -22,11 +22,12 @@ def dump_to_file(data, filename, format=True):
         else:
             json.dump(data, outfile, ensure_ascii=False)
 
-
+# Main program entry point:
 def main():
-    soup = BeautifulSoup(open("data/html/gen1.html"), 'html.parser')
-    print("Found file:")
-    print(soup.title.string)
+    input_path = "data/html/gen1.html"
+    print("Opening: "+input_path)
+    soup = BeautifulSoup(open(input_path), 'html.parser')
+    print("Document title: "+soup.title.string)
 
     # We are interested in the first table:
     table = soup.find_all('table')[0]
@@ -44,33 +45,40 @@ def main():
     # Order of stats is important, they don't have unique id's to find:
     stat_order = ["HP", "ATK", "DEF", "SPD", "SPC"]
     for mon in lines:
-        titles = []
-        for link in mon.find_all():
-            title = link.get("title")
-            if(title != None):
-                l = len(title)
-                if l > 3:
-                    title = title[:-10]
-                titles.append(title)
-        assert len(titles) > 0
         monster = OrderedDict()
-        monster["name"] = titles[1]
+
+        # td fields in a row:
+        # num | icon | name | HP | ATK | DEF | SPD | SPC
         fields = []
         for td in mon.find_all("td"):
             fields.append(td)
+
+        # Extract non-stat fields:
+        number = fields[0]
+        icon = fields[1].find_all("img")[0].get("src")
+        name = fields[2].string
+        monster["name"] = name
+        # monster["icon"] = icon
+
+        # Extract stats, fields 3-7
         stats = OrderedDict()
         for i,stat in enumerate(stat_order):
             stats[stat] = int(fields[i+3].string)
         monster["stats"] = stats
-        # monster["icon"] = fields[1].find_all("img")[0].get("src")
-        dex[titles[0]] = monster
-        lookup[titles[1]] = titles[0]
+
+        # Enter the monster into both main dict and lookup dict
+        dex[num] = monster
+        lookup[name] = num
 
     lookup = OrderedDict(sorted(lookup.items(), key=lambda t: t[0]))
 
-    # Include metadata for licenses,
+    # Include metadata for licenses, authorship, information, timestamp etc.
     meta = OrderedDict()
+
+    # Title of this file specifically:
     meta["title"] = "Generation 1 Base stats JSON for all 151 Pokémon (Red/Blue/Yellow)"
+
+    # General info about the whole project:
     project = OrderedDict()
     project["author"]   =  "Ole Herman Schumacher Elgesem"
     project["url"]      =  "https://github.com/olehermanse/pokres"
@@ -79,22 +87,36 @@ def main():
                            "software": "https://opensource.org/licenses/MIT"}
     project["credits"]  = ["Bulbagarden", "Nintendo"]
     meta["project"] = project
+
+    # Copyright disclaimer:
     c =["Bulbapedia web content used in compliance with their license. ",
         "Pokémon and all respective names are copyrighted and trademarked by ",
         "Nintendo, and used for non-commercial purposes under 'Fair Use'. ",
         "This project and its author is in no way affiliated with Nintendo, ",
         "Pokémon Company or Bulbagarden."]
     meta["copyright"] = c
+
+    # Disclaimer:
+    meta["disclaimer"] = "Warning: All data and software is provided as-is, "+
+                         "with no guarantee of any kind. Use at own risk."
+
+    # JSON file last updated timestamp:
     meta["updated"] = datetime.datetime.utcnow().isoformat()
+
+    # Source html file used to generate data:
     meta["source"] = {"title" : soup.title.string, "url" :
     "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)"}
 
+    # Put everything together
     data = OrderedDict()
     data["meta"] = meta
     data["lookup"] = lookup
     data["dex"] = dex
+
+    # Dump(save) json files: mini is small
     dump_to_file(data, "data/json/gen1.json")
     dump_to_file(data, "data/json/gen1.mini.json", format=False)
+
 
 if __name__ == '__main__':
     main()
