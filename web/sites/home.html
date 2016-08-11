@@ -1,18 +1,21 @@
-<h1>Home</h1>
-<script src="pok/calc.js"></script>
-<div class="main">
-	Input base stats: <br />
-	HP:     <input type="text" size=5 id="baseHP" />
-	Attack: <input type="text" size=5 id="baseATK" />
-	Defense:<input type="text" size=5 id="baseDEF" />
-	Speed:  <input type="text" size=5 id="baseSPD" />
-	Special:<input type="text" size=5 id="baseSPC" /><br />
-	Level:  <input type="text" size=5 id="level" />
-	<input type="button" onclick="calcRanges();" value="Calculate" />
-	<br />
-	HP:     <input type="text" size=5 id="rangeHP" />
-	Attack: <input type="text" size=5 id="rangeATK" />
-	Defense:<input type="text" size=5 id="rangeDEF" />
-	Speed:  <input type="text" size=5 id="rangeSPD" />
-	Special:<input type="text" size=5 id="rangeSPC" /><br />
+<div class="home">
+<h1>Stat Ranges</h1>
+Species: <select name="select" id="species" onchange="getSpecies()">
+</select>
+Encounter Level: <input type="text" size=5 id="level" />
+<input type="button" onclick="calcRanges();" value="Calculate" />
+<br />
+HP:<input type="text" size=7 id="baseHP" />
+Attack:<input type="text" size=7 id="baseATK" />
+Defense:<input type="text" size=7 id="baseDEF" />
+Speed:<input type="text" size=7 id="baseSPD" />
+Special:<input type="text" size=7 id="baseSPC" />
+(Base)<br />
+HP:<input type="text" size=7 id="rangeHP" />
+Attack:<input type="text" size=7 id="rangeATK" />
+Defense:<input type="text" size=7 id="rangeDEF" />
+Speed:<input type="text" size=7 id="rangeSPD" />
+Special:<input type="text" size=7 id="rangeSPC" />
+(Range)<br />
 </div>
+<script>pokInit();</script>

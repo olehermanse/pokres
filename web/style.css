@@ -5,12 +5,22 @@
 	border: 0;
 	outline: 0;
 	color: inherit;
-	background: transparent;
-	background-color: inherit;
+	/*background: transparent;
+	background-color: inherit;*/
 	text-align: left;
 	font-size: inherit;
 	vertical-align: baseline;
 	font-family: 'Segoe UI',Helvetica, Verdana, Arial, Sans-Serif;
+}
+
+input,select{
+	color: black;
+	margin-left: 2px;
+	margin-right: 8px;
+}
+
+.home{
+	line-height: 200%;
 }
 
 /*
