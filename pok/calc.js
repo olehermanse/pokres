@@ -19,7 +19,7 @@ function calcStat(stat, level, base, DV, EV) {
 
 function calcRanges() {
     var level = Number(document.getElementById('level').value);
-    var stats = ["HP", "ATK", "DEF", "SPD", "SPC"];
+    var stats = ["HP", "ATK", "DEF", "SPE", "SPC"];
     stats.forEach(function(st) {
         var base = Number(document.getElementById('base' + st).value);
         var min = calcStat(st, level, base, 0, 0);

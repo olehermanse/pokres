@@ -24,7 +24,7 @@ def dump_to_file(data, filename, format=True):
 
 # Main program entry point:
 def main():
-    input_path = "res/html/gen1.html"
+    input_path = "res/html/gen2-5.html"
     print("Opening: "+input_path)
     soup = BeautifulSoup(open(input_path), 'html.parser')
     print("Document title: "+soup.title.string)
@@ -43,7 +43,7 @@ def main():
     lookup = OrderedDict()
 
     # Order of stats is important, they don't have unique id's to find:
-    stat_order = ["HP", "ATK", "DEF", "SPE", "SPC"]
+    stat_order = ["HP", "ATK", "DEF", "SPA","SPD", "SPE"]
     for mon in lines:
         monster = OrderedDict()
 
@@ -52,7 +52,6 @@ def main():
         fields = []
         for td in mon.find_all("td"):
             fields.append(td)
-
         # Extract non-stat fields:
         num = fields[0].find_all("b")[0].string
         icon = fields[1].find_all("img")[0].get("src")
@@ -105,7 +104,7 @@ def main():
 
     # Source html file used to generate data:
     meta["source"] = {"title" : soup.title.string, "url" :
-    "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)"}
+    "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_II-V)"}
 
     # Put everything together
     data = OrderedDict()
@@ -115,8 +114,8 @@ def main():
     data["dex"] = dex
 
     # Dump(save) json files: mini is small
-    dump_to_file(data, "res/json/gen1.json")
-    dump_to_file(data, "res/json/gen1.mini.json", format=False)
+    dump_to_file(data, "res/json/gen2-5.json")
+    dump_to_file(data, "res/json/gen2-5.mini.json", format=False)
 
 
 if __name__ == '__main__':
