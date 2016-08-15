@@ -22,18 +22,22 @@ def dump_to_file(data, filename, format=True):
         else:
             json.dump(data, outfile, ensure_ascii=False)
 
-def generate_main(input_path, url, output_name, stat_order, stat_names, title):
+def generate_main(file_name, url, stat_order, stat_names, title):
+    input_path = "res/html/"+file_name+".html"
     print("Opening: "+input_path)
     soup = BeautifulSoup(open(input_path), 'html.parser')
     print("Document title: "+soup.title.string)
 
     # We are interested in the first table:
     table = soup.find_all('table')[0]
+    if(table.find_all("b")[0].string == "Shortcuts"):
+        table = soup.find_all('table')[1]
 
     # Extract all rows (lines) and remove first one(header):
     lines = []
     for line in table.find_all('tr'):
         lines.append(line)
+
     lines = lines[1:]
 
     # Dex holds all data, lookup is used to look up key(dex no.) from name:
@@ -56,11 +60,21 @@ def generate_main(input_path, url, output_name, stat_order, stat_names, title):
         fields = []
         for td in mon.find_all("td"):
             fields.append(td)
-
         # Extract non-stat fields:
         num = fields[0].find_all("b")[0].string
         icon = fields[1].find_all("img")[0].get("src")
         name = fields[2].find_all("a")[0].string
+        small = fields[2].find_all("small")
+        if(len(small)>0):
+            num = num[0:3]
+            small=small[0].string
+            name += small
+            small = small.replace("(","").replace(")","")
+            small = "".join([word[0] for word in small.split()])
+            num += small
+            while(num in dex):
+                num += 'I'
+
         monster["name"] = name
         # monster["icon"] = icon
 
@@ -116,26 +130,36 @@ def generate_main(input_path, url, output_name, stat_order, stat_names, title):
     data["stats"] = stat_meta
     data["lookup"] = lookup
     data["dex"] = dex
+    print(len(dex))
+    print(len(lookup))
 
     # Dump(save) json files: mini is small
-    dump_to_file(data, "res/json/"+output_name+".json")
-    dump_to_file(data, "res/json/"+output_name+".mini.json", format=False)
-
+    dump_to_file(data, "res/json/"+file_name+".json")
+    dump_to_file(data, "res/json/"+file_name+".mini.json", format=False)
 if __name__ == '__main__':
     generate_main(\
-        input_path = "res/html/gen1.html",\
+        file_name = "gen1",\
         url = "http://bulbapedia.bulbagarden.net/wiki/" + \
               "List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)",\
-        output_name = "gen1",\
         stat_order  = ["HP", "ATK", "DEF", "SPE", "SPC"],\
         stat_names  = ["Hit Points", "Attack", "Defense", "Speed", "Special"],\
-        title = "Generation 1 Base stats JSON for all 151 Pokémon (Red/Blue/Yellow)")
+        title = "Generation 1 Base stats JSON "+\
+                "for all 151 Pokémon (Red/Blue/Yellow)")
     generate_main(\
-        input_path = "res/html/gen2-5.html",\
+        file_name = "gen2-5",\
         url = "http://bulbapedia.bulbagarden.net/wiki/"+\
               "List_of_Pok%C3%A9mon_by_base_stats_(Generation_II-V)",\
-        output_name = "gen2-5",\
         stat_order  = ["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],\
         stat_names  = ["Hit Points", "Attack", "Defense", \
                       "Special Attack", "Special Defense", "Speed"],\
-        title = "Generation 2-5 Base stats JSON for all 649 Pokémon (GSC/RSE/DPP/BW)")
+        title = "Generation 2-5 Base stats JSON "+\
+                "for all 649 Pokémon (GSC/RSE/DPP/BW)")
+    generate_main(\
+        file_name = "gen6",\
+        url = "http://bulbapedia.bulbagarden.net/wiki/"+\
+              "List_of_Pok%C3%A9mon_by_base_stats_(Generation_VI-present)",\
+        stat_order  = ["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],\
+        stat_names  = ["Hit Points", "Attack", "Defense", \
+                      "Special Attack", "Special Defense", "Speed"],\
+        title = "Generation 6 Base stats JSON "+\
+                "for all 721 Pokémon (XY/ORAS)")

@@ -1,6 +1,6 @@
 {
     "meta": {
-        "title": "Generation 2-5 Base stats JSON for all 649 Pokémon (GSC/RSE/DPP/BW)",
+        "title": "Generation 6 Base stats JSON for all 721 Pokémon (XY/ORAS)",
         "project": {
             "author": "Ole Herman Schumacher Elgesem",
             "url": "https://github.com/olehermanse/pokres",
@@ -21,10 +21,10 @@
             "Pokémon Company or Bulbagarden."
         ],
         "disclaimer": "Warning: All data and software is provided as-is, with no guarantee of any kind. Use at own risk.",
-        "updated": "2016-08-15T01:44:00.996241",
+        "updated": "2016-08-15T01:44:02.172577",
         "source": {
-            "url": "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_II-V)",
-            "title": "List of Pokémon by base stats (Generation II-V) - Bulbapedia, the community-driven Pokémon encyclopedia"
+            "url": "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VI-present)",
+            "title": "List of Pokémon by base stats (Generation VI-present) - Bulbapedia, the community-driven Pokémon encyclopedia"
         }
     },
     "stats": {
@@ -47,18 +47,28 @@
     },
     "lookup": {
         "Abomasnow": "460",
+        "Abomasnow(Mega Abomasnow)": "460MA",
         "Abra": "063",
         "Absol": "359",
+        "Absol(Mega Absol)": "359MA",
         "Accelgor": "617",
+        "Aegislash(Blade Forme)": "681BF",
+        "Aegislash(Shield Forme)": "681SF",
         "Aerodactyl": "142",
+        "Aerodactyl(Mega Aerodactyl)": "142MA",
         "Aggron": "306",
+        "Aggron(Mega Aggron)": "306MA",
         "Aipom": "190",
         "Alakazam": "065",
+        "Alakazam(Mega Alakazam)": "065MA",
         "Alomomola": "594",
         "Altaria": "334",
+        "Altaria(Mega Altaria)": "334MA",
+        "Amaura": "698",
         "Ambipom": "424",
         "Amoonguss": "591",
         "Ampharos": "181",
+        "Ampharos(Mega Ampharos)": "181MA",
         "Anorith": "347",
         "Arbok": "024",
         "Arcanine": "059",
@@ -67,9 +77,13 @@
         "Archeops": "567",
         "Ariados": "168",
         "Armaldo": "348",
+        "Aromatisse": "683",
         "Aron": "304",
         "Articuno": "144",
         "Audino": "531",
+        "Audino(Mega Audino)": "531MA",
+        "Aurorus": "699",
+        "Avalugg": "713",
         "Axew": "610",
         "Azelf": "482",
         "Azumarill": "184",
@@ -77,6 +91,8 @@
         "Bagon": "371",
         "Baltoy": "343",
         "Banette": "354",
+        "Banette(Mega Banette)": "354MB",
+        "Barbaracle": "689",
         "Barboach": "339",
         "Basculin": "550",
         "Bastiodon": "411",
@@ -84,20 +100,26 @@
         "Beartic": "614",
         "Beautifly": "267",
         "Beedrill": "015",
+        "Beedrill(Mega Beedrill)": "015MB",
         "Beheeyem": "606",
         "Beldum": "374",
         "Bellossom": "182",
         "Bellsprout": "069",
+        "Bergmite": "712",
         "Bibarel": "400",
         "Bidoof": "399",
+        "Binacle": "688",
         "Bisharp": "625",
         "Blastoise": "009",
+        "Blastoise(Mega Blastoise)": "009MB",
         "Blaziken": "257",
+        "Blaziken(Mega Blaziken)": "257MB",
         "Blissey": "242",
         "Blitzle": "522",
         "Boldore": "525",
         "Bonsly": "438",
         "Bouffalant": "626",
+        "Braixen": "654",
         "Braviary": "628",
         "Breloom": "286",
         "Bronzong": "437",
@@ -106,11 +128,14 @@
         "Buizel": "418",
         "Bulbasaur": "001",
         "Buneary": "427",
+        "Bunnelby": "659",
         "Burmy": "412",
         "Butterfree": "012",
         "Cacnea": "331",
         "Cacturne": "332",
         "Camerupt": "323",
+        "Camerupt(Mega Camerupt)": "323MC",
+        "Carbink": "703",
         "Carnivine": "455",
         "Carracosta": "565",
         "Carvanha": "318",
@@ -121,11 +146,15 @@
         "Chandelure": "609",
         "Chansey": "113",
         "Charizard": "006",
+        "Charizard(Mega Charizard X)": "006MCX",
+        "Charizard(Mega Charizard Y)": "006MCY",
         "Charmander": "004",
         "Charmeleon": "005",
         "Chatot": "441",
         "Cherrim": "421",
         "Cherubi": "420",
+        "Chesnaught": "652",
+        "Chespin": "650",
         "Chikorita": "152",
         "Chimchar": "390",
         "Chimecho": "358",
@@ -133,6 +162,8 @@
         "Chingling": "433",
         "Cinccino": "573",
         "Clamperl": "366",
+        "Clauncher": "692",
+        "Clawitzer": "693",
         "Claydol": "344",
         "Clefable": "036",
         "Clefairy": "035",
@@ -162,10 +193,12 @@
         "Darmanitan(Standard Mode)": "555SM",
         "Darmanitan(Zen Mode)": "555ZM",
         "Darumaka": "554",
+        "Dedenne": "702",
         "Deerling": "585",
         "Deino": "633",
         "Delcatty": "301",
         "Delibird": "225",
+        "Delphox": "655",
         "Deoxys(Attack Forme)": "386AF",
         "Deoxys(Defense Forme)": "386DF",
         "Deoxys(Normal Forme)": "386NF",
@@ -173,11 +206,16 @@
         "Dewgong": "087",
         "Dewott": "502",
         "Dialga": "483",
+        "Diancie": "719",
+        "Diancie(Mega Diancie)": "719MD",
+        "Diggersby": "660",
         "Diglett": "050",
         "Ditto": "132",
         "Dodrio": "085",
         "Doduo": "084",
         "Donphan": "232",
+        "Doublade": "680",
+        "Dragalge": "691",
         "Dragonair": "148",
         "Dragonite": "149",
         "Drapion": "452",
@@ -213,6 +251,7 @@
         "Entei": "244",
         "Escavalier": "589",
         "Espeon": "196",
+        "Espurr": "677",
         "Excadrill": "530",
         "Exeggcute": "102",
         "Exeggutor": "103",
@@ -220,30 +259,43 @@
         "Farfetch'd": "083",
         "Fearow": "022",
         "Feebas": "349",
+        "Fennekin": "653",
         "Feraligatr": "160",
         "Ferroseed": "597",
         "Ferrothorn": "598",
         "Finneon": "456",
         "Flaaffy": "180",
+        "Flabébé": "669",
         "Flareon": "136",
+        "Fletchinder": "662",
+        "Fletchling": "661",
         "Floatzel": "419",
+        "Floette": "670",
+        "Florges": "671",
         "Flygon": "330",
         "Foongus": "590",
         "Forretress": "205",
         "Fraxure": "611",
         "Frillish": "592",
+        "Froakie": "656",
+        "Frogadier": "657",
         "Froslass": "478",
+        "Furfrou": "676",
         "Furret": "162",
         "Gabite": "444",
         "Gallade": "475",
+        "Gallade(Mega Gallade)": "475MG",
         "Galvantula": "596",
         "Garbodor": "569",
         "Garchomp": "445",
+        "Garchomp(Mega Garchomp)": "445MG",
         "Gardevoir": "282",
+        "Gardevoir(Mega Gardevoir)": "282MG",
         "Gastly": "092",
         "Gastrodon": "423",
         "Genesect": "649",
         "Gengar": "094",
+        "Gengar(Mega Gengar)": "094MG",
         "Geodude": "074",
         "Gible": "443",
         "Gigalith": "526",
@@ -252,38 +304,53 @@
         "Giratina(Origin Forme)": "487OF",
         "Glaceon": "471",
         "Glalie": "362",
+        "Glalie(Mega Glalie)": "362MG",
         "Glameow": "431",
         "Gligar": "207",
         "Gliscor": "472",
         "Gloom": "044",
+        "Gogoat": "673",
         "Golbat": "042",
         "Goldeen": "118",
         "Golduck": "055",
         "Golem": "076",
         "Golett": "622",
         "Golurk": "623",
+        "Goodra": "706",
+        "Goomy": "704",
         "Gorebyss": "368",
         "Gothita": "574",
         "Gothitelle": "576",
         "Gothorita": "575",
+        "Gourgeist(Average Size)": "711AS",
+        "Gourgeist(Large Size)": "711LS",
+        "Gourgeist(Small Size)": "711SS",
+        "Gourgeist(Super Size)": "711SSI",
         "Granbull": "210",
         "Graveler": "075",
+        "Greninja": "658",
         "Grimer": "088",
         "Grotle": "388",
         "Groudon": "383",
+        "Groudon(Primal Groudon)": "383PG",
         "Grovyle": "253",
         "Growlithe": "058",
         "Grumpig": "326",
         "Gulpin": "316",
         "Gurdurr": "533",
         "Gyarados": "130",
+        "Gyarados(Mega Gyarados)": "130MG",
         "Happiny": "440",
         "Hariyama": "297",
         "Haunter": "093",
+        "Hawlucha": "701",
         "Haxorus": "612",
         "Heatmor": "631",
         "Heatran": "485",
+        "Heliolisk": "695",
+        "Helioptile": "694",
         "Heracross": "214",
+        "Heracross(Mega Heracross)": "214MH",
         "Herdier": "507",
         "Hippopotas": "449",
         "Hippowdon": "450",
@@ -292,10 +359,14 @@
         "Hitmontop": "237",
         "Ho-Oh": "250",
         "Honchkrow": "430",
+        "Honedge": "679",
+        "Hoopa(Hoopa Confined)": "720HC",
+        "Hoopa(Hoopa Unbound)": "720HU",
         "Hoothoot": "163",
         "Hoppip": "187",
         "Horsea": "116",
         "Houndoom": "229",
+        "Houndoom(Mega Houndoom)": "229MH",
         "Houndour": "228",
         "Huntail": "367",
         "Hydreigon": "635",
@@ -303,6 +374,7 @@
         "Igglybuff": "174",
         "Illumise": "314",
         "Infernape": "392",
+        "Inkay": "686",
         "Ivysaur": "002",
         "Jellicent": "593",
         "Jigglypuff": "039",
@@ -316,6 +388,7 @@
         "Kadabra": "064",
         "Kakuna": "014",
         "Kangaskhan": "115",
+        "Kangaskhan(Mega Kangaskhan)": "115MK",
         "Karrablast": "588",
         "Kecleon": "352",
         "Keldeo": "647",
@@ -323,6 +396,7 @@
         "Kingler": "099",
         "Kirlia": "281",
         "Klang": "600",
+        "Klefki": "707",
         "Klink": "599",
         "Klinklang": "601",
         "Koffing": "109",
@@ -332,6 +406,7 @@
         "Krokorok": "552",
         "Krookodile": "553",
         "Kyogre": "382",
+        "Kyogre(Primal Kyogre)": "382PK",
         "Kyurem(Black Kyurem)": "646BK",
         "Kyurem(Normal Kyurem)": "646NK",
         "Kyurem(White Kyurem)": "646WK",
@@ -344,7 +419,9 @@
         "Larvesta": "636",
         "Larvitar": "246",
         "Latias": "380",
+        "Latias(Mega Latias)": "380ML",
         "Latios": "381",
+        "Latios(Mega Latios)": "381ML",
         "Leafeon": "470",
         "Leavanny": "542",
         "Ledian": "166",
@@ -356,12 +433,15 @@
         "Lilligant": "549",
         "Lillipup": "506",
         "Linoone": "264",
+        "Litleo": "667",
         "Litwick": "607",
         "Lombre": "271",
         "Lopunny": "428",
+        "Lopunny(Mega Lopunny)": "428ML",
         "Lotad": "270",
         "Loudred": "294",
         "Lucario": "448",
+        "Lucario(Mega Lucario)": "448ML",
         "Ludicolo": "272",
         "Lugia": "249",
         "Lumineon": "457",
@@ -381,10 +461,12 @@
         "Magneton": "082",
         "Magnezone": "462",
         "Makuhita": "296",
+        "Malamar": "687",
         "Mamoswine": "473",
         "Manaphy": "490",
         "Mandibuzz": "630",
         "Manectric": "310",
+        "Manectric(Mega Manectric)": "310MM",
         "Mankey": "056",
         "Mantine": "226",
         "Mantyke": "458",
@@ -395,18 +477,24 @@
         "Marshtomp": "259",
         "Masquerain": "284",
         "Mawile": "303",
+        "Mawile(Mega Mawile)": "303MM",
         "Medicham": "308",
+        "Medicham(Mega Medicham)": "308MM",
         "Meditite": "307",
         "Meganium": "154",
         "Meloetta(Aria Forme)": "648AF",
         "Meloetta(Pirouette Forme)": "648PF",
+        "Meowstic": "678",
         "Meowth": "052",
         "Mesprit": "481",
         "Metagross": "376",
+        "Metagross(Mega Metagross)": "376MM",
         "Metang": "375",
         "Metapod": "011",
         "Mew": "151",
         "Mewtwo": "150",
+        "Mewtwo(Mega Mewtwo X)": "150MMX",
+        "Mewtwo(Mega Mewtwo Y)": "150MMY",
         "Mienfoo": "619",
         "Mienshao": "620",
         "Mightyena": "262",
@@ -438,6 +526,8 @@
         "Ninetales": "038",
         "Ninjask": "291",
         "Noctowl": "164",
+        "Noibat": "714",
+        "Noivern": "715",
         "Nosepass": "299",
         "Numel": "322",
         "Nuzleaf": "274",
@@ -450,6 +540,8 @@
         "Pachirisu": "417",
         "Palkia": "484",
         "Palpitoad": "536",
+        "Pancham": "674",
+        "Pangoro": "675",
         "Panpour": "515",
         "Pansage": "511",
         "Pansear": "513",
@@ -461,9 +553,11 @@
         "Persian": "053",
         "Petilil": "548",
         "Phanpy": "231",
+        "Phantump": "708",
         "Phione": "489",
         "Pichu": "172",
         "Pidgeot": "018",
+        "Pidgeot(Mega Pidgeot)": "018MP",
         "Pidgeotto": "017",
         "Pidgey": "016",
         "Pidove": "519",
@@ -472,6 +566,7 @@
         "Piloswine": "221",
         "Pineco": "204",
         "Pinsir": "127",
+        "Pinsir(Mega Pinsir)": "127MP",
         "Piplup": "393",
         "Plusle": "311",
         "Politoed": "186",
@@ -487,11 +582,17 @@
         "Prinplup": "394",
         "Probopass": "476",
         "Psyduck": "054",
+        "Pumpkaboo(Average Size)": "710AS",
+        "Pumpkaboo(Large Size)": "710LS",
+        "Pumpkaboo(Small Size)": "710SS",
+        "Pumpkaboo(Super Size)": "710SSI",
         "Pupitar": "247",
         "Purrloin": "509",
         "Purugly": "432",
+        "Pyroar": "668",
         "Quagsire": "195",
         "Quilava": "156",
+        "Quilladin": "651",
         "Qwilfish": "211",
         "Raichu": "026",
         "Raikou": "243",
@@ -501,6 +602,7 @@
         "Raticate": "020",
         "Rattata": "019",
         "Rayquaza": "384",
+        "Rayquaza(Mega Rayquaza)": "384MR",
         "Regice": "378",
         "Regigigas": "486",
         "Regirock": "377",
@@ -524,15 +626,20 @@
         "Rotom(Wash Rotom)": "479WR",
         "Rufflet": "627",
         "Sableye": "302",
+        "Sableye(Mega Sableye)": "302MS",
         "Salamence": "373",
+        "Salamence(Mega Salamence)": "373MS",
         "Samurott": "503",
         "Sandile": "551",
         "Sandshrew": "027",
         "Sandslash": "028",
         "Sawk": "539",
         "Sawsbuck": "586",
+        "Scatterbug": "664",
         "Sceptile": "254",
+        "Sceptile(Mega Sceptile)": "254MS",
         "Scizor": "212",
+        "Scizor(Mega Scizor)": "212MS",
         "Scolipede": "545",
         "Scrafty": "560",
         "Scraggy": "559",
@@ -549,6 +656,7 @@
         "Seviper": "336",
         "Sewaddle": "540",
         "Sharpedo": "319",
+        "Sharpedo(Mega Sharpedo)": "319MS",
         "Shaymin(Land Forme)": "492LF",
         "Shaymin(Sky Forme)": "492SF",
         "Shedinja": "292",
@@ -568,16 +676,21 @@
         "Simisage": "512",
         "Simisear": "514",
         "Skarmory": "227",
+        "Skiddo": "672",
         "Skiploom": "188",
         "Skitty": "300",
         "Skorupi": "451",
+        "Skrelp": "690",
         "Skuntank": "435",
         "Slaking": "289",
         "Slakoth": "287",
+        "Sliggoo": "705",
         "Slowbro": "080",
+        "Slowbro(Mega Slowbro)": "080MS",
         "Slowking": "199",
         "Slowpoke": "079",
         "Slugma": "218",
+        "Slurpuff": "685",
         "Smeargle": "235",
         "Smoochum": "238",
         "Sneasel": "215",
@@ -589,11 +702,13 @@
         "Solosis": "577",
         "Solrock": "338",
         "Spearow": "021",
+        "Spewpa": "665",
         "Spheal": "363",
         "Spinarak": "167",
         "Spinda": "327",
         "Spiritomb": "442",
         "Spoink": "325",
+        "Spritzee": "682",
         "Squirtle": "007",
         "Stantler": "234",
         "Staraptor": "398",
@@ -602,6 +717,7 @@
         "Starmie": "121",
         "Staryu": "120",
         "Steelix": "208",
+        "Steelix(Mega Steelix)": "208MS",
         "Stoutland": "508",
         "Stunfisk": "618",
         "Stunky": "434",
@@ -614,11 +730,15 @@
         "Swadloon": "541",
         "Swalot": "317",
         "Swampert": "260",
+        "Swampert(Mega Swampert)": "260MS",
         "Swanna": "581",
         "Swellow": "277",
         "Swinub": "220",
+        "Swirlix": "684",
         "Swoobat": "528",
+        "Sylveon": "700",
         "Taillow": "276",
+        "Talonflame": "663",
         "Tangela": "114",
         "Tangrowth": "465",
         "Tauros": "128",
@@ -645,6 +765,7 @@
         "Tranquill": "520",
         "Trapinch": "328",
         "Treecko": "252",
+        "Trevenant": "709",
         "Tropius": "357",
         "Trubbish": "568",
         "Turtwig": "387",
@@ -652,7 +773,10 @@
         "Tynamo": "602",
         "Typhlosion": "157",
         "Tyranitar": "248",
+        "Tyranitar(Mega Tyranitar)": "248MT",
+        "Tyrantrum": "697",
         "Tyrogue": "236",
+        "Tyrunt": "696",
         "Umbreon": "197",
         "Unfezant": "521",
         "Unown": "201",
@@ -666,6 +790,7 @@
         "Venomoth": "049",
         "Venonat": "048",
         "Venusaur": "003",
+        "Venusaur(Mega Venusaur)": "003MV",
         "Vespiquen": "416",
         "Vibrava": "329",
         "Victini": "494",
@@ -673,7 +798,9 @@
         "Vigoroth": "288",
         "Vileplume": "045",
         "Virizion": "640",
+        "Vivillon": "666",
         "Volbeat": "313",
+        "Volcanion": "721",
         "Volcarona": "637",
         "Voltorb": "100",
         "Vullaby": "629",
@@ -702,9 +829,11 @@
         "Wurmple": "265",
         "Wynaut": "360",
         "Xatu": "178",
+        "Xerneas": "716",
         "Yamask": "562",
         "Yanma": "193",
         "Yanmega": "469",
+        "Yveltal": "717",
         "Zangoose": "335",
         "Zapdos": "145",
         "Zebstrika": "523",
@@ -713,7 +842,8 @@
         "Zoroark": "571",
         "Zorua": "570",
         "Zubat": "041",
-        "Zweilous": "634"
+        "Zweilous": "634",
+        "Zygarde": "718"
     },
     "dex": {
         "001": {
@@ -746,6 +876,17 @@
                 "DEF": 83,
                 "SPA": 100,
                 "SPD": 100,
+                "SPE": 80
+            }
+        },
+        "003MV": {
+            "name": "Venusaur(Mega Venusaur)",
+            "stats": {
+                "HP": 80,
+                "ATK": 100,
+                "DEF": 123,
+                "SPA": 122,
+                "SPD": 120,
                 "SPE": 80
             }
         },
@@ -782,6 +923,28 @@
                 "SPE": 100
             }
         },
+        "006MCX": {
+            "name": "Charizard(Mega Charizard X)",
+            "stats": {
+                "HP": 78,
+                "ATK": 130,
+                "DEF": 111,
+                "SPA": 130,
+                "SPD": 85,
+                "SPE": 100
+            }
+        },
+        "006MCY": {
+            "name": "Charizard(Mega Charizard Y)",
+            "stats": {
+                "HP": 78,
+                "ATK": 104,
+                "DEF": 78,
+                "SPA": 159,
+                "SPD": 115,
+                "SPE": 100
+            }
+        },
         "007": {
             "name": "Squirtle",
             "stats": {
@@ -815,6 +978,17 @@
                 "SPE": 78
             }
         },
+        "009MB": {
+            "name": "Blastoise(Mega Blastoise)",
+            "stats": {
+                "HP": 79,
+                "ATK": 103,
+                "DEF": 120,
+                "SPA": 135,
+                "SPD": 115,
+                "SPE": 78
+            }
+        },
         "010": {
             "name": "Caterpie",
             "stats": {
@@ -843,7 +1017,7 @@
                 "HP": 60,
                 "ATK": 45,
                 "DEF": 50,
-                "SPA": 80,
+                "SPA": 90,
                 "SPD": 80,
                 "SPE": 70
             }
@@ -874,11 +1048,22 @@
             "name": "Beedrill",
             "stats": {
                 "HP": 65,
-                "ATK": 80,
+                "ATK": 90,
                 "DEF": 40,
                 "SPA": 45,
                 "SPD": 80,
                 "SPE": 75
+            }
+        },
+        "015MB": {
+            "name": "Beedrill(Mega Beedrill)",
+            "stats": {
+                "HP": 65,
+                "ATK": 150,
+                "DEF": 40,
+                "SPA": 15,
+                "SPD": 80,
+                "SPE": 145
             }
         },
         "016": {
@@ -911,7 +1096,18 @@
                 "DEF": 75,
                 "SPA": 70,
                 "SPD": 70,
-                "SPE": 91
+                "SPE": 101
+            }
+        },
+        "018MP": {
+            "name": "Pidgeot(Mega Pidgeot)",
+            "stats": {
+                "HP": 83,
+                "ATK": 80,
+                "DEF": 80,
+                "SPA": 135,
+                "SPD": 80,
+                "SPE": 121
             }
         },
         "019": {
@@ -985,9 +1181,9 @@
             "stats": {
                 "HP": 35,
                 "ATK": 55,
-                "DEF": 30,
+                "DEF": 40,
                 "SPA": 50,
-                "SPD": 40,
+                "SPD": 50,
                 "SPE": 90
             }
         },
@@ -999,7 +1195,7 @@
                 "DEF": 55,
                 "SPA": 90,
                 "SPD": 80,
-                "SPE": 100
+                "SPE": 110
             }
         },
         "027": {
@@ -1050,7 +1246,7 @@
             "name": "Nidoqueen",
             "stats": {
                 "HP": 90,
-                "ATK": 82,
+                "ATK": 92,
                 "DEF": 87,
                 "SPA": 75,
                 "SPD": 85,
@@ -1083,7 +1279,7 @@
             "name": "Nidoking",
             "stats": {
                 "HP": 81,
-                "ATK": 92,
+                "ATK": 102,
                 "DEF": 77,
                 "SPA": 85,
                 "SPD": 75,
@@ -1107,7 +1303,7 @@
                 "HP": 95,
                 "ATK": 70,
                 "DEF": 73,
-                "SPA": 85,
+                "SPA": 95,
                 "SPD": 90,
                 "SPE": 60
             }
@@ -1151,7 +1347,7 @@
                 "HP": 140,
                 "ATK": 70,
                 "DEF": 45,
-                "SPA": 75,
+                "SPA": 85,
                 "SPD": 50,
                 "SPE": 45
             }
@@ -1206,7 +1402,7 @@
                 "HP": 75,
                 "ATK": 80,
                 "DEF": 85,
-                "SPA": 100,
+                "SPA": 110,
                 "SPD": 90,
                 "SPE": 50
             }
@@ -1391,7 +1587,7 @@
             "name": "Poliwrath",
             "stats": {
                 "HP": 90,
-                "ATK": 85,
+                "ATK": 95,
                 "DEF": 95,
                 "SPA": 70,
                 "SPD": 90,
@@ -1427,8 +1623,19 @@
                 "ATK": 50,
                 "DEF": 45,
                 "SPA": 135,
-                "SPD": 85,
+                "SPD": 95,
                 "SPE": 120
+            }
+        },
+        "065MA": {
+            "name": "Alakazam(Mega Alakazam)",
+            "stats": {
+                "HP": 55,
+                "ATK": 50,
+                "DEF": 65,
+                "SPA": 175,
+                "SPD": 95,
+                "SPE": 150
             }
         },
         "066": {
@@ -1493,7 +1700,7 @@
                 "ATK": 105,
                 "DEF": 65,
                 "SPA": 100,
-                "SPD": 60,
+                "SPD": 70,
                 "SPE": 70
             }
         },
@@ -1545,7 +1752,7 @@
             "name": "Golem",
             "stats": {
                 "HP": 80,
-                "ATK": 110,
+                "ATK": 120,
                 "DEF": 130,
                 "SPA": 55,
                 "SPD": 65,
@@ -1592,6 +1799,17 @@
                 "ATK": 75,
                 "DEF": 110,
                 "SPA": 100,
+                "SPD": 80,
+                "SPE": 30
+            }
+        },
+        "080MS": {
+            "name": "Slowbro(Mega Slowbro)",
+            "stats": {
+                "HP": 95,
+                "ATK": 75,
+                "DEF": 180,
+                "SPA": 130,
                 "SPD": 80,
                 "SPE": 30
             }
@@ -1748,6 +1966,17 @@
                 "SPA": 130,
                 "SPD": 75,
                 "SPE": 110
+            }
+        },
+        "094MG": {
+            "name": "Gengar(Mega Gengar)",
+            "stats": {
+                "HP": 60,
+                "ATK": 65,
+                "DEF": 80,
+                "SPA": 170,
+                "SPD": 95,
+                "SPE": 130
             }
         },
         "095": {
@@ -1981,6 +2210,17 @@
                 "SPE": 90
             }
         },
+        "115MK": {
+            "name": "Kangaskhan(Mega Kangaskhan)",
+            "stats": {
+                "HP": 105,
+                "ATK": 125,
+                "DEF": 100,
+                "SPA": 60,
+                "SPD": 100,
+                "SPE": 100
+            }
+        },
         "116": {
             "name": "Horsea",
             "stats": {
@@ -2113,6 +2353,17 @@
                 "SPE": 85
             }
         },
+        "127MP": {
+            "name": "Pinsir(Mega Pinsir)",
+            "stats": {
+                "HP": 65,
+                "ATK": 155,
+                "DEF": 120,
+                "SPA": 65,
+                "SPD": 90,
+                "SPE": 105
+            }
+        },
         "128": {
             "name": "Tauros",
             "stats": {
@@ -2143,6 +2394,17 @@
                 "DEF": 79,
                 "SPA": 60,
                 "SPD": 100,
+                "SPE": 81
+            }
+        },
+        "130MG": {
+            "name": "Gyarados(Mega Gyarados)",
+            "stats": {
+                "HP": 95,
+                "ATK": 155,
+                "DEF": 109,
+                "SPA": 70,
+                "SPD": 130,
                 "SPE": 81
             }
         },
@@ -2278,6 +2540,17 @@
                 "SPE": 130
             }
         },
+        "142MA": {
+            "name": "Aerodactyl(Mega Aerodactyl)",
+            "stats": {
+                "HP": 80,
+                "ATK": 135,
+                "DEF": 85,
+                "SPA": 70,
+                "SPD": 95,
+                "SPE": 150
+            }
+        },
         "143": {
             "name": "Snorlax",
             "stats": {
@@ -2364,6 +2637,28 @@
                 "SPA": 154,
                 "SPD": 90,
                 "SPE": 130
+            }
+        },
+        "150MMX": {
+            "name": "Mewtwo(Mega Mewtwo X)",
+            "stats": {
+                "HP": 106,
+                "ATK": 190,
+                "DEF": 100,
+                "SPA": 154,
+                "SPD": 100,
+                "SPE": 130
+            }
+        },
+        "150MMY": {
+            "name": "Mewtwo(Mega Mewtwo Y)",
+            "stats": {
+                "HP": 106,
+                "ATK": 150,
+                "DEF": 70,
+                "SPA": 194,
+                "SPD": 120,
+                "SPE": 140
             }
         },
         "151": {
@@ -2701,10 +2996,21 @@
             "stats": {
                 "HP": 90,
                 "ATK": 75,
-                "DEF": 75,
+                "DEF": 85,
                 "SPA": 115,
                 "SPD": 90,
                 "SPE": 55
+            }
+        },
+        "181MA": {
+            "name": "Ampharos(Mega Ampharos)",
+            "stats": {
+                "HP": 90,
+                "ATK": 95,
+                "DEF": 105,
+                "SPA": 165,
+                "SPD": 110,
+                "SPE": 45
             }
         },
         "182": {
@@ -2712,7 +3018,7 @@
             "stats": {
                 "HP": 75,
                 "ATK": 80,
-                "DEF": 85,
+                "DEF": 95,
                 "SPA": 90,
                 "SPD": 100,
                 "SPE": 50
@@ -2735,7 +3041,7 @@
                 "HP": 100,
                 "ATK": 50,
                 "DEF": 80,
-                "SPA": 50,
+                "SPA": 60,
                 "SPD": 80,
                 "SPE": 50
             }
@@ -2791,7 +3097,7 @@
                 "ATK": 55,
                 "DEF": 70,
                 "SPA": 55,
-                "SPD": 85,
+                "SPD": 95,
                 "SPE": 110
             }
         },
@@ -3004,6 +3310,17 @@
                 "SPE": 30
             }
         },
+        "208MS": {
+            "name": "Steelix(Mega Steelix)",
+            "stats": {
+                "HP": 75,
+                "ATK": 125,
+                "DEF": 230,
+                "SPA": 55,
+                "SPD": 95,
+                "SPE": 30
+            }
+        },
         "209": {
             "name": "Snubbull",
             "stats": {
@@ -3048,6 +3365,17 @@
                 "SPE": 65
             }
         },
+        "212MS": {
+            "name": "Scizor(Mega Scizor)",
+            "stats": {
+                "HP": 70,
+                "ATK": 150,
+                "DEF": 140,
+                "SPA": 65,
+                "SPD": 100,
+                "SPE": 75
+            }
+        },
         "213": {
             "name": "Shuckle",
             "stats": {
@@ -3068,6 +3396,17 @@
                 "SPA": 40,
                 "SPD": 95,
                 "SPE": 85
+            }
+        },
+        "214MH": {
+            "name": "Heracross(Mega Heracross)",
+            "stats": {
+                "HP": 80,
+                "ATK": 185,
+                "DEF": 115,
+                "SPA": 40,
+                "SPD": 105,
+                "SPE": 75
             }
         },
         "215": {
@@ -3233,6 +3572,17 @@
                 "SPA": 110,
                 "SPD": 80,
                 "SPE": 95
+            }
+        },
+        "229MH": {
+            "name": "Houndoom(Mega Houndoom)",
+            "stats": {
+                "HP": 75,
+                "ATK": 90,
+                "DEF": 90,
+                "SPA": 140,
+                "SPD": 90,
+                "SPE": 115
             }
         },
         "230": {
@@ -3444,6 +3794,17 @@
                 "SPE": 61
             }
         },
+        "248MT": {
+            "name": "Tyranitar(Mega Tyranitar)",
+            "stats": {
+                "HP": 100,
+                "ATK": 164,
+                "DEF": 150,
+                "SPA": 95,
+                "SPD": 120,
+                "SPE": 71
+            }
+        },
         "249": {
             "name": "Lugia",
             "stats": {
@@ -3510,6 +3871,17 @@
                 "SPE": 120
             }
         },
+        "254MS": {
+            "name": "Sceptile(Mega Sceptile)",
+            "stats": {
+                "HP": 70,
+                "ATK": 110,
+                "DEF": 75,
+                "SPA": 145,
+                "SPD": 85,
+                "SPE": 145
+            }
+        },
         "255": {
             "name": "Torchic",
             "stats": {
@@ -3543,6 +3915,17 @@
                 "SPE": 80
             }
         },
+        "257MB": {
+            "name": "Blaziken(Mega Blaziken)",
+            "stats": {
+                "HP": 80,
+                "ATK": 160,
+                "DEF": 80,
+                "SPA": 130,
+                "SPD": 80,
+                "SPE": 100
+            }
+        },
         "258": {
             "name": "Mudkip",
             "stats": {
@@ -3574,6 +3957,17 @@
                 "SPA": 85,
                 "SPD": 90,
                 "SPE": 60
+            }
+        },
+        "260MS": {
+            "name": "Swampert(Mega Swampert)",
+            "stats": {
+                "HP": 100,
+                "ATK": 150,
+                "DEF": 110,
+                "SPA": 95,
+                "SPD": 110,
+                "SPE": 70
             }
         },
         "261": {
@@ -3648,7 +4042,7 @@
                 "HP": 60,
                 "ATK": 70,
                 "DEF": 50,
-                "SPA": 90,
+                "SPA": 100,
                 "SPD": 50,
                 "SPE": 65
             }
@@ -3818,6 +4212,17 @@
                 "SPE": 80
             }
         },
+        "282MG": {
+            "name": "Gardevoir(Mega Gardevoir)",
+            "stats": {
+                "HP": 68,
+                "ATK": 85,
+                "DEF": 65,
+                "SPA": 165,
+                "SPD": 135,
+                "SPE": 100
+            }
+        },
         "283": {
             "name": "Surskit",
             "stats": {
@@ -3957,7 +4362,7 @@
                 "ATK": 91,
                 "DEF": 63,
                 "SPA": 91,
-                "SPD": 63,
+                "SPD": 73,
                 "SPE": 68
             }
         },
@@ -4038,6 +4443,17 @@
                 "SPE": 50
             }
         },
+        "302MS": {
+            "name": "Sableye(Mega Sableye)",
+            "stats": {
+                "HP": 50,
+                "ATK": 85,
+                "DEF": 125,
+                "SPA": 85,
+                "SPD": 115,
+                "SPE": 20
+            }
+        },
         "303": {
             "name": "Mawile",
             "stats": {
@@ -4046,6 +4462,17 @@
                 "DEF": 85,
                 "SPA": 55,
                 "SPD": 55,
+                "SPE": 50
+            }
+        },
+        "303MM": {
+            "name": "Mawile(Mega Mawile)",
+            "stats": {
+                "HP": 50,
+                "ATK": 105,
+                "DEF": 125,
+                "SPA": 55,
+                "SPD": 95,
                 "SPE": 50
             }
         },
@@ -4082,6 +4509,17 @@
                 "SPE": 50
             }
         },
+        "306MA": {
+            "name": "Aggron(Mega Aggron)",
+            "stats": {
+                "HP": 70,
+                "ATK": 140,
+                "DEF": 230,
+                "SPA": 60,
+                "SPD": 80,
+                "SPE": 50
+            }
+        },
         "307": {
             "name": "Meditite",
             "stats": {
@@ -4104,6 +4542,17 @@
                 "SPE": 80
             }
         },
+        "308MM": {
+            "name": "Medicham(Mega Medicham)",
+            "stats": {
+                "HP": 60,
+                "ATK": 100,
+                "DEF": 85,
+                "SPA": 80,
+                "SPD": 85,
+                "SPE": 100
+            }
+        },
         "309": {
             "name": "Electrike",
             "stats": {
@@ -4124,6 +4573,17 @@
                 "SPA": 105,
                 "SPD": 60,
                 "SPE": 105
+            }
+        },
+        "310MM": {
+            "name": "Manectric(Mega Manectric)",
+            "stats": {
+                "HP": 70,
+                "ATK": 75,
+                "DEF": 80,
+                "SPA": 135,
+                "SPD": 80,
+                "SPE": 135
             }
         },
         "311": {
@@ -4225,6 +4685,17 @@
                 "SPE": 95
             }
         },
+        "319MS": {
+            "name": "Sharpedo(Mega Sharpedo)",
+            "stats": {
+                "HP": 70,
+                "ATK": 140,
+                "DEF": 70,
+                "SPA": 110,
+                "SPD": 65,
+                "SPE": 105
+            }
+        },
         "320": {
             "name": "Wailmer",
             "stats": {
@@ -4267,6 +4738,17 @@
                 "SPA": 105,
                 "SPD": 75,
                 "SPE": 40
+            }
+        },
+        "323MC": {
+            "name": "Camerupt(Mega Camerupt)",
+            "stats": {
+                "HP": 70,
+                "ATK": 120,
+                "DEF": 100,
+                "SPA": 145,
+                "SPD": 105,
+                "SPE": 20
             }
         },
         "324": {
@@ -4386,6 +4868,17 @@
                 "ATK": 70,
                 "DEF": 90,
                 "SPA": 70,
+                "SPD": 105,
+                "SPE": 80
+            }
+        },
+        "334MA": {
+            "name": "Altaria(Mega Altaria)",
+            "stats": {
+                "HP": 75,
+                "ATK": 110,
+                "DEF": 110,
+                "SPA": 110,
                 "SPD": 105,
                 "SPE": 80
             }
@@ -4610,6 +5103,17 @@
                 "SPE": 65
             }
         },
+        "354MB": {
+            "name": "Banette(Mega Banette)",
+            "stats": {
+                "HP": 64,
+                "ATK": 165,
+                "DEF": 75,
+                "SPA": 93,
+                "SPD": 83,
+                "SPE": 75
+            }
+        },
         "355": {
             "name": "Duskull",
             "stats": {
@@ -4665,6 +5169,17 @@
                 "SPE": 75
             }
         },
+        "359MA": {
+            "name": "Absol(Mega Absol)",
+            "stats": {
+                "HP": 65,
+                "ATK": 150,
+                "DEF": 60,
+                "SPA": 115,
+                "SPD": 60,
+                "SPE": 115
+            }
+        },
         "360": {
             "name": "Wynaut",
             "stats": {
@@ -4696,6 +5211,17 @@
                 "SPA": 80,
                 "SPD": 80,
                 "SPE": 80
+            }
+        },
+        "362MG": {
+            "name": "Glalie(Mega Glalie)",
+            "stats": {
+                "HP": 80,
+                "ATK": 120,
+                "DEF": 80,
+                "SPA": 120,
+                "SPD": 80,
+                "SPE": 100
             }
         },
         "363": {
@@ -4819,6 +5345,17 @@
                 "SPE": 100
             }
         },
+        "373MS": {
+            "name": "Salamence(Mega Salamence)",
+            "stats": {
+                "HP": 95,
+                "ATK": 145,
+                "DEF": 130,
+                "SPA": 120,
+                "SPD": 90,
+                "SPE": 120
+            }
+        },
         "374": {
             "name": "Beldum",
             "stats": {
@@ -4850,6 +5387,17 @@
                 "SPA": 95,
                 "SPD": 90,
                 "SPE": 70
+            }
+        },
+        "376MM": {
+            "name": "Metagross(Mega Metagross)",
+            "stats": {
+                "HP": 80,
+                "ATK": 145,
+                "DEF": 150,
+                "SPA": 105,
+                "SPD": 110,
+                "SPE": 110
             }
         },
         "377": {
@@ -4896,6 +5444,17 @@
                 "SPE": 110
             }
         },
+        "380ML": {
+            "name": "Latias(Mega Latias)",
+            "stats": {
+                "HP": 80,
+                "ATK": 100,
+                "DEF": 120,
+                "SPA": 140,
+                "SPD": 150,
+                "SPE": 110
+            }
+        },
         "381": {
             "name": "Latios",
             "stats": {
@@ -4904,6 +5463,17 @@
                 "DEF": 80,
                 "SPA": 130,
                 "SPD": 110,
+                "SPE": 110
+            }
+        },
+        "381ML": {
+            "name": "Latios(Mega Latios)",
+            "stats": {
+                "HP": 80,
+                "ATK": 130,
+                "DEF": 100,
+                "SPA": 160,
+                "SPD": 120,
                 "SPE": 110
             }
         },
@@ -4918,6 +5488,17 @@
                 "SPE": 90
             }
         },
+        "382PK": {
+            "name": "Kyogre(Primal Kyogre)",
+            "stats": {
+                "HP": 100,
+                "ATK": 150,
+                "DEF": 90,
+                "SPA": 180,
+                "SPD": 160,
+                "SPE": 90
+            }
+        },
         "383": {
             "name": "Groudon",
             "stats": {
@@ -4925,6 +5506,17 @@
                 "ATK": 150,
                 "DEF": 140,
                 "SPA": 100,
+                "SPD": 90,
+                "SPE": 90
+            }
+        },
+        "383PG": {
+            "name": "Groudon(Primal Groudon)",
+            "stats": {
+                "HP": 100,
+                "ATK": 180,
+                "DEF": 160,
+                "SPA": 150,
                 "SPD": 90,
                 "SPE": 90
             }
@@ -4938,6 +5530,17 @@
                 "SPA": 150,
                 "SPD": 90,
                 "SPE": 95
+            }
+        },
+        "384MR": {
+            "name": "Rayquaza(Mega Rayquaza)",
+            "stats": {
+                "HP": 105,
+                "ATK": 180,
+                "DEF": 100,
+                "SPA": 180,
+                "SPD": 100,
+                "SPE": 115
             }
         },
         "385": {
@@ -5123,7 +5726,7 @@
                 "ATK": 120,
                 "DEF": 70,
                 "SPA": 50,
-                "SPD": 50,
+                "SPD": 60,
                 "SPE": 100
             }
         },
@@ -5220,7 +5823,7 @@
             "stats": {
                 "HP": 60,
                 "ATK": 70,
-                "DEF": 55,
+                "DEF": 65,
                 "SPA": 125,
                 "SPD": 105,
                 "SPE": 90
@@ -5479,6 +6082,17 @@
                 "SPE": 105
             }
         },
+        "428ML": {
+            "name": "Lopunny(Mega Lopunny)",
+            "stats": {
+                "HP": 65,
+                "ATK": 136,
+                "DEF": 94,
+                "SPA": 54,
+                "SPD": 96,
+                "SPE": 135
+            }
+        },
         "429": {
             "name": "Mismagius",
             "stats": {
@@ -5666,6 +6280,17 @@
                 "SPE": 102
             }
         },
+        "445MG": {
+            "name": "Garchomp(Mega Garchomp)",
+            "stats": {
+                "HP": 108,
+                "ATK": 170,
+                "DEF": 115,
+                "SPA": 120,
+                "SPD": 95,
+                "SPE": 92
+            }
+        },
         "446": {
             "name": "Munchlax",
             "stats": {
@@ -5697,6 +6322,17 @@
                 "SPA": 115,
                 "SPD": 70,
                 "SPE": 90
+            }
+        },
+        "448ML": {
+            "name": "Lucario(Mega Lucario)",
+            "stats": {
+                "HP": 70,
+                "ATK": 145,
+                "DEF": 88,
+                "SPA": 140,
+                "SPD": 70,
+                "SPE": 112
             }
         },
         "449": {
@@ -5829,6 +6465,17 @@
                 "SPA": 92,
                 "SPD": 85,
                 "SPE": 60
+            }
+        },
+        "460MA": {
+            "name": "Abomasnow(Mega Abomasnow)",
+            "stats": {
+                "HP": 90,
+                "ATK": 132,
+                "DEF": 105,
+                "SPA": 132,
+                "SPD": 105,
+                "SPE": 30
             }
         },
         "461": {
@@ -5994,6 +6641,17 @@
                 "SPA": 65,
                 "SPD": 115,
                 "SPE": 80
+            }
+        },
+        "475MG": {
+            "name": "Gallade(Mega Gallade)",
+            "stats": {
+                "HP": 68,
+                "ATK": 165,
+                "DEF": 95,
+                "SPA": 65,
+                "SPD": 115,
+                "SPE": 110
             }
         },
         "476": {
@@ -6429,7 +7087,7 @@
             "name": "Stoutland",
             "stats": {
                 "HP": 85,
-                "ATK": 100,
+                "ATK": 110,
                 "DEF": 90,
                 "SPA": 45,
                 "SPD": 90,
@@ -6572,7 +7230,7 @@
             "name": "Unfezant",
             "stats": {
                 "HP": 80,
-                "ATK": 105,
+                "ATK": 115,
                 "DEF": 80,
                 "SPA": 65,
                 "SPD": 55,
@@ -6630,7 +7288,7 @@
                 "ATK": 135,
                 "DEF": 130,
                 "SPA": 60,
-                "SPD": 70,
+                "SPD": 80,
                 "SPE": 25
             }
         },
@@ -6686,6 +7344,17 @@
                 "DEF": 86,
                 "SPA": 60,
                 "SPD": 86,
+                "SPE": 50
+            }
+        },
+        "531MA": {
+            "name": "Audino(Mega Audino)",
+            "stats": {
+                "HP": 103,
+                "ATK": 60,
+                "DEF": 126,
+                "SPA": 80,
+                "SPD": 126,
                 "SPE": 50
             }
         },
@@ -6748,7 +7417,7 @@
             "name": "Seismitoad",
             "stats": {
                 "HP": 105,
-                "ATK": 85,
+                "ATK": 95,
                 "DEF": 75,
                 "SPA": 85,
                 "SPD": 75,
@@ -6806,7 +7475,7 @@
                 "ATK": 103,
                 "DEF": 80,
                 "SPA": 70,
-                "SPD": 70,
+                "SPD": 80,
                 "SPE": 92
             }
         },
@@ -6836,7 +7505,7 @@
             "name": "Scolipede",
             "stats": {
                 "HP": 60,
-                "ATK": 90,
+                "ATK": 100,
                 "DEF": 89,
                 "SPA": 55,
                 "SPD": 69,
@@ -6925,7 +7594,7 @@
             "stats": {
                 "HP": 95,
                 "ATK": 117,
-                "DEF": 70,
+                "DEF": 80,
                 "SPA": 65,
                 "SPD": 70,
                 "SPE": 92
@@ -8062,6 +8731,897 @@
                 "SPA": 120,
                 "SPD": 95,
                 "SPE": 99
+            }
+        },
+        "650": {
+            "name": "Chespin",
+            "stats": {
+                "HP": 56,
+                "ATK": 61,
+                "DEF": 65,
+                "SPA": 48,
+                "SPD": 45,
+                "SPE": 38
+            }
+        },
+        "651": {
+            "name": "Quilladin",
+            "stats": {
+                "HP": 61,
+                "ATK": 78,
+                "DEF": 95,
+                "SPA": 56,
+                "SPD": 58,
+                "SPE": 57
+            }
+        },
+        "652": {
+            "name": "Chesnaught",
+            "stats": {
+                "HP": 88,
+                "ATK": 107,
+                "DEF": 122,
+                "SPA": 74,
+                "SPD": 75,
+                "SPE": 64
+            }
+        },
+        "653": {
+            "name": "Fennekin",
+            "stats": {
+                "HP": 40,
+                "ATK": 45,
+                "DEF": 40,
+                "SPA": 62,
+                "SPD": 60,
+                "SPE": 60
+            }
+        },
+        "654": {
+            "name": "Braixen",
+            "stats": {
+                "HP": 59,
+                "ATK": 59,
+                "DEF": 58,
+                "SPA": 90,
+                "SPD": 70,
+                "SPE": 73
+            }
+        },
+        "655": {
+            "name": "Delphox",
+            "stats": {
+                "HP": 75,
+                "ATK": 69,
+                "DEF": 72,
+                "SPA": 114,
+                "SPD": 100,
+                "SPE": 104
+            }
+        },
+        "656": {
+            "name": "Froakie",
+            "stats": {
+                "HP": 41,
+                "ATK": 56,
+                "DEF": 40,
+                "SPA": 62,
+                "SPD": 44,
+                "SPE": 71
+            }
+        },
+        "657": {
+            "name": "Frogadier",
+            "stats": {
+                "HP": 54,
+                "ATK": 63,
+                "DEF": 52,
+                "SPA": 83,
+                "SPD": 56,
+                "SPE": 97
+            }
+        },
+        "658": {
+            "name": "Greninja",
+            "stats": {
+                "HP": 72,
+                "ATK": 95,
+                "DEF": 67,
+                "SPA": 103,
+                "SPD": 71,
+                "SPE": 122
+            }
+        },
+        "659": {
+            "name": "Bunnelby",
+            "stats": {
+                "HP": 38,
+                "ATK": 36,
+                "DEF": 38,
+                "SPA": 32,
+                "SPD": 36,
+                "SPE": 57
+            }
+        },
+        "660": {
+            "name": "Diggersby",
+            "stats": {
+                "HP": 85,
+                "ATK": 56,
+                "DEF": 77,
+                "SPA": 50,
+                "SPD": 77,
+                "SPE": 78
+            }
+        },
+        "661": {
+            "name": "Fletchling",
+            "stats": {
+                "HP": 45,
+                "ATK": 50,
+                "DEF": 43,
+                "SPA": 40,
+                "SPD": 38,
+                "SPE": 62
+            }
+        },
+        "662": {
+            "name": "Fletchinder",
+            "stats": {
+                "HP": 62,
+                "ATK": 73,
+                "DEF": 55,
+                "SPA": 56,
+                "SPD": 52,
+                "SPE": 84
+            }
+        },
+        "663": {
+            "name": "Talonflame",
+            "stats": {
+                "HP": 78,
+                "ATK": 81,
+                "DEF": 71,
+                "SPA": 74,
+                "SPD": 69,
+                "SPE": 126
+            }
+        },
+        "664": {
+            "name": "Scatterbug",
+            "stats": {
+                "HP": 38,
+                "ATK": 35,
+                "DEF": 40,
+                "SPA": 27,
+                "SPD": 25,
+                "SPE": 35
+            }
+        },
+        "665": {
+            "name": "Spewpa",
+            "stats": {
+                "HP": 45,
+                "ATK": 22,
+                "DEF": 60,
+                "SPA": 27,
+                "SPD": 30,
+                "SPE": 29
+            }
+        },
+        "666": {
+            "name": "Vivillon",
+            "stats": {
+                "HP": 80,
+                "ATK": 52,
+                "DEF": 50,
+                "SPA": 90,
+                "SPD": 50,
+                "SPE": 89
+            }
+        },
+        "667": {
+            "name": "Litleo",
+            "stats": {
+                "HP": 62,
+                "ATK": 50,
+                "DEF": 58,
+                "SPA": 73,
+                "SPD": 54,
+                "SPE": 72
+            }
+        },
+        "668": {
+            "name": "Pyroar",
+            "stats": {
+                "HP": 86,
+                "ATK": 68,
+                "DEF": 72,
+                "SPA": 109,
+                "SPD": 66,
+                "SPE": 106
+            }
+        },
+        "669": {
+            "name": "Flabébé",
+            "stats": {
+                "HP": 44,
+                "ATK": 38,
+                "DEF": 39,
+                "SPA": 61,
+                "SPD": 79,
+                "SPE": 42
+            }
+        },
+        "670": {
+            "name": "Floette",
+            "stats": {
+                "HP": 54,
+                "ATK": 45,
+                "DEF": 47,
+                "SPA": 75,
+                "SPD": 98,
+                "SPE": 52
+            }
+        },
+        "671": {
+            "name": "Florges",
+            "stats": {
+                "HP": 78,
+                "ATK": 65,
+                "DEF": 68,
+                "SPA": 112,
+                "SPD": 154,
+                "SPE": 75
+            }
+        },
+        "672": {
+            "name": "Skiddo",
+            "stats": {
+                "HP": 66,
+                "ATK": 65,
+                "DEF": 48,
+                "SPA": 62,
+                "SPD": 57,
+                "SPE": 52
+            }
+        },
+        "673": {
+            "name": "Gogoat",
+            "stats": {
+                "HP": 123,
+                "ATK": 100,
+                "DEF": 62,
+                "SPA": 97,
+                "SPD": 81,
+                "SPE": 68
+            }
+        },
+        "674": {
+            "name": "Pancham",
+            "stats": {
+                "HP": 67,
+                "ATK": 82,
+                "DEF": 62,
+                "SPA": 46,
+                "SPD": 48,
+                "SPE": 43
+            }
+        },
+        "675": {
+            "name": "Pangoro",
+            "stats": {
+                "HP": 95,
+                "ATK": 124,
+                "DEF": 78,
+                "SPA": 69,
+                "SPD": 71,
+                "SPE": 58
+            }
+        },
+        "676": {
+            "name": "Furfrou",
+            "stats": {
+                "HP": 75,
+                "ATK": 80,
+                "DEF": 60,
+                "SPA": 65,
+                "SPD": 90,
+                "SPE": 102
+            }
+        },
+        "677": {
+            "name": "Espurr",
+            "stats": {
+                "HP": 62,
+                "ATK": 48,
+                "DEF": 54,
+                "SPA": 63,
+                "SPD": 60,
+                "SPE": 68
+            }
+        },
+        "678": {
+            "name": "Meowstic",
+            "stats": {
+                "HP": 74,
+                "ATK": 48,
+                "DEF": 76,
+                "SPA": 83,
+                "SPD": 81,
+                "SPE": 104
+            }
+        },
+        "679": {
+            "name": "Honedge",
+            "stats": {
+                "HP": 45,
+                "ATK": 80,
+                "DEF": 100,
+                "SPA": 35,
+                "SPD": 37,
+                "SPE": 28
+            }
+        },
+        "680": {
+            "name": "Doublade",
+            "stats": {
+                "HP": 59,
+                "ATK": 110,
+                "DEF": 150,
+                "SPA": 45,
+                "SPD": 49,
+                "SPE": 35
+            }
+        },
+        "681SF": {
+            "name": "Aegislash(Shield Forme)",
+            "stats": {
+                "HP": 60,
+                "ATK": 50,
+                "DEF": 150,
+                "SPA": 50,
+                "SPD": 150,
+                "SPE": 60
+            }
+        },
+        "681BF": {
+            "name": "Aegislash(Blade Forme)",
+            "stats": {
+                "HP": 60,
+                "ATK": 150,
+                "DEF": 50,
+                "SPA": 150,
+                "SPD": 50,
+                "SPE": 60
+            }
+        },
+        "682": {
+            "name": "Spritzee",
+            "stats": {
+                "HP": 78,
+                "ATK": 52,
+                "DEF": 60,
+                "SPA": 63,
+                "SPD": 65,
+                "SPE": 23
+            }
+        },
+        "683": {
+            "name": "Aromatisse",
+            "stats": {
+                "HP": 101,
+                "ATK": 72,
+                "DEF": 72,
+                "SPA": 99,
+                "SPD": 89,
+                "SPE": 29
+            }
+        },
+        "684": {
+            "name": "Swirlix",
+            "stats": {
+                "HP": 62,
+                "ATK": 48,
+                "DEF": 66,
+                "SPA": 59,
+                "SPD": 57,
+                "SPE": 49
+            }
+        },
+        "685": {
+            "name": "Slurpuff",
+            "stats": {
+                "HP": 82,
+                "ATK": 80,
+                "DEF": 86,
+                "SPA": 85,
+                "SPD": 75,
+                "SPE": 72
+            }
+        },
+        "686": {
+            "name": "Inkay",
+            "stats": {
+                "HP": 53,
+                "ATK": 54,
+                "DEF": 53,
+                "SPA": 37,
+                "SPD": 46,
+                "SPE": 45
+            }
+        },
+        "687": {
+            "name": "Malamar",
+            "stats": {
+                "HP": 86,
+                "ATK": 92,
+                "DEF": 88,
+                "SPA": 68,
+                "SPD": 75,
+                "SPE": 73
+            }
+        },
+        "688": {
+            "name": "Binacle",
+            "stats": {
+                "HP": 42,
+                "ATK": 52,
+                "DEF": 67,
+                "SPA": 39,
+                "SPD": 56,
+                "SPE": 50
+            }
+        },
+        "689": {
+            "name": "Barbaracle",
+            "stats": {
+                "HP": 72,
+                "ATK": 105,
+                "DEF": 115,
+                "SPA": 54,
+                "SPD": 86,
+                "SPE": 68
+            }
+        },
+        "690": {
+            "name": "Skrelp",
+            "stats": {
+                "HP": 50,
+                "ATK": 60,
+                "DEF": 60,
+                "SPA": 60,
+                "SPD": 60,
+                "SPE": 30
+            }
+        },
+        "691": {
+            "name": "Dragalge",
+            "stats": {
+                "HP": 65,
+                "ATK": 75,
+                "DEF": 90,
+                "SPA": 97,
+                "SPD": 123,
+                "SPE": 44
+            }
+        },
+        "692": {
+            "name": "Clauncher",
+            "stats": {
+                "HP": 50,
+                "ATK": 53,
+                "DEF": 62,
+                "SPA": 58,
+                "SPD": 63,
+                "SPE": 44
+            }
+        },
+        "693": {
+            "name": "Clawitzer",
+            "stats": {
+                "HP": 71,
+                "ATK": 73,
+                "DEF": 88,
+                "SPA": 120,
+                "SPD": 89,
+                "SPE": 59
+            }
+        },
+        "694": {
+            "name": "Helioptile",
+            "stats": {
+                "HP": 44,
+                "ATK": 38,
+                "DEF": 33,
+                "SPA": 61,
+                "SPD": 43,
+                "SPE": 70
+            }
+        },
+        "695": {
+            "name": "Heliolisk",
+            "stats": {
+                "HP": 62,
+                "ATK": 55,
+                "DEF": 52,
+                "SPA": 109,
+                "SPD": 94,
+                "SPE": 109
+            }
+        },
+        "696": {
+            "name": "Tyrunt",
+            "stats": {
+                "HP": 58,
+                "ATK": 89,
+                "DEF": 77,
+                "SPA": 45,
+                "SPD": 45,
+                "SPE": 48
+            }
+        },
+        "697": {
+            "name": "Tyrantrum",
+            "stats": {
+                "HP": 82,
+                "ATK": 121,
+                "DEF": 119,
+                "SPA": 69,
+                "SPD": 59,
+                "SPE": 71
+            }
+        },
+        "698": {
+            "name": "Amaura",
+            "stats": {
+                "HP": 77,
+                "ATK": 59,
+                "DEF": 50,
+                "SPA": 67,
+                "SPD": 63,
+                "SPE": 46
+            }
+        },
+        "699": {
+            "name": "Aurorus",
+            "stats": {
+                "HP": 123,
+                "ATK": 77,
+                "DEF": 72,
+                "SPA": 99,
+                "SPD": 92,
+                "SPE": 58
+            }
+        },
+        "700": {
+            "name": "Sylveon",
+            "stats": {
+                "HP": 95,
+                "ATK": 65,
+                "DEF": 65,
+                "SPA": 110,
+                "SPD": 130,
+                "SPE": 60
+            }
+        },
+        "701": {
+            "name": "Hawlucha",
+            "stats": {
+                "HP": 78,
+                "ATK": 92,
+                "DEF": 75,
+                "SPA": 74,
+                "SPD": 63,
+                "SPE": 118
+            }
+        },
+        "702": {
+            "name": "Dedenne",
+            "stats": {
+                "HP": 67,
+                "ATK": 58,
+                "DEF": 57,
+                "SPA": 81,
+                "SPD": 67,
+                "SPE": 101
+            }
+        },
+        "703": {
+            "name": "Carbink",
+            "stats": {
+                "HP": 50,
+                "ATK": 50,
+                "DEF": 150,
+                "SPA": 50,
+                "SPD": 150,
+                "SPE": 50
+            }
+        },
+        "704": {
+            "name": "Goomy",
+            "stats": {
+                "HP": 45,
+                "ATK": 50,
+                "DEF": 35,
+                "SPA": 55,
+                "SPD": 75,
+                "SPE": 40
+            }
+        },
+        "705": {
+            "name": "Sliggoo",
+            "stats": {
+                "HP": 68,
+                "ATK": 75,
+                "DEF": 53,
+                "SPA": 83,
+                "SPD": 113,
+                "SPE": 60
+            }
+        },
+        "706": {
+            "name": "Goodra",
+            "stats": {
+                "HP": 90,
+                "ATK": 100,
+                "DEF": 70,
+                "SPA": 110,
+                "SPD": 150,
+                "SPE": 80
+            }
+        },
+        "707": {
+            "name": "Klefki",
+            "stats": {
+                "HP": 57,
+                "ATK": 80,
+                "DEF": 91,
+                "SPA": 80,
+                "SPD": 87,
+                "SPE": 75
+            }
+        },
+        "708": {
+            "name": "Phantump",
+            "stats": {
+                "HP": 43,
+                "ATK": 70,
+                "DEF": 48,
+                "SPA": 50,
+                "SPD": 60,
+                "SPE": 38
+            }
+        },
+        "709": {
+            "name": "Trevenant",
+            "stats": {
+                "HP": 85,
+                "ATK": 110,
+                "DEF": 76,
+                "SPA": 65,
+                "SPD": 82,
+                "SPE": 56
+            }
+        },
+        "710SS": {
+            "name": "Pumpkaboo(Small Size)",
+            "stats": {
+                "HP": 44,
+                "ATK": 66,
+                "DEF": 70,
+                "SPA": 44,
+                "SPD": 55,
+                "SPE": 56
+            }
+        },
+        "710AS": {
+            "name": "Pumpkaboo(Average Size)",
+            "stats": {
+                "HP": 49,
+                "ATK": 66,
+                "DEF": 70,
+                "SPA": 44,
+                "SPD": 55,
+                "SPE": 51
+            }
+        },
+        "710LS": {
+            "name": "Pumpkaboo(Large Size)",
+            "stats": {
+                "HP": 54,
+                "ATK": 66,
+                "DEF": 70,
+                "SPA": 44,
+                "SPD": 55,
+                "SPE": 46
+            }
+        },
+        "710SSI": {
+            "name": "Pumpkaboo(Super Size)",
+            "stats": {
+                "HP": 59,
+                "ATK": 66,
+                "DEF": 70,
+                "SPA": 44,
+                "SPD": 55,
+                "SPE": 41
+            }
+        },
+        "711SS": {
+            "name": "Gourgeist(Small Size)",
+            "stats": {
+                "HP": 55,
+                "ATK": 85,
+                "DEF": 122,
+                "SPA": 58,
+                "SPD": 75,
+                "SPE": 99
+            }
+        },
+        "711AS": {
+            "name": "Gourgeist(Average Size)",
+            "stats": {
+                "HP": 65,
+                "ATK": 90,
+                "DEF": 122,
+                "SPA": 58,
+                "SPD": 75,
+                "SPE": 84
+            }
+        },
+        "711LS": {
+            "name": "Gourgeist(Large Size)",
+            "stats": {
+                "HP": 75,
+                "ATK": 95,
+                "DEF": 122,
+                "SPA": 58,
+                "SPD": 75,
+                "SPE": 69
+            }
+        },
+        "711SSI": {
+            "name": "Gourgeist(Super Size)",
+            "stats": {
+                "HP": 85,
+                "ATK": 100,
+                "DEF": 122,
+                "SPA": 58,
+                "SPD": 75,
+                "SPE": 54
+            }
+        },
+        "712": {
+            "name": "Bergmite",
+            "stats": {
+                "HP": 55,
+                "ATK": 69,
+                "DEF": 85,
+                "SPA": 32,
+                "SPD": 35,
+                "SPE": 28
+            }
+        },
+        "713": {
+            "name": "Avalugg",
+            "stats": {
+                "HP": 95,
+                "ATK": 117,
+                "DEF": 184,
+                "SPA": 44,
+                "SPD": 46,
+                "SPE": 28
+            }
+        },
+        "714": {
+            "name": "Noibat",
+            "stats": {
+                "HP": 40,
+                "ATK": 30,
+                "DEF": 35,
+                "SPA": 45,
+                "SPD": 40,
+                "SPE": 55
+            }
+        },
+        "715": {
+            "name": "Noivern",
+            "stats": {
+                "HP": 85,
+                "ATK": 70,
+                "DEF": 80,
+                "SPA": 97,
+                "SPD": 80,
+                "SPE": 123
+            }
+        },
+        "716": {
+            "name": "Xerneas",
+            "stats": {
+                "HP": 126,
+                "ATK": 131,
+                "DEF": 95,
+                "SPA": 131,
+                "SPD": 98,
+                "SPE": 99
+            }
+        },
+        "717": {
+            "name": "Yveltal",
+            "stats": {
+                "HP": 126,
+                "ATK": 131,
+                "DEF": 95,
+                "SPA": 131,
+                "SPD": 98,
+                "SPE": 99
+            }
+        },
+        "718": {
+            "name": "Zygarde",
+            "stats": {
+                "HP": 108,
+                "ATK": 100,
+                "DEF": 121,
+                "SPA": 81,
+                "SPD": 95,
+                "SPE": 95
+            }
+        },
+        "719": {
+            "name": "Diancie",
+            "stats": {
+                "HP": 50,
+                "ATK": 100,
+                "DEF": 150,
+                "SPA": 100,
+                "SPD": 150,
+                "SPE": 50
+            }
+        },
+        "719MD": {
+            "name": "Diancie(Mega Diancie)",
+            "stats": {
+                "HP": 50,
+                "ATK": 160,
+                "DEF": 110,
+                "SPA": 160,
+                "SPD": 110,
+                "SPE": 110
+            }
+        },
+        "720HC": {
+            "name": "Hoopa(Hoopa Confined)",
+            "stats": {
+                "HP": 80,
+                "ATK": 110,
+                "DEF": 60,
+                "SPA": 150,
+                "SPD": 130,
+                "SPE": 70
+            }
+        },
+        "720HU": {
+            "name": "Hoopa(Hoopa Unbound)",
+            "stats": {
+                "HP": 80,
+                "ATK": 160,
+                "DEF": 60,
+                "SPA": 170,
+                "SPD": 130,
+                "SPE": 80
+            }
+        },
+        "721": {
+            "name": "Volcanion",
+            "stats": {
+                "HP": 80,
+                "ATK": 110,
+                "DEF": 120,
+                "SPA": 130,
+                "SPD": 90,
+                "SPE": 70
             }
         }
     }
