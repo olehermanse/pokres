@@ -1,9 +1,9 @@
-default: gen1
+default: base-stats
 
-gen1:
-	python3 pok/base-stats.py
+base-stats:
+	python3 pok/base-stats
 
-gen2:
-	python3 pok/base-stats-2.py
+web:
+	python3 web/update-files.py
 
-.PHONY: gen-base-stats
+.PHONY: base-stats web

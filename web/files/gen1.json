@@ -21,19 +21,28 @@
             "Pokémon Company or Bulbagarden."
         ],
         "disclaimer": "Warning: All data and software is provided as-is, with no guarantee of any kind. Use at own risk.",
-        "updated": "2016-08-14T23:48:04.921455",
+        "updated": "2016-08-15T00:35:02.400885",
         "source": {
-            "url": "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)",
-            "title": "List of Pokémon by base stats (Generation I) - Bulbapedia, the community-driven Pokémon encyclopedia"
+            "title": "List of Pokémon by base stats (Generation I) - Bulbapedia, the community-driven Pokémon encyclopedia",
+            "url": "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)"
         }
     },
-    "stats": [
-        "HP",
-        "ATK",
-        "DEF",
-        "SPE",
-        "SPC"
-    ],
+    "stats": {
+        "order": [
+            "HP",
+            "ATK",
+            "DEF",
+            "SPE",
+            "SPC"
+        ],
+        "names": {
+            "HP": "Hit Points",
+            "ATK": "Attack",
+            "DEF": "Defense",
+            "SPE": "Speed",
+            "SPC": "Special"
+        }
+    },
     "lookup": {
         "Abra": "063",
         "Aerodactyl": "142",

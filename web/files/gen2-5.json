@@ -1,12 +1,12 @@
 {
     "meta": {
-        "title": "Generation 1 Base stats JSON for all 151 Pokémon (Red/Blue/Yellow)",
+        "title": "Generation 2-5 Base stats JSON for all 649 Pokémon (GSC/RSE/DPP/BW)",
         "project": {
             "author": "Ole Herman Schumacher Elgesem",
             "url": "https://github.com/olehermanse/pokres",
             "license": {
-                "software": "https://opensource.org/licenses/MIT",
-                "data/resources": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+                "data/resources": "https://creativecommons.org/licenses/by-nc-sa/2.5/",
+                "software": "https://opensource.org/licenses/MIT"
             },
             "credits": [
                 "Bulbagarden",
@@ -21,20 +21,30 @@
             "Pokémon Company or Bulbagarden."
         ],
         "disclaimer": "Warning: All data and software is provided as-is, with no guarantee of any kind. Use at own risk.",
-        "updated": "2016-08-14T23:48:08.427167",
+        "updated": "2016-08-15T00:35:03.638716",
         "source": {
             "title": "List of Pokémon by base stats (Generation II-V) - Bulbapedia, the community-driven Pokémon encyclopedia",
             "url": "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_II-V)"
         }
     },
-    "stats": [
-        "HP",
-        "ATK",
-        "DEF",
-        "SPA",
-        "SPD",
-        "SPE"
-    ],
+    "stats": {
+        "order": [
+            "HP",
+            "ATK",
+            "DEF",
+            "SPA",
+            "SPD",
+            "SPE"
+        ],
+        "names": {
+            "HP": "Hit Points",
+            "ATK": "Attack",
+            "DEF": "Defense",
+            "SPA": "Special Attack",
+            "SPD": "Special Defense",
+            "SPE": "Speed"
+        }
+    },
     "lookup": {
         "Abomasnow": "460",
         "Abra": "063",
