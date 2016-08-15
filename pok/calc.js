@@ -51,7 +51,7 @@ function pokInit() {
 
 function getSpecies(){
     var choice = $('#species').find(":selected").val();
-    $.getJSON("res/json/gen1.json", function(data) {
+    $.getJSON("web/files/gen1.mini.json", function(data) {
         if (choice in data.dex){
             var stats = data.dex[choice].stats;
             for(var key in stats){
