@@ -22,9 +22,7 @@ def dump_to_file(data, filename, format=True):
         else:
             json.dump(data, outfile, ensure_ascii=False)
 
-# Main program entry point:
-def main():
-    input_path = "res/html/gen1.html"
+def generate_main(input_path, url, output_name, stat_order, stat_names, title):
     print("Opening: "+input_path)
     soup = BeautifulSoup(open(input_path), 'html.parser')
     print("Document title: "+soup.title.string)
@@ -43,20 +41,18 @@ def main():
     lookup = OrderedDict()
 
     # Order of stats is important, they don't have unique id's to find:
-    stat_order = ["HP", "ATK", "DEF", "SPE", "SPC"]
-    stat_order_full = ["Hit Points", "Attack", "Defense", "Speed", "Special"]
     stat_abbrev = OrderedDict()
     for i,v in enumerate(stat_order):
-        stat_abbrev[v] = stat_order_full[i]
+        stat_abbrev[v] = stat_names[i]
     stat_meta = OrderedDict()
     stat_meta["order"] = stat_order
     stat_meta["names"] = stat_abbrev
-    
+
     for mon in lines:
         monster = OrderedDict()
 
         # td fields in a row:
-        # num | icon | name | HP | ATK | DEF | SPD | SPC
+        # num | icon | name | HP | ...
         fields = []
         for td in mon.find_all("td"):
             fields.append(td)
@@ -84,7 +80,7 @@ def main():
     meta = OrderedDict()
 
     # Title of this file specifically:
-    meta["title"] = "Generation 1 Base stats JSON for all 151 Pokémon (Red/Blue/Yellow)"
+    meta["title"] = title
 
     # General info about the whole project:
     project = OrderedDict()
@@ -112,8 +108,7 @@ def main():
     meta["updated"] = datetime.datetime.utcnow().isoformat()
 
     # Source html file used to generate data:
-    meta["source"] = {"title" : soup.title.string, "url" :
-    "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)"}
+    meta["source"] = {"title" : soup.title.string, "url" : url}
 
     # Put everything together
     data = OrderedDict()
@@ -123,9 +118,24 @@ def main():
     data["dex"] = dex
 
     # Dump(save) json files: mini is small
-    dump_to_file(data, "res/json/gen1.json")
-    dump_to_file(data, "res/json/gen1.mini.json", format=False)
-
+    dump_to_file(data, "res/json/"+output_name+".json")
+    dump_to_file(data, "res/json/"+output_name+".mini.json", format=False)
 
 if __name__ == '__main__':
-    main()
+    generate_main(\
+        input_path = "res/html/gen1.html",\
+        url = "http://bulbapedia.bulbagarden.net/wiki/" + \
+              "List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)",\
+        output_name = "gen1",\
+        stat_order  = ["HP", "ATK", "DEF", "SPE", "SPC"],\
+        stat_names  = ["Hit Points", "Attack", "Defense", "Speed", "Special"],\
+        title = "Generation 1 Base stats JSON for all 151 Pokémon (Red/Blue/Yellow)")
+    generate_main(\
+        input_path = "res/html/gen2-5.html",\
+        url = "http://bulbapedia.bulbagarden.net/wiki/"+\
+              "List_of_Pok%C3%A9mon_by_base_stats_(Generation_II-V)",\
+        output_name = "gen2-5",\
+        stat_order  = ["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],\
+        stat_names  = ["Hit Points", "Attack", "Defense", \
+                      "Special Attack", "Special Defense", "Speed"],\
+        title = "Generation 2-5 Base stats JSON for all 649 Pokémon (GSC/RSE/DPP/BW)")
