@@ -1,7 +1,7 @@
 default: base-stats
 
 base-stats:
-	python3 pok/base-stats
+	python3 pok/base-stats.py
 
 web:
 	python3 web/update-files.py
