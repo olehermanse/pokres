@@ -53,13 +53,12 @@ function getSpecies(){
     var choice = $('#species').find(":selected").val();
     $.getJSON("web/files/gen1.mini.json", function(data) {
         if (choice in data.dex){
-            var stats = data.dex[choice].stats;
-            var statnames = data.stats.order;
-            for(var key in statnames){
-                var id = "base"+statnames[key];
-                var index = statnames.indexOf(statnames[key]);
-                var value = ""+stats[index];
-                console.log(id+" "+value);
+            var stat_values = data.dex[choice].stats;
+            var stat_names = data.stats.order;
+            for(var index in stat_names){
+                var name = stat_names[index];
+                var id = "base"+name;
+                var value = ""+stat_values[index];
                 $("#"+id).val(value);
                 //$("#"+id).text(""+stats[key]);
             }
