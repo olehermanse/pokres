@@ -54,9 +54,11 @@ function getSpecies(){
     $.getJSON("web/files/gen1.mini.json", function(data) {
         if (choice in data.dex){
             var stats = data.dex[choice].stats;
-            for(var key in stats){
-                var id = "base"+key;
-                var value = ""+stats[key];
+            var statnames = data.stats.order;
+            for(var key in statnames){
+                var id = "base"+statnames[key];
+                var index = statnames.indexOf(statnames[key]);
+                var value = ""+stats[index];
                 console.log(id+" "+value);
                 $("#"+id).val(value);
                 //$("#"+id).text(""+stats[key]);

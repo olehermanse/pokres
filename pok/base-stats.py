@@ -79,9 +79,9 @@ def generate_main(file_name, url, stat_order, stat_names, title):
         # monster["icon"] = icon
 
         # Extract stats, fields 3-7
-        stats = OrderedDict()
+        stats = []
         for i,stat in enumerate(stat_order):
-            stats[stat] = int(fields[i+3].string)
+            stats.append(int(fields[i+3].string))
         monster["stats"] = stats
 
         # Enter the monster into both main dict and lookup dict
@@ -130,8 +130,7 @@ def generate_main(file_name, url, stat_order, stat_names, title):
     data["stats"] = stat_meta
     data["lookup"] = lookup
     data["dex"] = dex
-    print(len(dex))
-    print(len(lookup))
+    assert len(dex) == len(lookup)
 
     # Dump(save) json files: mini is small
     dump_to_file(data, "res/json/"+file_name+".json")
