@@ -28,10 +28,10 @@ input{
 }
 
 /*
- MAINDARK  #FFFFFF
- MAINLIGHT #444444
- MEDIUM    #BBBBBB
- HEADER    #F00000
+ NAVBAR     #FFFFFF
+ CONTENT_BG #505050
+ BACKGROUND #BBBBBB
+ HEADER     #D00000
 */
 
 h1{
@@ -70,8 +70,8 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-    background-color: #F00000; /* HEADER */
-	color: #FFFFFF; /* MAINDARK */
+    background-color: #D00000; /* HEADER */
+	color: #FFFFFF; /* NAVBAR */
 }
 
 a:active {
@@ -79,7 +79,7 @@ a:active {
 }
 
 body{
-	background-color: #BBBBBB; /* MEDIUM */
+	background-color: #BBBBBB; /* BACKGROUND */
 	text-align: center;
 	font-size: 10px;
 	padding-bottom: 10px;
@@ -90,7 +90,7 @@ p{
 }
 
 .headerbg{
-	background-color: #F00000; /* HEADER */
+	background-color: #D00000; /* HEADER */
 	padding: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -101,7 +101,7 @@ p{
 }
 
 .header{
-	color: #FFFFFF; /* MAINDARK */
+	color: #FFFFFF; /* NAVBAR */
 	padding: 10px;
 	margin: 0 auto;
 	margin-bottom: 0;
@@ -116,20 +116,20 @@ p{
 	margin: 0 auto;
 	height: 48px;
 	padding: 0 32px;
-	background-color: #FFFFFF; /* MAINDARK */
+	background-color: #FFFFFF; /* NAVBAR */
 }
 
 .navitem{
 	margin: 0;
 	padding: 10px 16px 10px 16px;
 	font-size: 18px;
-	color: #444444; /* MAINLIGHT */
+	color: #505050; /* CONTENT_BG */
 	float: left;
 }
 
 .main{
-	background-color: #444444; /* MAINLIGHT */
-	color: #FFFFFF; /* MAINDARK */
+	background-color: #505050; /* CONTENT_BG */
+	color: #FFFFFF; /* NAVBAR */
 	padding: 32px;
 	margin: 0 auto;
 	margin-bottom: 100px;
