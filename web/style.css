@@ -28,17 +28,17 @@ input{
 }
 
 /*
- MAINDARK #000000
- MAINLIGHT #FFFFFF
- MEDIUM #AAAAAA
- HEADER #FF6060
+ MAINDARK  #FFFFFF
+ MAINLIGHT #444444
+ MEDIUM    #BBBBBB
+ HEADER    #F00000
 */
 
 h1{
     font-size: 24px;
     margin-bottom: 3px;
     font-weight: bold;
-    /*border-bottom: thin solid #000000;*/
+    /*border-bottom: thin solid #FFFFFF;*/
 }
 
 h2{
@@ -70,8 +70,8 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-    background-color: #FF6060; /* HEADER */
-	color: #000000; /* MAINDARK */
+    background-color: #F00000; /* HEADER */
+	color: #FFFFFF; /* MAINDARK */
 }
 
 a:active {
@@ -79,7 +79,7 @@ a:active {
 }
 
 body{
-	background-color: #AAAAAA; /* MEDIUM */
+	background-color: #BBBBBB; /* MEDIUM */
 	text-align: center;
 	font-size: 10px;
 	padding-bottom: 10px;
@@ -90,7 +90,7 @@ p{
 }
 
 .headerbg{
-	background-color: #FF6060; /* HEADER */
+	background-color: #F00000; /* HEADER */
 	padding: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -101,7 +101,7 @@ p{
 }
 
 .header{
-	color: #000000; /* MAINDARK */
+	color: #FFFFFF; /* MAINDARK */
 	padding: 10px;
 	margin: 0 auto;
 	margin-bottom: 0;
@@ -116,20 +116,20 @@ p{
 	margin: 0 auto;
 	height: 48px;
 	padding: 0 32px;
-	background-color: #000000; /* MAINDARK */
+	background-color: #FFFFFF; /* MAINDARK */
 }
 
 .navitem{
 	margin: 0;
 	padding: 10px 16px 10px 16px;
 	font-size: 18px;
-	color: #FFFFFF; /* MAINLIGHT */
+	color: #444444; /* MAINLIGHT */
 	float: left;
 }
 
 .main{
-	background-color: #FFFFFF; /* MAINLIGHT */
-	color: #000000; /* MAINDARK */
+	background-color: #444444; /* MAINLIGHT */
+	color: #FFFFFF; /* MAINDARK */
 	padding: 32px;
 	margin: 0 auto;
 	margin-bottom: 100px;
