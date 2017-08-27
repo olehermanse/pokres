@@ -1,1 +1,1 @@
-# PokRes
+https://olehermanse.github.io/pokres/

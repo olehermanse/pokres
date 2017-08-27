@@ -17,7 +17,7 @@ $( document ).ready(function() {
   if(site){
     loadMain(site);
   }else{
-    loadMain('home');
+    loadMain('calc');
   }
 });
 
