@@ -29,7 +29,7 @@ function calcRanges() {
 }
 
 function pokInit() {
-    $.getJSON("res/json/gen1.json", function(data) {
+    $.getJSON("web/files/gen1.json", function(data) {
         var items = [];
         $.each(data.dex, function(key, val) {
             items.push([key,val.name]);
@@ -57,9 +57,11 @@ function getSpecies(){
             var stat_names = data.stats.order;
             for(var index in stat_names){
                 var name = stat_names[index];
-                var id = "base"+name;
                 var value = ""+stat_values[index];
-                $("#"+id).val(value);
+                var base_id = "#base"+name;
+                var range_id = "#range"+name;
+                $(base_id).val(value);
+                $(range_id).val("");
                 //$("#"+id).text(""+stats[key]);
             }
         }
