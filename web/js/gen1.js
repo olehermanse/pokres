@@ -1,4 +1,4 @@
-function calcMainTerm(level, base, DV, EV) {
+function calc_main_term(level, base, DV, EV) {
     var EVpart = Math.floor(Math.ceil(Math.sqrt(EV)) / 4);
     var basepart = (base + DV) * 2;
 
@@ -7,7 +7,7 @@ function calcMainTerm(level, base, DV, EV) {
     return Math.floor(levelpart / 100);
 }
 
-function calcStat(stat, level, base, DV, EV) {
+function calc_stat(stat, level, base, DV, EV) {
     var mt = calcMainTerm(level, base, DV, EV);
     if (stat == "HP") {
         return mt + level + 10;
@@ -17,7 +17,7 @@ function calcStat(stat, level, base, DV, EV) {
     return 0;
 }
 
-function calcRanges() {
+function calc_ranges() {
     var level = Number(document.getElementById('level').value);
     var stats = ["HP", "ATK", "DEF", "SPE", "SPC"];
     stats.forEach(function(st) {
@@ -28,8 +28,8 @@ function calcRanges() {
     });
 }
 
-function pokInit() {
-    $.getJSON("web/files/gen1.json", function(data) {
+function init_pok() {
+    $.getJSON("web/files/gen1.mini.json", function(data) {
         var items = [];
         $.each(data.dex, function(key, val) {
             items.push([key,val.name]);
@@ -46,10 +46,10 @@ function pokInit() {
             }));
         });
     });
-    getSpecies();
+    select_species();
 }
 
-function getSpecies(){
+function select_species(){
     var choice = $('#species').find(":selected").val();
     $.getJSON("web/files/gen1.mini.json", function(data) {
         if (choice in data.dex){
@@ -62,7 +62,6 @@ function getSpecies(){
                 var range_id = "#range"+name;
                 $(base_id).val(value);
                 $(range_id).val("");
-                //$("#"+id).text(""+stats[key]);
             }
         }
     });

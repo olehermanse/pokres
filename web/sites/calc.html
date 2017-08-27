@@ -1,10 +1,10 @@
 <div class="home">
 <div class="gen1ranges">
 <h1>Generation 1 Encounter Stat Ranges</h1>
-Species: <select name="select" id="species" onchange="getSpecies()">
+Species: <select name="select" id="species" onchange="select_species()">
 </select>
 Encounter Level: <input type="text" size=5 id="level" />
-<input type="button" onclick="calcRanges();" value="Calculate" />
+<input type="button" onclick="calc_ranges();" value="Calculate" />
 <br />
 <table>
 <tr>
@@ -33,4 +33,4 @@ Encounter Level: <input type="text" size=5 id="level" />
 </table>
 </div>
 </div>
-<script>pokInit();</script>
+<script>init_pok();</script>
