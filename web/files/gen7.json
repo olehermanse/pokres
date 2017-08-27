@@ -1,6 +1,6 @@
 {
     "meta": {
-        "title": "Generation 2-5 Base stats JSON for all 649 Pokémon (GSC/RSE/DPP/BW)",
+        "title": "Generation 7 Base stats JSON for all 802 Pokémon (Sun/Moon)",
         "project": {
             "author": "Ole Herman Schumacher Elgesem",
             "url": "https://github.com/olehermanse/pokres",
@@ -21,10 +21,10 @@
             "Pokémon Company or Bulbagarden."
         ],
         "disclaimer": "Warning: All data and software is provided as-is, with no guarantee of any kind. Use at own risk.",
-        "updated": "2017-08-27T02:19:59.471008",
+        "updated": "2017-08-27T02:20:01.515691",
         "source": {
-            "title": "List of Pokémon by base stats (Generation II-V) - Bulbapedia, the community-driven Pokémon encyclopedia",
-            "url": "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_II-V)"
+            "title": "List of Pokémon by base stats (Generation VII-present) - Bulbapedia, the community-driven Pokémon encyclopedia",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VII-present)"
         }
     },
     "stats": {
@@ -47,19 +47,30 @@
     },
     "lookup": {
         "Abomasnow": "460",
+        "Abomasnow(Mega Abomasnow)": "460MA",
         "Abra": "063",
         "Absol": "359",
+        "Absol(Mega Absol)": "359MA",
         "Accelgor": "617",
+        "Aegislash(Blade Forme)": "681BF",
+        "Aegislash(Shield Forme)": "681SF",
         "Aerodactyl": "142",
+        "Aerodactyl(Mega Aerodactyl)": "142MA",
         "Aggron": "306",
+        "Aggron(Mega Aggron)": "306MA",
         "Aipom": "190",
         "Alakazam": "065",
+        "Alakazam(Mega Alakazam)": "065MA",
         "Alomomola": "594",
         "Altaria": "334",
+        "Altaria(Mega Altaria)": "334MA",
+        "Amaura": "698",
         "Ambipom": "424",
         "Amoonguss": "591",
         "Ampharos": "181",
+        "Ampharos(Mega Ampharos)": "181MA",
         "Anorith": "347",
+        "Araquanid": "752",
         "Arbok": "024",
         "Arcanine": "059",
         "Arceus": "493",
@@ -67,9 +78,13 @@
         "Archeops": "567",
         "Ariados": "168",
         "Armaldo": "348",
+        "Aromatisse": "683",
         "Aron": "304",
         "Articuno": "144",
         "Audino": "531",
+        "Audino(Mega Audino)": "531MA",
+        "Aurorus": "699",
+        "Avalugg": "713",
         "Axew": "610",
         "Azelf": "482",
         "Azumarill": "184",
@@ -77,6 +92,8 @@
         "Bagon": "371",
         "Baltoy": "343",
         "Banette": "354",
+        "Banette(Mega Banette)": "354MB",
+        "Barbaracle": "689",
         "Barboach": "339",
         "Basculin": "550",
         "Bastiodon": "411",
@@ -84,33 +101,47 @@
         "Beartic": "614",
         "Beautifly": "267",
         "Beedrill": "015",
+        "Beedrill(Mega Beedrill)": "015MB",
         "Beheeyem": "606",
         "Beldum": "374",
         "Bellossom": "182",
         "Bellsprout": "069",
+        "Bergmite": "712",
+        "Bewear": "760",
         "Bibarel": "400",
         "Bidoof": "399",
+        "Binacle": "688",
         "Bisharp": "625",
         "Blastoise": "009",
+        "Blastoise(Mega Blastoise)": "009MB",
         "Blaziken": "257",
+        "Blaziken(Mega Blaziken)": "257MB",
         "Blissey": "242",
         "Blitzle": "522",
         "Boldore": "525",
         "Bonsly": "438",
         "Bouffalant": "626",
+        "Bounsweet": "761",
+        "Braixen": "654",
         "Braviary": "628",
         "Breloom": "286",
+        "Brionne": "729",
         "Bronzong": "437",
         "Bronzor": "436",
+        "Bruxish": "779",
         "Budew": "406",
         "Buizel": "418",
         "Bulbasaur": "001",
         "Buneary": "427",
+        "Bunnelby": "659",
         "Burmy": "412",
         "Butterfree": "012",
+        "Buzzwole": "794",
         "Cacnea": "331",
         "Cacturne": "332",
         "Camerupt": "323",
+        "Camerupt(Mega Camerupt)": "323MC",
+        "Carbink": "703",
         "Carnivine": "455",
         "Carracosta": "565",
         "Carvanha": "318",
@@ -118,14 +149,20 @@
         "Castform": "351",
         "Caterpie": "010",
         "Celebi": "251",
+        "Celesteela": "797",
         "Chandelure": "609",
         "Chansey": "113",
         "Charizard": "006",
+        "Charizard(Mega Charizard X)": "006MCX",
+        "Charizard(Mega Charizard Y)": "006MCY",
+        "Charjabug": "737",
         "Charmander": "004",
         "Charmeleon": "005",
         "Chatot": "441",
         "Cherrim": "421",
         "Cherubi": "420",
+        "Chesnaught": "652",
+        "Chespin": "650",
         "Chikorita": "152",
         "Chimchar": "390",
         "Chimecho": "358",
@@ -133,6 +170,8 @@
         "Chingling": "433",
         "Cinccino": "573",
         "Clamperl": "366",
+        "Clauncher": "692",
+        "Clawitzer": "693",
         "Claydol": "344",
         "Clefable": "036",
         "Clefairy": "035",
@@ -142,10 +181,15 @@
         "Cofagrigus": "563",
         "Combee": "415",
         "Combusken": "256",
+        "Comfey": "764",
         "Conkeldurr": "534",
         "Corphish": "341",
         "Corsola": "222",
+        "Cosmoem": "790",
+        "Cosmog": "789",
         "Cottonee": "546",
+        "Crabominable": "740",
+        "Crabrawler": "739",
         "Cradily": "346",
         "Cranidos": "408",
         "Crawdaunt": "342",
@@ -157,29 +201,43 @@
         "Cryogonal": "615",
         "Cubchoo": "613",
         "Cubone": "104",
+        "Cutiefly": "742",
         "Cyndaquil": "155",
         "Darkrai": "491",
         "Darmanitan(Standard Mode)": "555SM",
         "Darmanitan(Zen Mode)": "555ZM",
+        "Dartrix": "723",
         "Darumaka": "554",
+        "Decidueye": "724",
+        "Dedenne": "702",
         "Deerling": "585",
         "Deino": "633",
         "Delcatty": "301",
         "Delibird": "225",
+        "Delphox": "655",
         "Deoxys(Attack Forme)": "386AF",
         "Deoxys(Defense Forme)": "386DF",
         "Deoxys(Normal Forme)": "386NF",
         "Deoxys(Speed Forme)": "386SF",
         "Dewgong": "087",
         "Dewott": "502",
+        "Dewpider": "751",
+        "Dhelmise": "781",
         "Dialga": "483",
+        "Diancie": "719",
+        "Diancie(Mega Diancie)": "719MD",
+        "Diggersby": "660",
         "Diglett": "050",
+        "Diglett(Alolan Diglett)": "050AD",
         "Ditto": "132",
         "Dodrio": "085",
         "Doduo": "084",
         "Donphan": "232",
+        "Doublade": "680",
+        "Dragalge": "691",
         "Dragonair": "148",
         "Dragonite": "149",
+        "Drampa": "780",
         "Drapion": "452",
         "Dratini": "147",
         "Drifblim": "426",
@@ -189,6 +247,7 @@
         "Druddigon": "621",
         "Ducklett": "580",
         "Dugtrio": "051",
+        "Dugtrio(Alolan Dugtrio)": "051AD",
         "Dunsparce": "206",
         "Duosion": "578",
         "Durant": "632",
@@ -213,38 +272,55 @@
         "Entei": "244",
         "Escavalier": "589",
         "Espeon": "196",
+        "Espurr": "677",
         "Excadrill": "530",
         "Exeggcute": "102",
         "Exeggutor": "103",
+        "Exeggutor(Alolan Exeggutor)": "103AE",
         "Exploud": "295",
         "Farfetch'd": "083",
         "Fearow": "022",
         "Feebas": "349",
+        "Fennekin": "653",
         "Feraligatr": "160",
         "Ferroseed": "597",
         "Ferrothorn": "598",
         "Finneon": "456",
         "Flaaffy": "180",
+        "Flabébé": "669",
         "Flareon": "136",
+        "Fletchinder": "662",
+        "Fletchling": "661",
         "Floatzel": "419",
+        "Floette": "670",
+        "Florges": "671",
         "Flygon": "330",
+        "Fomantis": "753",
         "Foongus": "590",
         "Forretress": "205",
         "Fraxure": "611",
         "Frillish": "592",
+        "Froakie": "656",
+        "Frogadier": "657",
         "Froslass": "478",
+        "Furfrou": "676",
         "Furret": "162",
         "Gabite": "444",
         "Gallade": "475",
+        "Gallade(Mega Gallade)": "475MG",
         "Galvantula": "596",
         "Garbodor": "569",
         "Garchomp": "445",
+        "Garchomp(Mega Garchomp)": "445MG",
         "Gardevoir": "282",
+        "Gardevoir(Mega Gardevoir)": "282MG",
         "Gastly": "092",
         "Gastrodon": "423",
         "Genesect": "649",
         "Gengar": "094",
+        "Gengar(Mega Gengar)": "094MG",
         "Geodude": "074",
+        "Geodude(Alolan Geodude)": "074AG",
         "Gible": "443",
         "Gigalith": "526",
         "Girafarig": "203",
@@ -252,38 +328,62 @@
         "Giratina(Origin Forme)": "487OF",
         "Glaceon": "471",
         "Glalie": "362",
+        "Glalie(Mega Glalie)": "362MG",
         "Glameow": "431",
         "Gligar": "207",
         "Gliscor": "472",
         "Gloom": "044",
+        "Gogoat": "673",
         "Golbat": "042",
         "Goldeen": "118",
         "Golduck": "055",
         "Golem": "076",
+        "Golem(Alolan Golem)": "076AG",
         "Golett": "622",
+        "Golisopod": "768",
         "Golurk": "623",
+        "Goodra": "706",
+        "Goomy": "704",
         "Gorebyss": "368",
         "Gothita": "574",
         "Gothitelle": "576",
         "Gothorita": "575",
+        "Gourgeist(Average Size)": "711AS",
+        "Gourgeist(Large Size)": "711LS",
+        "Gourgeist(Small Size)": "711SS",
+        "Gourgeist(Super Size)": "711SSI",
         "Granbull": "210",
         "Graveler": "075",
+        "Graveler(Alolan Graveler)": "075AG",
+        "Greninja": "658",
+        "Greninja(Ash-Greninja)": "658A",
         "Grimer": "088",
+        "Grimer(Alolan Grimer)": "088AG",
         "Grotle": "388",
         "Groudon": "383",
+        "Groudon(Primal Groudon)": "383PG",
         "Grovyle": "253",
         "Growlithe": "058",
+        "Grubbin": "736",
         "Grumpig": "326",
         "Gulpin": "316",
+        "Gumshoos": "735",
         "Gurdurr": "533",
+        "Guzzlord": "799",
         "Gyarados": "130",
+        "Gyarados(Mega Gyarados)": "130MG",
+        "Hakamo-o": "783",
         "Happiny": "440",
         "Hariyama": "297",
         "Haunter": "093",
+        "Hawlucha": "701",
         "Haxorus": "612",
         "Heatmor": "631",
         "Heatran": "485",
+        "Heliolisk": "695",
+        "Helioptile": "694",
         "Heracross": "214",
+        "Heracross(Mega Heracross)": "214MH",
         "Herdier": "507",
         "Hippopotas": "449",
         "Hippowdon": "450",
@@ -292,18 +392,25 @@
         "Hitmontop": "237",
         "Ho-Oh": "250",
         "Honchkrow": "430",
+        "Honedge": "679",
+        "Hoopa(Hoopa Confined)": "720HC",
+        "Hoopa(Hoopa Unbound)": "720HU",
         "Hoothoot": "163",
         "Hoppip": "187",
         "Horsea": "116",
         "Houndoom": "229",
+        "Houndoom(Mega Houndoom)": "229MH",
         "Houndour": "228",
         "Huntail": "367",
         "Hydreigon": "635",
         "Hypno": "097",
         "Igglybuff": "174",
         "Illumise": "314",
+        "Incineroar": "727",
         "Infernape": "392",
+        "Inkay": "686",
         "Ivysaur": "002",
+        "Jangmo-o": "782",
         "Jellicent": "593",
         "Jigglypuff": "039",
         "Jirachi": "385",
@@ -316,22 +423,28 @@
         "Kadabra": "064",
         "Kakuna": "014",
         "Kangaskhan": "115",
+        "Kangaskhan(Mega Kangaskhan)": "115MK",
         "Karrablast": "588",
+        "Kartana": "798",
         "Kecleon": "352",
         "Keldeo": "647",
         "Kingdra": "230",
         "Kingler": "099",
         "Kirlia": "281",
         "Klang": "600",
+        "Klefki": "707",
         "Klink": "599",
         "Klinklang": "601",
         "Koffing": "109",
+        "Komala": "775",
+        "Kommo-o": "784",
         "Krabby": "098",
         "Kricketot": "401",
         "Kricketune": "402",
         "Krokorok": "552",
         "Krookodile": "553",
         "Kyogre": "382",
+        "Kyogre(Primal Kyogre)": "382PK",
         "Kyurem(Black Kyurem)": "646BK",
         "Kyurem(Normal Kyurem)": "646NK",
         "Kyurem(White Kyurem)": "646WK",
@@ -344,7 +457,9 @@
         "Larvesta": "636",
         "Larvitar": "246",
         "Latias": "380",
+        "Latias(Mega Latias)": "380ML",
         "Latios": "381",
+        "Latios(Mega Latios)": "381ML",
         "Leafeon": "470",
         "Leavanny": "542",
         "Ledian": "166",
@@ -356,24 +471,33 @@
         "Lilligant": "549",
         "Lillipup": "506",
         "Linoone": "264",
+        "Litleo": "667",
+        "Litten": "725",
         "Litwick": "607",
         "Lombre": "271",
         "Lopunny": "428",
+        "Lopunny(Mega Lopunny)": "428ML",
         "Lotad": "270",
         "Loudred": "294",
         "Lucario": "448",
+        "Lucario(Mega Lucario)": "448ML",
         "Ludicolo": "272",
         "Lugia": "249",
         "Lumineon": "457",
+        "Lunala": "792",
         "Lunatone": "337",
+        "Lurantis": "754",
         "Luvdisc": "370",
         "Luxio": "404",
         "Luxray": "405",
+        "Lycanroc(Midday Form)": "745MF",
+        "Lycanroc(Midnight Form)": "745MFI",
         "Machamp": "068",
         "Machoke": "067",
         "Machop": "066",
         "Magby": "240",
         "Magcargo": "219",
+        "Magearna": "801",
         "Magikarp": "129",
         "Magmar": "126",
         "Magmortar": "467",
@@ -381,63 +505,87 @@
         "Magneton": "082",
         "Magnezone": "462",
         "Makuhita": "296",
+        "Malamar": "687",
         "Mamoswine": "473",
         "Manaphy": "490",
         "Mandibuzz": "630",
         "Manectric": "310",
+        "Manectric(Mega Manectric)": "310MM",
         "Mankey": "056",
         "Mantine": "226",
         "Mantyke": "458",
         "Maractus": "556",
+        "Mareanie": "747",
         "Mareep": "179",
         "Marill": "183",
         "Marowak": "105",
+        "Marowak(Alolan Marowak)": "105AM",
+        "Marshadow": "802",
         "Marshtomp": "259",
         "Masquerain": "284",
         "Mawile": "303",
+        "Mawile(Mega Mawile)": "303MM",
         "Medicham": "308",
+        "Medicham(Mega Medicham)": "308MM",
         "Meditite": "307",
         "Meganium": "154",
         "Meloetta(Aria Forme)": "648AF",
         "Meloetta(Pirouette Forme)": "648PF",
+        "Meowstic": "678",
         "Meowth": "052",
+        "Meowth(Alolan Meowth)": "052AM",
         "Mesprit": "481",
         "Metagross": "376",
+        "Metagross(Mega Metagross)": "376MM",
         "Metang": "375",
         "Metapod": "011",
         "Mew": "151",
         "Mewtwo": "150",
+        "Mewtwo(Mega Mewtwo X)": "150MMX",
+        "Mewtwo(Mega Mewtwo Y)": "150MMY",
         "Mienfoo": "619",
         "Mienshao": "620",
         "Mightyena": "262",
         "Milotic": "350",
         "Miltank": "241",
         "Mime Jr.": "439",
+        "Mimikyu": "778",
         "Minccino": "572",
+        "Minior(Core Form)": "774CF",
+        "Minior(Meteor Form)": "774MF",
         "Minun": "312",
         "Misdreavus": "200",
         "Mismagius": "429",
         "Moltres": "146",
         "Monferno": "391",
+        "Morelull": "755",
         "Mothim": "414",
         "Mr. Mime": "122",
+        "Mudbray": "749",
         "Mudkip": "258",
+        "Mudsdale": "750",
         "Muk": "089",
+        "Muk(Alolan Muk)": "089AM",
         "Munchlax": "446",
         "Munna": "517",
         "Murkrow": "198",
         "Musharna": "518",
         "Natu": "177",
+        "Necrozma": "800",
         "Nidoking": "034",
         "Nidoqueen": "031",
         "Nidoran♀": "029",
         "Nidoran♂": "032",
         "Nidorina": "030",
         "Nidorino": "033",
+        "Nihilego": "793",
         "Nincada": "290",
         "Ninetales": "038",
+        "Ninetales(Alolan Ninetales)": "038AN",
         "Ninjask": "291",
         "Noctowl": "164",
+        "Noibat": "714",
+        "Noivern": "715",
         "Nosepass": "299",
         "Numel": "322",
         "Nuzleaf": "274",
@@ -446,32 +594,44 @@
         "Omanyte": "138",
         "Omastar": "139",
         "Onix": "095",
+        "Oranguru": "765",
+        "Oricorio": "741",
         "Oshawott": "501",
         "Pachirisu": "417",
         "Palkia": "484",
+        "Palossand": "770",
         "Palpitoad": "536",
+        "Pancham": "674",
+        "Pangoro": "675",
         "Panpour": "515",
         "Pansage": "511",
         "Pansear": "513",
         "Paras": "046",
         "Parasect": "047",
+        "Passimian": "766",
         "Patrat": "504",
         "Pawniard": "624",
         "Pelipper": "279",
         "Persian": "053",
+        "Persian(Alolan Persian)": "053AP",
         "Petilil": "548",
         "Phanpy": "231",
+        "Phantump": "708",
+        "Pheromosa": "795",
         "Phione": "489",
         "Pichu": "172",
         "Pidgeot": "018",
+        "Pidgeot(Mega Pidgeot)": "018MP",
         "Pidgeotto": "017",
         "Pidgey": "016",
         "Pidove": "519",
         "Pignite": "499",
         "Pikachu": "025",
+        "Pikipek": "731",
         "Piloswine": "221",
         "Pineco": "204",
         "Pinsir": "127",
+        "Pinsir(Mega Pinsir)": "127MP",
         "Piplup": "393",
         "Plusle": "311",
         "Politoed": "186",
@@ -480,27 +640,40 @@
         "Poliwrath": "062",
         "Ponyta": "077",
         "Poochyena": "261",
+        "Popplio": "728",
         "Porygon": "137",
         "Porygon-Z": "474",
         "Porygon2": "233",
+        "Primarina": "730",
         "Primeape": "057",
         "Prinplup": "394",
         "Probopass": "476",
         "Psyduck": "054",
+        "Pumpkaboo(Average Size)": "710AS",
+        "Pumpkaboo(Large Size)": "710LS",
+        "Pumpkaboo(Small Size)": "710SS",
+        "Pumpkaboo(Super Size)": "710SSI",
         "Pupitar": "247",
         "Purrloin": "509",
         "Purugly": "432",
+        "Pyroar": "668",
+        "Pyukumuku": "771",
         "Quagsire": "195",
         "Quilava": "156",
+        "Quilladin": "651",
         "Qwilfish": "211",
         "Raichu": "026",
+        "Raichu(Alolan Raichu)": "026AR",
         "Raikou": "243",
         "Ralts": "280",
         "Rampardos": "409",
         "Rapidash": "078",
         "Raticate": "020",
+        "Raticate(Alolan Raticate)": "020AR",
         "Rattata": "019",
+        "Rattata(Alolan Rattata)": "019AR",
         "Rayquaza": "384",
+        "Rayquaza(Mega Rayquaza)": "384MR",
         "Regice": "378",
         "Regigigas": "486",
         "Regirock": "377",
@@ -512,27 +685,40 @@
         "Rhydon": "112",
         "Rhyhorn": "111",
         "Rhyperior": "464",
+        "Ribombee": "743",
         "Riolu": "447",
+        "Rockruff": "744",
         "Roggenrola": "524",
         "Roselia": "315",
         "Roserade": "407",
+        "Rotom": "479",
         "Rotom(Fan Rotom)": "479FRI",
         "Rotom(Frost Rotom)": "479FR",
         "Rotom(Heat Rotom)": "479HR",
         "Rotom(Mow Rotom)": "479MR",
-        "Rotom(Normal Rotom)": "479NR",
         "Rotom(Wash Rotom)": "479WR",
+        "Rowlet": "722",
         "Rufflet": "627",
         "Sableye": "302",
+        "Sableye(Mega Sableye)": "302MS",
         "Salamence": "373",
+        "Salamence(Mega Salamence)": "373MS",
+        "Salandit": "757",
+        "Salazzle": "758",
         "Samurott": "503",
         "Sandile": "551",
         "Sandshrew": "027",
+        "Sandshrew(Alolan Sandshrew)": "027AS",
         "Sandslash": "028",
+        "Sandslash(Alolan Sandslash)": "028AS",
+        "Sandygast": "769",
         "Sawk": "539",
         "Sawsbuck": "586",
+        "Scatterbug": "664",
         "Sceptile": "254",
+        "Sceptile(Mega Sceptile)": "254MS",
         "Scizor": "212",
+        "Scizor(Mega Scizor)": "212MS",
         "Scolipede": "545",
         "Scrafty": "560",
         "Scraggy": "559",
@@ -549,6 +735,7 @@
         "Seviper": "336",
         "Sewaddle": "540",
         "Sharpedo": "319",
+        "Sharpedo(Mega Sharpedo)": "319MS",
         "Shaymin(Land Forme)": "492LF",
         "Shaymin(Sky Forme)": "492SF",
         "Shedinja": "292",
@@ -558,26 +745,33 @@
         "Shelmet": "616",
         "Shieldon": "410",
         "Shiftry": "275",
+        "Shiinotic": "756",
         "Shinx": "403",
         "Shroomish": "285",
         "Shuckle": "213",
         "Shuppet": "353",
         "Sigilyph": "561",
         "Silcoon": "266",
+        "Silvally": "773",
         "Simipour": "516",
         "Simisage": "512",
         "Simisear": "514",
         "Skarmory": "227",
+        "Skiddo": "672",
         "Skiploom": "188",
         "Skitty": "300",
         "Skorupi": "451",
+        "Skrelp": "690",
         "Skuntank": "435",
         "Slaking": "289",
         "Slakoth": "287",
+        "Sliggoo": "705",
         "Slowbro": "080",
+        "Slowbro(Mega Slowbro)": "080MS",
         "Slowking": "199",
         "Slowpoke": "079",
         "Slugma": "218",
+        "Slurpuff": "685",
         "Smeargle": "235",
         "Smoochum": "238",
         "Sneasel": "215",
@@ -586,14 +780,17 @@
         "Snorunt": "361",
         "Snover": "459",
         "Snubbull": "209",
+        "Solgaleo": "791",
         "Solosis": "577",
         "Solrock": "338",
         "Spearow": "021",
+        "Spewpa": "665",
         "Spheal": "363",
         "Spinarak": "167",
         "Spinda": "327",
         "Spiritomb": "442",
         "Spoink": "325",
+        "Spritzee": "682",
         "Squirtle": "007",
         "Stantler": "234",
         "Staraptor": "398",
@@ -602,7 +799,10 @@
         "Starmie": "121",
         "Staryu": "120",
         "Steelix": "208",
+        "Steelix(Mega Steelix)": "208MS",
+        "Steenee": "762",
         "Stoutland": "508",
+        "Stufful": "759",
         "Stunfisk": "618",
         "Stunky": "434",
         "Sudowoodo": "185",
@@ -614,13 +814,21 @@
         "Swadloon": "541",
         "Swalot": "317",
         "Swampert": "260",
+        "Swampert(Mega Swampert)": "260MS",
         "Swanna": "581",
         "Swellow": "277",
         "Swinub": "220",
+        "Swirlix": "684",
         "Swoobat": "528",
+        "Sylveon": "700",
         "Taillow": "276",
+        "Talonflame": "663",
         "Tangela": "114",
         "Tangrowth": "465",
+        "Tapu Bulu": "787",
+        "Tapu Fini": "788",
+        "Tapu Koko": "785",
+        "Tapu Lele": "786",
         "Tauros": "128",
         "Teddiursa": "216",
         "Tentacool": "072",
@@ -632,6 +840,7 @@
         "Thundurus(Therian Forme)": "642TF",
         "Timburr": "532",
         "Tirtouga": "564",
+        "Togedemaru": "777",
         "Togekiss": "468",
         "Togepi": "175",
         "Togetic": "176",
@@ -639,20 +848,31 @@
         "Torkoal": "324",
         "Tornadus(Incarnate Forme)": "641IF",
         "Tornadus(Therian Forme)": "641TF",
+        "Torracat": "726",
         "Torterra": "389",
         "Totodile": "158",
+        "Toucannon": "733",
+        "Toxapex": "748",
         "Toxicroak": "454",
         "Tranquill": "520",
         "Trapinch": "328",
         "Treecko": "252",
+        "Trevenant": "709",
         "Tropius": "357",
         "Trubbish": "568",
+        "Trumbeak": "732",
+        "Tsareena": "763",
+        "Turtonator": "776",
         "Turtwig": "387",
         "Tympole": "535",
         "Tynamo": "602",
+        "Type: Null": "772",
         "Typhlosion": "157",
         "Tyranitar": "248",
+        "Tyranitar(Mega Tyranitar)": "248MT",
+        "Tyrantrum": "697",
         "Tyrogue": "236",
+        "Tyrunt": "696",
         "Umbreon": "197",
         "Unfezant": "521",
         "Unown": "201",
@@ -666,18 +886,23 @@
         "Venomoth": "049",
         "Venonat": "048",
         "Venusaur": "003",
+        "Venusaur(Mega Venusaur)": "003MV",
         "Vespiquen": "416",
         "Vibrava": "329",
         "Victini": "494",
         "Victreebel": "071",
         "Vigoroth": "288",
+        "Vikavolt": "738",
         "Vileplume": "045",
         "Virizion": "640",
+        "Vivillon": "666",
         "Volbeat": "313",
+        "Volcanion": "721",
         "Volcarona": "637",
         "Voltorb": "100",
         "Vullaby": "629",
         "Vulpix": "037",
+        "Vulpix(Alolan Vulpix)": "037AV",
         "Wailmer": "320",
         "Wailord": "321",
         "Walrein": "365",
@@ -692,7 +917,10 @@
         "Whiscash": "340",
         "Whismur": "293",
         "Wigglytuff": "040",
+        "Wimpod": "767",
         "Wingull": "278",
+        "Wishiwashi(School Form)": "746SFI",
+        "Wishiwashi(Solo Form)": "746SF",
         "Wobbuffet": "202",
         "Woobat": "527",
         "Wooper": "194",
@@ -702,9 +930,13 @@
         "Wurmple": "265",
         "Wynaut": "360",
         "Xatu": "178",
+        "Xerneas": "716",
+        "Xurkitree": "796",
         "Yamask": "562",
         "Yanma": "193",
         "Yanmega": "469",
+        "Yungoos": "734",
+        "Yveltal": "717",
         "Zangoose": "335",
         "Zapdos": "145",
         "Zebstrika": "523",
@@ -713,7 +945,10 @@
         "Zoroark": "571",
         "Zorua": "570",
         "Zubat": "041",
-        "Zweilous": "634"
+        "Zweilous": "634",
+        "Zygarde(10% Forme)": "7181F",
+        "Zygarde(50% Forme)": "7185F",
+        "Zygarde(Complete Forme)": "718CF"
     },
     "dex": {
         "001": {
@@ -746,6 +981,17 @@
                 83,
                 100,
                 100,
+                80
+            ]
+        },
+        "003MV": {
+            "name": "Venusaur(Mega Venusaur)",
+            "stats": [
+                80,
+                100,
+                123,
+                122,
+                120,
                 80
             ]
         },
@@ -782,6 +1028,28 @@
                 100
             ]
         },
+        "006MCX": {
+            "name": "Charizard(Mega Charizard X)",
+            "stats": [
+                78,
+                130,
+                111,
+                130,
+                85,
+                100
+            ]
+        },
+        "006MCY": {
+            "name": "Charizard(Mega Charizard Y)",
+            "stats": [
+                78,
+                104,
+                78,
+                159,
+                115,
+                100
+            ]
+        },
         "007": {
             "name": "Squirtle",
             "stats": [
@@ -815,6 +1083,17 @@
                 78
             ]
         },
+        "009MB": {
+            "name": "Blastoise(Mega Blastoise)",
+            "stats": [
+                79,
+                103,
+                120,
+                135,
+                115,
+                78
+            ]
+        },
         "010": {
             "name": "Caterpie",
             "stats": [
@@ -843,7 +1122,7 @@
                 60,
                 45,
                 50,
-                80,
+                90,
                 80,
                 70
             ]
@@ -874,11 +1153,22 @@
             "name": "Beedrill",
             "stats": [
                 65,
-                80,
+                90,
                 40,
                 45,
                 80,
                 75
+            ]
+        },
+        "015MB": {
+            "name": "Beedrill(Mega Beedrill)",
+            "stats": [
+                65,
+                150,
+                40,
+                15,
+                80,
+                145
             ]
         },
         "016": {
@@ -911,11 +1201,33 @@
                 75,
                 70,
                 70,
-                91
+                101
+            ]
+        },
+        "018MP": {
+            "name": "Pidgeot(Mega Pidgeot)",
+            "stats": [
+                83,
+                80,
+                80,
+                135,
+                80,
+                121
             ]
         },
         "019": {
             "name": "Rattata",
+            "stats": [
+                30,
+                56,
+                35,
+                25,
+                35,
+                72
+            ]
+        },
+        "019AR": {
+            "name": "Rattata(Alolan Rattata)",
             "stats": [
                 30,
                 56,
@@ -934,6 +1246,17 @@
                 50,
                 70,
                 97
+            ]
+        },
+        "020AR": {
+            "name": "Raticate(Alolan Raticate)",
+            "stats": [
+                75,
+                71,
+                70,
+                40,
+                80,
+                77
             ]
         },
         "021": {
@@ -973,7 +1296,7 @@
             "name": "Arbok",
             "stats": [
                 60,
-                85,
+                95,
                 69,
                 65,
                 79,
@@ -985,9 +1308,9 @@
             "stats": [
                 35,
                 55,
-                30,
-                50,
                 40,
+                50,
+                50,
                 90
             ]
         },
@@ -999,7 +1322,18 @@
                 55,
                 90,
                 80,
-                100
+                110
+            ]
+        },
+        "026AR": {
+            "name": "Raichu(Alolan Raichu)",
+            "stats": [
+                60,
+                85,
+                50,
+                95,
+                85,
+                110
             ]
         },
         "027": {
@@ -1013,6 +1347,17 @@
                 40
             ]
         },
+        "027AS": {
+            "name": "Sandshrew(Alolan Sandshrew)",
+            "stats": [
+                50,
+                75,
+                90,
+                10,
+                35,
+                40
+            ]
+        },
         "028": {
             "name": "Sandslash",
             "stats": [
@@ -1021,6 +1366,17 @@
                 110,
                 45,
                 55,
+                65
+            ]
+        },
+        "028AS": {
+            "name": "Sandslash(Alolan Sandslash)",
+            "stats": [
+                75,
+                100,
+                120,
+                25,
+                65,
                 65
             ]
         },
@@ -1050,7 +1406,7 @@
             "name": "Nidoqueen",
             "stats": [
                 90,
-                82,
+                92,
                 87,
                 75,
                 85,
@@ -1083,7 +1439,7 @@
             "name": "Nidoking",
             "stats": [
                 81,
-                92,
+                102,
                 77,
                 85,
                 75,
@@ -1107,13 +1463,24 @@
                 95,
                 70,
                 73,
-                85,
+                95,
                 90,
                 60
             ]
         },
         "037": {
             "name": "Vulpix",
+            "stats": [
+                38,
+                41,
+                40,
+                50,
+                65,
+                65
+            ]
+        },
+        "037AV": {
+            "name": "Vulpix(Alolan Vulpix)",
             "stats": [
                 38,
                 41,
@@ -1134,6 +1501,17 @@
                 100
             ]
         },
+        "038AN": {
+            "name": "Ninetales(Alolan Ninetales)",
+            "stats": [
+                73,
+                67,
+                75,
+                81,
+                100,
+                109
+            ]
+        },
         "039": {
             "name": "Jigglypuff",
             "stats": [
@@ -1151,7 +1529,7 @@
                 140,
                 70,
                 45,
-                75,
+                85,
                 50,
                 45
             ]
@@ -1206,7 +1584,7 @@
                 75,
                 80,
                 85,
-                100,
+                110,
                 90,
                 50
             ]
@@ -1266,15 +1644,37 @@
                 95
             ]
         },
+        "050AD": {
+            "name": "Diglett(Alolan Diglett)",
+            "stats": [
+                10,
+                55,
+                30,
+                35,
+                45,
+                90
+            ]
+        },
         "051": {
             "name": "Dugtrio",
             "stats": [
                 35,
-                80,
+                100,
                 50,
                 50,
                 70,
                 120
+            ]
+        },
+        "051AD": {
+            "name": "Dugtrio(Alolan Dugtrio)",
+            "stats": [
+                35,
+                100,
+                60,
+                50,
+                70,
+                110
             ]
         },
         "052": {
@@ -1288,6 +1688,17 @@
                 90
             ]
         },
+        "052AM": {
+            "name": "Meowth(Alolan Meowth)",
+            "stats": [
+                40,
+                35,
+                35,
+                50,
+                40,
+                90
+            ]
+        },
         "053": {
             "name": "Persian",
             "stats": [
@@ -1295,6 +1706,17 @@
                 70,
                 60,
                 65,
+                65,
+                115
+            ]
+        },
+        "053AP": {
+            "name": "Persian(Alolan Persian)",
+            "stats": [
+                65,
+                60,
+                60,
+                75,
                 65,
                 115
             ]
@@ -1391,7 +1813,7 @@
             "name": "Poliwrath",
             "stats": [
                 90,
-                85,
+                95,
                 95,
                 70,
                 90,
@@ -1427,8 +1849,19 @@
                 50,
                 45,
                 135,
-                85,
+                95,
                 120
+            ]
+        },
+        "065MA": {
+            "name": "Alakazam(Mega Alakazam)",
+            "stats": [
+                55,
+                50,
+                65,
+                175,
+                105,
+                150
             ]
         },
         "066": {
@@ -1493,7 +1926,7 @@
                 105,
                 65,
                 100,
-                60,
+                70,
                 70
             ]
         },
@@ -1530,8 +1963,30 @@
                 20
             ]
         },
+        "074AG": {
+            "name": "Geodude(Alolan Geodude)",
+            "stats": [
+                40,
+                80,
+                100,
+                30,
+                30,
+                20
+            ]
+        },
         "075": {
             "name": "Graveler",
+            "stats": [
+                55,
+                95,
+                115,
+                45,
+                45,
+                35
+            ]
+        },
+        "075AG": {
+            "name": "Graveler(Alolan Graveler)",
             "stats": [
                 55,
                 95,
@@ -1545,7 +2000,18 @@
             "name": "Golem",
             "stats": [
                 80,
-                110,
+                120,
+                130,
+                55,
+                65,
+                45
+            ]
+        },
+        "076AG": {
+            "name": "Golem(Alolan Golem)",
+            "stats": [
+                80,
+                120,
                 130,
                 55,
                 65,
@@ -1596,6 +2062,17 @@
                 30
             ]
         },
+        "080MS": {
+            "name": "Slowbro(Mega Slowbro)",
+            "stats": [
+                95,
+                75,
+                180,
+                130,
+                80,
+                30
+            ]
+        },
         "081": {
             "name": "Magnemite",
             "stats": [
@@ -1622,7 +2099,7 @@
             "name": "Farfetch'd",
             "stats": [
                 52,
-                65,
+                90,
                 55,
                 58,
                 62,
@@ -1648,7 +2125,7 @@
                 70,
                 60,
                 60,
-                100
+                110
             ]
         },
         "086": {
@@ -1684,8 +2161,30 @@
                 25
             ]
         },
+        "088AG": {
+            "name": "Grimer(Alolan Grimer)",
+            "stats": [
+                80,
+                80,
+                50,
+                40,
+                50,
+                25
+            ]
+        },
         "089": {
             "name": "Muk",
+            "stats": [
+                105,
+                105,
+                75,
+                65,
+                100,
+                50
+            ]
+        },
+        "089AM": {
+            "name": "Muk(Alolan Muk)",
             "stats": [
                 105,
                 105,
@@ -1748,6 +2247,17 @@
                 130,
                 75,
                 110
+            ]
+        },
+        "094MG": {
+            "name": "Gengar(Mega Gengar)",
+            "stats": [
+                60,
+                65,
+                80,
+                170,
+                95,
+                130
             ]
         },
         "095": {
@@ -1824,7 +2334,7 @@
                 70,
                 80,
                 80,
-                140
+                150
             ]
         },
         "102": {
@@ -1845,8 +2355,19 @@
                 95,
                 85,
                 125,
-                65,
+                75,
                 55
+            ]
+        },
+        "103AE": {
+            "name": "Exeggutor(Alolan Exeggutor)",
+            "stats": [
+                95,
+                105,
+                85,
+                125,
+                75,
+                45
             ]
         },
         "104": {
@@ -1862,6 +2383,17 @@
         },
         "105": {
             "name": "Marowak",
+            "stats": [
+                60,
+                80,
+                110,
+                50,
+                80,
+                45
+            ]
+        },
+        "105AM": {
+            "name": "Marowak(Alolan Marowak)",
             "stats": [
                 60,
                 80,
@@ -1979,6 +2511,17 @@
                 40,
                 80,
                 90
+            ]
+        },
+        "115MK": {
+            "name": "Kangaskhan(Mega Kangaskhan)",
+            "stats": [
+                105,
+                125,
+                100,
+                60,
+                100,
+                100
             ]
         },
         "116": {
@@ -2113,6 +2656,17 @@
                 85
             ]
         },
+        "127MP": {
+            "name": "Pinsir(Mega Pinsir)",
+            "stats": [
+                65,
+                155,
+                120,
+                65,
+                90,
+                105
+            ]
+        },
         "128": {
             "name": "Tauros",
             "stats": [
@@ -2143,6 +2697,17 @@
                 79,
                 60,
                 100,
+                81
+            ]
+        },
+        "130MG": {
+            "name": "Gyarados(Mega Gyarados)",
+            "stats": [
+                95,
+                155,
+                109,
+                70,
+                130,
                 81
             ]
         },
@@ -2278,6 +2843,17 @@
                 130
             ]
         },
+        "142MA": {
+            "name": "Aerodactyl(Mega Aerodactyl)",
+            "stats": [
+                80,
+                135,
+                85,
+                70,
+                95,
+                150
+            ]
+        },
         "143": {
             "name": "Snorlax",
             "stats": [
@@ -2364,6 +2940,28 @@
                 154,
                 90,
                 130
+            ]
+        },
+        "150MMX": {
+            "name": "Mewtwo(Mega Mewtwo X)",
+            "stats": [
+                106,
+                190,
+                100,
+                154,
+                100,
+                130
+            ]
+        },
+        "150MMY": {
+            "name": "Mewtwo(Mega Mewtwo Y)",
+            "stats": [
+                106,
+                150,
+                70,
+                194,
+                120,
+                140
             ]
         },
         "151": {
@@ -2515,7 +3113,7 @@
                 100,
                 50,
                 50,
-                76,
+                86,
                 96,
                 70
             ]
@@ -2560,7 +3158,7 @@
                 90,
                 70,
                 60,
-                60,
+                70,
                 40
             ]
         },
@@ -2701,10 +3299,21 @@
             "stats": [
                 90,
                 75,
-                75,
+                85,
                 115,
                 90,
                 55
+            ]
+        },
+        "181MA": {
+            "name": "Ampharos(Mega Ampharos)",
+            "stats": [
+                90,
+                95,
+                105,
+                165,
+                110,
+                45
             ]
         },
         "182": {
@@ -2712,7 +3321,7 @@
             "stats": [
                 75,
                 80,
-                85,
+                95,
                 90,
                 100,
                 50
@@ -2735,7 +3344,7 @@
                 100,
                 50,
                 80,
-                50,
+                60,
                 80,
                 50
             ]
@@ -2791,7 +3400,7 @@
                 55,
                 70,
                 55,
-                85,
+                95,
                 110
             ]
         },
@@ -3004,6 +3613,17 @@
                 30
             ]
         },
+        "208MS": {
+            "name": "Steelix(Mega Steelix)",
+            "stats": [
+                75,
+                125,
+                230,
+                55,
+                95,
+                30
+            ]
+        },
         "209": {
             "name": "Snubbull",
             "stats": [
@@ -3031,7 +3651,7 @@
             "stats": [
                 65,
                 95,
-                75,
+                85,
                 55,
                 55,
                 85
@@ -3046,6 +3666,17 @@
                 55,
                 80,
                 65
+            ]
+        },
+        "212MS": {
+            "name": "Scizor(Mega Scizor)",
+            "stats": [
+                70,
+                150,
+                140,
+                65,
+                100,
+                75
             ]
         },
         "213": {
@@ -3068,6 +3699,17 @@
                 40,
                 95,
                 85
+            ]
+        },
+        "214MH": {
+            "name": "Heracross(Mega Heracross)",
+            "stats": [
+                80,
+                185,
+                115,
+                40,
+                105,
+                75
             ]
         },
         "215": {
@@ -3117,10 +3759,10 @@
         "219": {
             "name": "Magcargo",
             "stats": [
-                50,
+                60,
                 50,
                 120,
-                80,
+                90,
                 80,
                 30
             ]
@@ -3150,11 +3792,11 @@
         "222": {
             "name": "Corsola",
             "stats": [
-                55,
-                55,
-                85,
                 65,
-                85,
+                55,
+                95,
+                65,
+                95,
                 35
             ]
         },
@@ -3194,7 +3836,7 @@
         "226": {
             "name": "Mantine",
             "stats": [
-                65,
+                85,
                 40,
                 70,
                 80,
@@ -3233,6 +3875,17 @@
                 110,
                 80,
                 95
+            ]
+        },
+        "229MH": {
+            "name": "Houndoom(Mega Houndoom)",
+            "stats": [
+                75,
+                90,
+                90,
+                140,
+                90,
+                115
             ]
         },
         "230": {
@@ -3444,6 +4097,17 @@
                 61
             ]
         },
+        "248MT": {
+            "name": "Tyranitar(Mega Tyranitar)",
+            "stats": [
+                100,
+                164,
+                150,
+                95,
+                120,
+                71
+            ]
+        },
         "249": {
             "name": "Lugia",
             "stats": [
@@ -3510,6 +4174,17 @@
                 120
             ]
         },
+        "254MS": {
+            "name": "Sceptile(Mega Sceptile)",
+            "stats": [
+                70,
+                110,
+                75,
+                145,
+                85,
+                145
+            ]
+        },
         "255": {
             "name": "Torchic",
             "stats": [
@@ -3543,6 +4218,17 @@
                 80
             ]
         },
+        "257MB": {
+            "name": "Blaziken(Mega Blaziken)",
+            "stats": [
+                80,
+                160,
+                80,
+                130,
+                80,
+                100
+            ]
+        },
         "258": {
             "name": "Mudkip",
             "stats": [
@@ -3574,6 +4260,17 @@
                 85,
                 90,
                 60
+            ]
+        },
+        "260MS": {
+            "name": "Swampert(Mega Swampert)",
+            "stats": [
+                100,
+                150,
+                110,
+                95,
+                110,
+                70
             ]
         },
         "261": {
@@ -3648,7 +4345,7 @@
                 60,
                 70,
                 50,
-                90,
+                100,
                 50,
                 65
             ]
@@ -3758,7 +4455,7 @@
                 60,
                 85,
                 60,
-                50,
+                75,
                 50,
                 125
             ]
@@ -3780,7 +4477,7 @@
                 60,
                 50,
                 100,
-                85,
+                95,
                 70,
                 65
             ]
@@ -3818,6 +4515,17 @@
                 80
             ]
         },
+        "282MG": {
+            "name": "Gardevoir(Mega Gardevoir)",
+            "stats": [
+                68,
+                85,
+                65,
+                165,
+                135,
+                100
+            ]
+        },
         "283": {
             "name": "Surskit",
             "stats": [
@@ -3835,9 +4543,9 @@
                 70,
                 60,
                 62,
-                80,
+                100,
                 82,
-                60
+                80
             ]
         },
         "285": {
@@ -3957,7 +4665,7 @@
                 91,
                 63,
                 91,
-                63,
+                73,
                 68
             ]
         },
@@ -4024,7 +4732,7 @@
                 65,
                 55,
                 55,
-                70
+                90
             ]
         },
         "302": {
@@ -4038,6 +4746,17 @@
                 50
             ]
         },
+        "302MS": {
+            "name": "Sableye(Mega Sableye)",
+            "stats": [
+                50,
+                85,
+                125,
+                85,
+                115,
+                20
+            ]
+        },
         "303": {
             "name": "Mawile",
             "stats": [
@@ -4046,6 +4765,17 @@
                 85,
                 55,
                 55,
+                50
+            ]
+        },
+        "303MM": {
+            "name": "Mawile(Mega Mawile)",
+            "stats": [
+                50,
+                105,
+                125,
+                55,
+                95,
                 50
             ]
         },
@@ -4082,6 +4812,17 @@
                 50
             ]
         },
+        "306MA": {
+            "name": "Aggron(Mega Aggron)",
+            "stats": [
+                70,
+                140,
+                230,
+                60,
+                80,
+                50
+            ]
+        },
         "307": {
             "name": "Meditite",
             "stats": [
@@ -4104,6 +4845,17 @@
                 80
             ]
         },
+        "308MM": {
+            "name": "Medicham(Mega Medicham)",
+            "stats": [
+                60,
+                100,
+                85,
+                80,
+                85,
+                100
+            ]
+        },
         "309": {
             "name": "Electrike",
             "stats": [
@@ -4124,6 +4876,17 @@
                 105,
                 60,
                 105
+            ]
+        },
+        "310MM": {
+            "name": "Manectric(Mega Manectric)",
+            "stats": [
+                70,
+                75,
+                80,
+                135,
+                80,
+                135
             ]
         },
         "311": {
@@ -4153,9 +4916,9 @@
             "stats": [
                 65,
                 73,
-                55,
-                47,
                 75,
+                47,
+                85,
                 85
             ]
         },
@@ -4164,9 +4927,9 @@
             "stats": [
                 65,
                 47,
-                55,
-                73,
                 75,
+                73,
+                85,
                 85
             ]
         },
@@ -4225,6 +4988,17 @@
                 95
             ]
         },
+        "319MS": {
+            "name": "Sharpedo(Mega Sharpedo)",
+            "stats": [
+                70,
+                140,
+                70,
+                110,
+                65,
+                105
+            ]
+        },
         "320": {
             "name": "Wailmer",
             "stats": [
@@ -4267,6 +5041,17 @@
                 105,
                 75,
                 40
+            ]
+        },
+        "323MC": {
+            "name": "Camerupt(Mega Camerupt)",
+            "stats": [
+                70,
+                120,
+                100,
+                145,
+                105,
+                20
             ]
         },
         "324": {
@@ -4390,6 +5175,17 @@
                 80
             ]
         },
+        "334MA": {
+            "name": "Altaria(Mega Altaria)",
+            "stats": [
+                75,
+                110,
+                110,
+                110,
+                105,
+                80
+            ]
+        },
         "335": {
             "name": "Zangoose",
             "stats": [
@@ -4415,7 +5211,7 @@
         "337": {
             "name": "Lunatone",
             "stats": [
-                70,
+                90,
                 55,
                 65,
                 95,
@@ -4426,7 +5222,7 @@
         "338": {
             "name": "Solrock",
             "stats": [
-                70,
+                90,
                 95,
                 85,
                 55,
@@ -4610,6 +5406,17 @@
                 65
             ]
         },
+        "354MB": {
+            "name": "Banette(Mega Banette)",
+            "stats": [
+                64,
+                165,
+                75,
+                93,
+                83,
+                75
+            ]
+        },
         "355": {
             "name": "Duskull",
             "stats": [
@@ -4646,11 +5453,11 @@
         "358": {
             "name": "Chimecho",
             "stats": [
-                65,
+                75,
                 50,
-                70,
-                95,
                 80,
+                95,
+                90,
                 65
             ]
         },
@@ -4663,6 +5470,17 @@
                 75,
                 60,
                 75
+            ]
+        },
+        "359MA": {
+            "name": "Absol(Mega Absol)",
+            "stats": [
+                65,
+                150,
+                60,
+                115,
+                60,
+                115
             ]
         },
         "360": {
@@ -4696,6 +5514,17 @@
                 80,
                 80,
                 80
+            ]
+        },
+        "362MG": {
+            "name": "Glalie(Mega Glalie)",
+            "stats": [
+                80,
+                120,
+                80,
+                120,
+                80,
+                100
             ]
         },
         "363": {
@@ -4819,6 +5648,17 @@
                 100
             ]
         },
+        "373MS": {
+            "name": "Salamence(Mega Salamence)",
+            "stats": [
+                95,
+                145,
+                130,
+                120,
+                90,
+                120
+            ]
+        },
         "374": {
             "name": "Beldum",
             "stats": [
@@ -4850,6 +5690,17 @@
                 95,
                 90,
                 70
+            ]
+        },
+        "376MM": {
+            "name": "Metagross(Mega Metagross)",
+            "stats": [
+                80,
+                145,
+                150,
+                105,
+                110,
+                110
             ]
         },
         "377": {
@@ -4896,6 +5747,17 @@
                 110
             ]
         },
+        "380ML": {
+            "name": "Latias(Mega Latias)",
+            "stats": [
+                80,
+                100,
+                120,
+                140,
+                150,
+                110
+            ]
+        },
         "381": {
             "name": "Latios",
             "stats": [
@@ -4904,6 +5766,17 @@
                 80,
                 130,
                 110,
+                110
+            ]
+        },
+        "381ML": {
+            "name": "Latios(Mega Latios)",
+            "stats": [
+                80,
+                130,
+                100,
+                160,
+                120,
                 110
             ]
         },
@@ -4918,6 +5791,17 @@
                 90
             ]
         },
+        "382PK": {
+            "name": "Kyogre(Primal Kyogre)",
+            "stats": [
+                100,
+                150,
+                90,
+                180,
+                160,
+                90
+            ]
+        },
         "383": {
             "name": "Groudon",
             "stats": [
@@ -4925,6 +5809,17 @@
                 150,
                 140,
                 100,
+                90,
+                90
+            ]
+        },
+        "383PG": {
+            "name": "Groudon(Primal Groudon)",
+            "stats": [
+                100,
+                180,
+                160,
+                150,
                 90,
                 90
             ]
@@ -4938,6 +5833,17 @@
                 150,
                 90,
                 95
+            ]
+        },
+        "384MR": {
+            "name": "Rayquaza(Mega Rayquaza)",
+            "stats": [
+                105,
+                180,
+                100,
+                180,
+                100,
+                115
             ]
         },
         "385": {
@@ -5123,7 +6029,7 @@
                 120,
                 70,
                 50,
-                50,
+                60,
                 100
             ]
         },
@@ -5220,7 +6126,7 @@
             "stats": [
                 60,
                 70,
-                55,
+                65,
                 125,
                 105,
                 90
@@ -5479,6 +6385,17 @@
                 105
             ]
         },
+        "428ML": {
+            "name": "Lopunny(Mega Lopunny)",
+            "stats": [
+                65,
+                136,
+                94,
+                54,
+                96,
+                135
+            ]
+        },
         "429": {
             "name": "Mismagius",
             "stats": [
@@ -5666,6 +6583,17 @@
                 102
             ]
         },
+        "445MG": {
+            "name": "Garchomp(Mega Garchomp)",
+            "stats": [
+                108,
+                170,
+                115,
+                120,
+                95,
+                92
+            ]
+        },
         "446": {
             "name": "Munchlax",
             "stats": [
@@ -5697,6 +6625,17 @@
                 115,
                 70,
                 90
+            ]
+        },
+        "448ML": {
+            "name": "Lucario(Mega Lucario)",
+            "stats": [
+                70,
+                145,
+                88,
+                140,
+                70,
+                112
             ]
         },
         "449": {
@@ -5829,6 +6768,17 @@
                 92,
                 85,
                 60
+            ]
+        },
+        "460MA": {
+            "name": "Abomasnow(Mega Abomasnow)",
+            "stats": [
+                90,
+                132,
+                105,
+                132,
+                105,
+                30
             ]
         },
         "461": {
@@ -5996,6 +6946,17 @@
                 80
             ]
         },
+        "475MG": {
+            "name": "Gallade(Mega Gallade)",
+            "stats": [
+                68,
+                165,
+                95,
+                65,
+                115,
+                110
+            ]
+        },
         "476": {
             "name": "Probopass",
             "stats": [
@@ -6029,8 +6990,8 @@
                 110
             ]
         },
-        "479NR": {
-            "name": "Rotom(Normal Rotom)",
+        "479": {
+            "name": "Rotom",
             "stats": [
                 50,
                 50,
@@ -6429,7 +7390,7 @@
             "name": "Stoutland",
             "stats": [
                 85,
-                100,
+                110,
                 90,
                 45,
                 90,
@@ -6572,7 +7533,7 @@
             "name": "Unfezant",
             "stats": [
                 80,
-                105,
+                115,
                 80,
                 65,
                 55,
@@ -6630,14 +7591,14 @@
                 135,
                 130,
                 60,
-                70,
+                80,
                 25
             ]
         },
         "527": {
             "name": "Woobat",
             "stats": [
-                55,
+                65,
                 45,
                 43,
                 55,
@@ -6686,6 +7647,17 @@
                 86,
                 60,
                 86,
+                50
+            ]
+        },
+        "531MA": {
+            "name": "Audino(Mega Audino)",
+            "stats": [
+                103,
+                60,
+                126,
+                80,
+                126,
                 50
             ]
         },
@@ -6748,7 +7720,7 @@
             "name": "Seismitoad",
             "stats": [
                 105,
-                85,
+                95,
                 75,
                 85,
                 75,
@@ -6806,7 +7778,7 @@
                 103,
                 80,
                 70,
-                70,
+                80,
                 92
             ]
         },
@@ -6836,7 +7808,7 @@
             "name": "Scolipede",
             "stats": [
                 60,
-                90,
+                100,
                 89,
                 55,
                 69,
@@ -6925,7 +7897,7 @@
             "stats": [
                 95,
                 117,
-                70,
+                80,
                 65,
                 70,
                 92
@@ -6990,7 +7962,7 @@
             "name": "Crustle",
             "stats": [
                 70,
-                95,
+                105,
                 125,
                 65,
                 75,
@@ -7606,7 +8578,7 @@
             "name": "Beartic",
             "stats": [
                 95,
-                110,
+                130,
                 80,
                 70,
                 80,
@@ -7616,9 +8588,9 @@
         "615": {
             "name": "Cryogonal",
             "stats": [
-                70,
+                80,
                 50,
-                30,
+                50,
                 95,
                 135,
                 105
@@ -8063,37 +9035,1896 @@
                 95,
                 99
             ]
+        },
+        "650": {
+            "name": "Chespin",
+            "stats": [
+                56,
+                61,
+                65,
+                48,
+                45,
+                38
+            ]
+        },
+        "651": {
+            "name": "Quilladin",
+            "stats": [
+                61,
+                78,
+                95,
+                56,
+                58,
+                57
+            ]
+        },
+        "652": {
+            "name": "Chesnaught",
+            "stats": [
+                88,
+                107,
+                122,
+                74,
+                75,
+                64
+            ]
+        },
+        "653": {
+            "name": "Fennekin",
+            "stats": [
+                40,
+                45,
+                40,
+                62,
+                60,
+                60
+            ]
+        },
+        "654": {
+            "name": "Braixen",
+            "stats": [
+                59,
+                59,
+                58,
+                90,
+                70,
+                73
+            ]
+        },
+        "655": {
+            "name": "Delphox",
+            "stats": [
+                75,
+                69,
+                72,
+                114,
+                100,
+                104
+            ]
+        },
+        "656": {
+            "name": "Froakie",
+            "stats": [
+                41,
+                56,
+                40,
+                62,
+                44,
+                71
+            ]
+        },
+        "657": {
+            "name": "Frogadier",
+            "stats": [
+                54,
+                63,
+                52,
+                83,
+                56,
+                97
+            ]
+        },
+        "658": {
+            "name": "Greninja",
+            "stats": [
+                72,
+                95,
+                67,
+                103,
+                71,
+                122
+            ]
+        },
+        "658A": {
+            "name": "Greninja(Ash-Greninja)",
+            "stats": [
+                72,
+                145,
+                67,
+                153,
+                71,
+                132
+            ]
+        },
+        "659": {
+            "name": "Bunnelby",
+            "stats": [
+                38,
+                36,
+                38,
+                32,
+                36,
+                57
+            ]
+        },
+        "660": {
+            "name": "Diggersby",
+            "stats": [
+                85,
+                56,
+                77,
+                50,
+                77,
+                78
+            ]
+        },
+        "661": {
+            "name": "Fletchling",
+            "stats": [
+                45,
+                50,
+                43,
+                40,
+                38,
+                62
+            ]
+        },
+        "662": {
+            "name": "Fletchinder",
+            "stats": [
+                62,
+                73,
+                55,
+                56,
+                52,
+                84
+            ]
+        },
+        "663": {
+            "name": "Talonflame",
+            "stats": [
+                78,
+                81,
+                71,
+                74,
+                69,
+                126
+            ]
+        },
+        "664": {
+            "name": "Scatterbug",
+            "stats": [
+                38,
+                35,
+                40,
+                27,
+                25,
+                35
+            ]
+        },
+        "665": {
+            "name": "Spewpa",
+            "stats": [
+                45,
+                22,
+                60,
+                27,
+                30,
+                29
+            ]
+        },
+        "666": {
+            "name": "Vivillon",
+            "stats": [
+                80,
+                52,
+                50,
+                90,
+                50,
+                89
+            ]
+        },
+        "667": {
+            "name": "Litleo",
+            "stats": [
+                62,
+                50,
+                58,
+                73,
+                54,
+                72
+            ]
+        },
+        "668": {
+            "name": "Pyroar",
+            "stats": [
+                86,
+                68,
+                72,
+                109,
+                66,
+                106
+            ]
+        },
+        "669": {
+            "name": "Flabébé",
+            "stats": [
+                44,
+                38,
+                39,
+                61,
+                79,
+                42
+            ]
+        },
+        "670": {
+            "name": "Floette",
+            "stats": [
+                54,
+                45,
+                47,
+                75,
+                98,
+                52
+            ]
+        },
+        "671": {
+            "name": "Florges",
+            "stats": [
+                78,
+                65,
+                68,
+                112,
+                154,
+                75
+            ]
+        },
+        "672": {
+            "name": "Skiddo",
+            "stats": [
+                66,
+                65,
+                48,
+                62,
+                57,
+                52
+            ]
+        },
+        "673": {
+            "name": "Gogoat",
+            "stats": [
+                123,
+                100,
+                62,
+                97,
+                81,
+                68
+            ]
+        },
+        "674": {
+            "name": "Pancham",
+            "stats": [
+                67,
+                82,
+                62,
+                46,
+                48,
+                43
+            ]
+        },
+        "675": {
+            "name": "Pangoro",
+            "stats": [
+                95,
+                124,
+                78,
+                69,
+                71,
+                58
+            ]
+        },
+        "676": {
+            "name": "Furfrou",
+            "stats": [
+                75,
+                80,
+                60,
+                65,
+                90,
+                102
+            ]
+        },
+        "677": {
+            "name": "Espurr",
+            "stats": [
+                62,
+                48,
+                54,
+                63,
+                60,
+                68
+            ]
+        },
+        "678": {
+            "name": "Meowstic",
+            "stats": [
+                74,
+                48,
+                76,
+                83,
+                81,
+                104
+            ]
+        },
+        "679": {
+            "name": "Honedge",
+            "stats": [
+                45,
+                80,
+                100,
+                35,
+                37,
+                28
+            ]
+        },
+        "680": {
+            "name": "Doublade",
+            "stats": [
+                59,
+                110,
+                150,
+                45,
+                49,
+                35
+            ]
+        },
+        "681SF": {
+            "name": "Aegislash(Shield Forme)",
+            "stats": [
+                60,
+                50,
+                150,
+                50,
+                150,
+                60
+            ]
+        },
+        "681BF": {
+            "name": "Aegislash(Blade Forme)",
+            "stats": [
+                60,
+                150,
+                50,
+                150,
+                50,
+                60
+            ]
+        },
+        "682": {
+            "name": "Spritzee",
+            "stats": [
+                78,
+                52,
+                60,
+                63,
+                65,
+                23
+            ]
+        },
+        "683": {
+            "name": "Aromatisse",
+            "stats": [
+                101,
+                72,
+                72,
+                99,
+                89,
+                29
+            ]
+        },
+        "684": {
+            "name": "Swirlix",
+            "stats": [
+                62,
+                48,
+                66,
+                59,
+                57,
+                49
+            ]
+        },
+        "685": {
+            "name": "Slurpuff",
+            "stats": [
+                82,
+                80,
+                86,
+                85,
+                75,
+                72
+            ]
+        },
+        "686": {
+            "name": "Inkay",
+            "stats": [
+                53,
+                54,
+                53,
+                37,
+                46,
+                45
+            ]
+        },
+        "687": {
+            "name": "Malamar",
+            "stats": [
+                86,
+                92,
+                88,
+                68,
+                75,
+                73
+            ]
+        },
+        "688": {
+            "name": "Binacle",
+            "stats": [
+                42,
+                52,
+                67,
+                39,
+                56,
+                50
+            ]
+        },
+        "689": {
+            "name": "Barbaracle",
+            "stats": [
+                72,
+                105,
+                115,
+                54,
+                86,
+                68
+            ]
+        },
+        "690": {
+            "name": "Skrelp",
+            "stats": [
+                50,
+                60,
+                60,
+                60,
+                60,
+                30
+            ]
+        },
+        "691": {
+            "name": "Dragalge",
+            "stats": [
+                65,
+                75,
+                90,
+                97,
+                123,
+                44
+            ]
+        },
+        "692": {
+            "name": "Clauncher",
+            "stats": [
+                50,
+                53,
+                62,
+                58,
+                63,
+                44
+            ]
+        },
+        "693": {
+            "name": "Clawitzer",
+            "stats": [
+                71,
+                73,
+                88,
+                120,
+                89,
+                59
+            ]
+        },
+        "694": {
+            "name": "Helioptile",
+            "stats": [
+                44,
+                38,
+                33,
+                61,
+                43,
+                70
+            ]
+        },
+        "695": {
+            "name": "Heliolisk",
+            "stats": [
+                62,
+                55,
+                52,
+                109,
+                94,
+                109
+            ]
+        },
+        "696": {
+            "name": "Tyrunt",
+            "stats": [
+                58,
+                89,
+                77,
+                45,
+                45,
+                48
+            ]
+        },
+        "697": {
+            "name": "Tyrantrum",
+            "stats": [
+                82,
+                121,
+                119,
+                69,
+                59,
+                71
+            ]
+        },
+        "698": {
+            "name": "Amaura",
+            "stats": [
+                77,
+                59,
+                50,
+                67,
+                63,
+                46
+            ]
+        },
+        "699": {
+            "name": "Aurorus",
+            "stats": [
+                123,
+                77,
+                72,
+                99,
+                92,
+                58
+            ]
+        },
+        "700": {
+            "name": "Sylveon",
+            "stats": [
+                95,
+                65,
+                65,
+                110,
+                130,
+                60
+            ]
+        },
+        "701": {
+            "name": "Hawlucha",
+            "stats": [
+                78,
+                92,
+                75,
+                74,
+                63,
+                118
+            ]
+        },
+        "702": {
+            "name": "Dedenne",
+            "stats": [
+                67,
+                58,
+                57,
+                81,
+                67,
+                101
+            ]
+        },
+        "703": {
+            "name": "Carbink",
+            "stats": [
+                50,
+                50,
+                150,
+                50,
+                150,
+                50
+            ]
+        },
+        "704": {
+            "name": "Goomy",
+            "stats": [
+                45,
+                50,
+                35,
+                55,
+                75,
+                40
+            ]
+        },
+        "705": {
+            "name": "Sliggoo",
+            "stats": [
+                68,
+                75,
+                53,
+                83,
+                113,
+                60
+            ]
+        },
+        "706": {
+            "name": "Goodra",
+            "stats": [
+                90,
+                100,
+                70,
+                110,
+                150,
+                80
+            ]
+        },
+        "707": {
+            "name": "Klefki",
+            "stats": [
+                57,
+                80,
+                91,
+                80,
+                87,
+                75
+            ]
+        },
+        "708": {
+            "name": "Phantump",
+            "stats": [
+                43,
+                70,
+                48,
+                50,
+                60,
+                38
+            ]
+        },
+        "709": {
+            "name": "Trevenant",
+            "stats": [
+                85,
+                110,
+                76,
+                65,
+                82,
+                56
+            ]
+        },
+        "710SS": {
+            "name": "Pumpkaboo(Small Size)",
+            "stats": [
+                44,
+                66,
+                70,
+                44,
+                55,
+                56
+            ]
+        },
+        "710AS": {
+            "name": "Pumpkaboo(Average Size)",
+            "stats": [
+                49,
+                66,
+                70,
+                44,
+                55,
+                51
+            ]
+        },
+        "710LS": {
+            "name": "Pumpkaboo(Large Size)",
+            "stats": [
+                54,
+                66,
+                70,
+                44,
+                55,
+                46
+            ]
+        },
+        "710SSI": {
+            "name": "Pumpkaboo(Super Size)",
+            "stats": [
+                59,
+                66,
+                70,
+                44,
+                55,
+                41
+            ]
+        },
+        "711SS": {
+            "name": "Gourgeist(Small Size)",
+            "stats": [
+                55,
+                85,
+                122,
+                58,
+                75,
+                99
+            ]
+        },
+        "711AS": {
+            "name": "Gourgeist(Average Size)",
+            "stats": [
+                65,
+                90,
+                122,
+                58,
+                75,
+                84
+            ]
+        },
+        "711LS": {
+            "name": "Gourgeist(Large Size)",
+            "stats": [
+                75,
+                95,
+                122,
+                58,
+                75,
+                69
+            ]
+        },
+        "711SSI": {
+            "name": "Gourgeist(Super Size)",
+            "stats": [
+                85,
+                100,
+                122,
+                58,
+                75,
+                54
+            ]
+        },
+        "712": {
+            "name": "Bergmite",
+            "stats": [
+                55,
+                69,
+                85,
+                32,
+                35,
+                28
+            ]
+        },
+        "713": {
+            "name": "Avalugg",
+            "stats": [
+                95,
+                117,
+                184,
+                44,
+                46,
+                28
+            ]
+        },
+        "714": {
+            "name": "Noibat",
+            "stats": [
+                40,
+                30,
+                35,
+                45,
+                40,
+                55
+            ]
+        },
+        "715": {
+            "name": "Noivern",
+            "stats": [
+                85,
+                70,
+                80,
+                97,
+                80,
+                123
+            ]
+        },
+        "716": {
+            "name": "Xerneas",
+            "stats": [
+                126,
+                131,
+                95,
+                131,
+                98,
+                99
+            ]
+        },
+        "717": {
+            "name": "Yveltal",
+            "stats": [
+                126,
+                131,
+                95,
+                131,
+                98,
+                99
+            ]
+        },
+        "7185F": {
+            "name": "Zygarde(50% Forme)",
+            "stats": [
+                108,
+                100,
+                121,
+                81,
+                95,
+                95
+            ]
+        },
+        "7181F": {
+            "name": "Zygarde(10% Forme)",
+            "stats": [
+                54,
+                100,
+                71,
+                61,
+                85,
+                115
+            ]
+        },
+        "718CF": {
+            "name": "Zygarde(Complete Forme)",
+            "stats": [
+                216,
+                100,
+                121,
+                91,
+                95,
+                85
+            ]
+        },
+        "719": {
+            "name": "Diancie",
+            "stats": [
+                50,
+                100,
+                150,
+                100,
+                150,
+                50
+            ]
+        },
+        "719MD": {
+            "name": "Diancie(Mega Diancie)",
+            "stats": [
+                50,
+                160,
+                110,
+                160,
+                110,
+                110
+            ]
+        },
+        "720HC": {
+            "name": "Hoopa(Hoopa Confined)",
+            "stats": [
+                80,
+                110,
+                60,
+                150,
+                130,
+                70
+            ]
+        },
+        "720HU": {
+            "name": "Hoopa(Hoopa Unbound)",
+            "stats": [
+                80,
+                160,
+                60,
+                170,
+                130,
+                80
+            ]
+        },
+        "721": {
+            "name": "Volcanion",
+            "stats": [
+                80,
+                110,
+                120,
+                130,
+                90,
+                70
+            ]
+        },
+        "722": {
+            "name": "Rowlet",
+            "stats": [
+                68,
+                55,
+                55,
+                50,
+                50,
+                42
+            ]
+        },
+        "723": {
+            "name": "Dartrix",
+            "stats": [
+                78,
+                75,
+                75,
+                70,
+                70,
+                52
+            ]
+        },
+        "724": {
+            "name": "Decidueye",
+            "stats": [
+                78,
+                107,
+                75,
+                100,
+                100,
+                70
+            ]
+        },
+        "725": {
+            "name": "Litten",
+            "stats": [
+                45,
+                65,
+                40,
+                60,
+                40,
+                70
+            ]
+        },
+        "726": {
+            "name": "Torracat",
+            "stats": [
+                65,
+                85,
+                50,
+                80,
+                50,
+                90
+            ]
+        },
+        "727": {
+            "name": "Incineroar",
+            "stats": [
+                95,
+                115,
+                90,
+                80,
+                90,
+                60
+            ]
+        },
+        "728": {
+            "name": "Popplio",
+            "stats": [
+                50,
+                54,
+                54,
+                66,
+                56,
+                40
+            ]
+        },
+        "729": {
+            "name": "Brionne",
+            "stats": [
+                60,
+                69,
+                69,
+                91,
+                81,
+                50
+            ]
+        },
+        "730": {
+            "name": "Primarina",
+            "stats": [
+                80,
+                74,
+                74,
+                126,
+                116,
+                60
+            ]
+        },
+        "731": {
+            "name": "Pikipek",
+            "stats": [
+                35,
+                75,
+                30,
+                30,
+                30,
+                65
+            ]
+        },
+        "732": {
+            "name": "Trumbeak",
+            "stats": [
+                55,
+                85,
+                50,
+                40,
+                50,
+                75
+            ]
+        },
+        "733": {
+            "name": "Toucannon",
+            "stats": [
+                80,
+                120,
+                75,
+                75,
+                75,
+                60
+            ]
+        },
+        "734": {
+            "name": "Yungoos",
+            "stats": [
+                48,
+                70,
+                30,
+                30,
+                30,
+                45
+            ]
+        },
+        "735": {
+            "name": "Gumshoos",
+            "stats": [
+                88,
+                110,
+                60,
+                55,
+                60,
+                45
+            ]
+        },
+        "736": {
+            "name": "Grubbin",
+            "stats": [
+                47,
+                62,
+                45,
+                55,
+                45,
+                46
+            ]
+        },
+        "737": {
+            "name": "Charjabug",
+            "stats": [
+                57,
+                82,
+                95,
+                55,
+                75,
+                36
+            ]
+        },
+        "738": {
+            "name": "Vikavolt",
+            "stats": [
+                77,
+                70,
+                90,
+                145,
+                75,
+                43
+            ]
+        },
+        "739": {
+            "name": "Crabrawler",
+            "stats": [
+                47,
+                82,
+                57,
+                42,
+                47,
+                63
+            ]
+        },
+        "740": {
+            "name": "Crabominable",
+            "stats": [
+                97,
+                132,
+                77,
+                62,
+                67,
+                43
+            ]
+        },
+        "741": {
+            "name": "Oricorio",
+            "stats": [
+                75,
+                70,
+                70,
+                98,
+                70,
+                93
+            ]
+        },
+        "742": {
+            "name": "Cutiefly",
+            "stats": [
+                40,
+                45,
+                40,
+                55,
+                40,
+                84
+            ]
+        },
+        "743": {
+            "name": "Ribombee",
+            "stats": [
+                60,
+                55,
+                60,
+                95,
+                70,
+                124
+            ]
+        },
+        "744": {
+            "name": "Rockruff",
+            "stats": [
+                45,
+                65,
+                40,
+                30,
+                40,
+                60
+            ]
+        },
+        "745MF": {
+            "name": "Lycanroc(Midday Form)",
+            "stats": [
+                75,
+                115,
+                65,
+                55,
+                65,
+                112
+            ]
+        },
+        "745MFI": {
+            "name": "Lycanroc(Midnight Form)",
+            "stats": [
+                85,
+                115,
+                75,
+                55,
+                75,
+                82
+            ]
+        },
+        "746SF": {
+            "name": "Wishiwashi(Solo Form)",
+            "stats": [
+                45,
+                20,
+                20,
+                25,
+                25,
+                40
+            ]
+        },
+        "746SFI": {
+            "name": "Wishiwashi(School Form)",
+            "stats": [
+                45,
+                140,
+                130,
+                140,
+                135,
+                30
+            ]
+        },
+        "747": {
+            "name": "Mareanie",
+            "stats": [
+                50,
+                53,
+                62,
+                43,
+                52,
+                45
+            ]
+        },
+        "748": {
+            "name": "Toxapex",
+            "stats": [
+                50,
+                63,
+                152,
+                53,
+                142,
+                35
+            ]
+        },
+        "749": {
+            "name": "Mudbray",
+            "stats": [
+                70,
+                100,
+                70,
+                45,
+                55,
+                45
+            ]
+        },
+        "750": {
+            "name": "Mudsdale",
+            "stats": [
+                100,
+                125,
+                100,
+                55,
+                85,
+                35
+            ]
+        },
+        "751": {
+            "name": "Dewpider",
+            "stats": [
+                38,
+                40,
+                52,
+                40,
+                72,
+                27
+            ]
+        },
+        "752": {
+            "name": "Araquanid",
+            "stats": [
+                68,
+                70,
+                92,
+                50,
+                132,
+                42
+            ]
+        },
+        "753": {
+            "name": "Fomantis",
+            "stats": [
+                40,
+                55,
+                35,
+                50,
+                35,
+                35
+            ]
+        },
+        "754": {
+            "name": "Lurantis",
+            "stats": [
+                70,
+                105,
+                90,
+                80,
+                90,
+                45
+            ]
+        },
+        "755": {
+            "name": "Morelull",
+            "stats": [
+                40,
+                35,
+                55,
+                65,
+                75,
+                15
+            ]
+        },
+        "756": {
+            "name": "Shiinotic",
+            "stats": [
+                60,
+                45,
+                80,
+                90,
+                100,
+                30
+            ]
+        },
+        "757": {
+            "name": "Salandit",
+            "stats": [
+                48,
+                44,
+                40,
+                71,
+                40,
+                77
+            ]
+        },
+        "758": {
+            "name": "Salazzle",
+            "stats": [
+                68,
+                64,
+                60,
+                111,
+                60,
+                117
+            ]
+        },
+        "759": {
+            "name": "Stufful",
+            "stats": [
+                70,
+                75,
+                50,
+                45,
+                50,
+                50
+            ]
+        },
+        "760": {
+            "name": "Bewear",
+            "stats": [
+                120,
+                125,
+                80,
+                55,
+                60,
+                60
+            ]
+        },
+        "761": {
+            "name": "Bounsweet",
+            "stats": [
+                42,
+                30,
+                38,
+                30,
+                38,
+                32
+            ]
+        },
+        "762": {
+            "name": "Steenee",
+            "stats": [
+                52,
+                40,
+                48,
+                40,
+                48,
+                62
+            ]
+        },
+        "763": {
+            "name": "Tsareena",
+            "stats": [
+                72,
+                120,
+                98,
+                50,
+                98,
+                72
+            ]
+        },
+        "764": {
+            "name": "Comfey",
+            "stats": [
+                51,
+                52,
+                90,
+                82,
+                110,
+                100
+            ]
+        },
+        "765": {
+            "name": "Oranguru",
+            "stats": [
+                90,
+                60,
+                80,
+                90,
+                110,
+                60
+            ]
+        },
+        "766": {
+            "name": "Passimian",
+            "stats": [
+                100,
+                120,
+                90,
+                40,
+                60,
+                80
+            ]
+        },
+        "767": {
+            "name": "Wimpod",
+            "stats": [
+                25,
+                35,
+                40,
+                20,
+                30,
+                80
+            ]
+        },
+        "768": {
+            "name": "Golisopod",
+            "stats": [
+                75,
+                125,
+                140,
+                60,
+                90,
+                40
+            ]
+        },
+        "769": {
+            "name": "Sandygast",
+            "stats": [
+                55,
+                55,
+                80,
+                70,
+                45,
+                15
+            ]
+        },
+        "770": {
+            "name": "Palossand",
+            "stats": [
+                85,
+                75,
+                110,
+                100,
+                75,
+                35
+            ]
+        },
+        "771": {
+            "name": "Pyukumuku",
+            "stats": [
+                55,
+                60,
+                130,
+                30,
+                130,
+                5
+            ]
+        },
+        "772": {
+            "name": "Type: Null",
+            "stats": [
+                95,
+                95,
+                95,
+                95,
+                95,
+                59
+            ]
+        },
+        "773": {
+            "name": "Silvally",
+            "stats": [
+                95,
+                95,
+                95,
+                95,
+                95,
+                95
+            ]
+        },
+        "774MF": {
+            "name": "Minior(Meteor Form)",
+            "stats": [
+                60,
+                60,
+                100,
+                60,
+                100,
+                60
+            ]
+        },
+        "774CF": {
+            "name": "Minior(Core Form)",
+            "stats": [
+                60,
+                100,
+                60,
+                100,
+                60,
+                120
+            ]
+        },
+        "775": {
+            "name": "Komala",
+            "stats": [
+                65,
+                115,
+                65,
+                75,
+                95,
+                65
+            ]
+        },
+        "776": {
+            "name": "Turtonator",
+            "stats": [
+                60,
+                78,
+                135,
+                91,
+                85,
+                36
+            ]
+        },
+        "777": {
+            "name": "Togedemaru",
+            "stats": [
+                65,
+                98,
+                63,
+                40,
+                73,
+                96
+            ]
+        },
+        "778": {
+            "name": "Mimikyu",
+            "stats": [
+                55,
+                90,
+                80,
+                50,
+                105,
+                96
+            ]
+        },
+        "779": {
+            "name": "Bruxish",
+            "stats": [
+                68,
+                105,
+                70,
+                70,
+                70,
+                92
+            ]
+        },
+        "780": {
+            "name": "Drampa",
+            "stats": [
+                78,
+                60,
+                85,
+                135,
+                91,
+                36
+            ]
+        },
+        "781": {
+            "name": "Dhelmise",
+            "stats": [
+                70,
+                131,
+                100,
+                86,
+                90,
+                40
+            ]
+        },
+        "782": {
+            "name": "Jangmo-o",
+            "stats": [
+                45,
+                55,
+                65,
+                45,
+                45,
+                45
+            ]
+        },
+        "783": {
+            "name": "Hakamo-o",
+            "stats": [
+                55,
+                75,
+                90,
+                65,
+                70,
+                65
+            ]
+        },
+        "784": {
+            "name": "Kommo-o",
+            "stats": [
+                75,
+                110,
+                125,
+                100,
+                105,
+                85
+            ]
+        },
+        "785": {
+            "name": "Tapu Koko",
+            "stats": [
+                70,
+                115,
+                85,
+                95,
+                75,
+                130
+            ]
+        },
+        "786": {
+            "name": "Tapu Lele",
+            "stats": [
+                70,
+                85,
+                75,
+                130,
+                115,
+                95
+            ]
+        },
+        "787": {
+            "name": "Tapu Bulu",
+            "stats": [
+                70,
+                130,
+                115,
+                85,
+                95,
+                75
+            ]
+        },
+        "788": {
+            "name": "Tapu Fini",
+            "stats": [
+                70,
+                75,
+                115,
+                95,
+                130,
+                85
+            ]
+        },
+        "789": {
+            "name": "Cosmog",
+            "stats": [
+                43,
+                29,
+                31,
+                29,
+                31,
+                37
+            ]
+        },
+        "790": {
+            "name": "Cosmoem",
+            "stats": [
+                43,
+                29,
+                131,
+                29,
+                131,
+                37
+            ]
+        },
+        "791": {
+            "name": "Solgaleo",
+            "stats": [
+                137,
+                137,
+                107,
+                113,
+                89,
+                97
+            ]
+        },
+        "792": {
+            "name": "Lunala",
+            "stats": [
+                137,
+                113,
+                89,
+                137,
+                107,
+                97
+            ]
+        },
+        "793": {
+            "name": "Nihilego",
+            "stats": [
+                109,
+                53,
+                47,
+                127,
+                131,
+                103
+            ]
+        },
+        "794": {
+            "name": "Buzzwole",
+            "stats": [
+                107,
+                139,
+                139,
+                53,
+                53,
+                79
+            ]
+        },
+        "795": {
+            "name": "Pheromosa",
+            "stats": [
+                71,
+                137,
+                37,
+                137,
+                37,
+                151
+            ]
+        },
+        "796": {
+            "name": "Xurkitree",
+            "stats": [
+                83,
+                89,
+                71,
+                173,
+                71,
+                83
+            ]
+        },
+        "797": {
+            "name": "Celesteela",
+            "stats": [
+                97,
+                101,
+                103,
+                107,
+                101,
+                61
+            ]
+        },
+        "798": {
+            "name": "Kartana",
+            "stats": [
+                59,
+                181,
+                131,
+                59,
+                31,
+                109
+            ]
+        },
+        "799": {
+            "name": "Guzzlord",
+            "stats": [
+                223,
+                101,
+                53,
+                97,
+                53,
+                43
+            ]
+        },
+        "800": {
+            "name": "Necrozma",
+            "stats": [
+                97,
+                107,
+                101,
+                127,
+                89,
+                79
+            ]
+        },
+        "801": {
+            "name": "Magearna",
+            "stats": [
+                80,
+                95,
+                115,
+                130,
+                115,
+                65
+            ]
+        },
+        "802": {
+            "name": "Marshadow",
+            "stats": [
+                90,
+                125,
+                80,
+                90,
+                90,
+                125
+            ]
         }
     },
     "order": [
         "001",
         "002",
         "003",
+        "003MV",
         "004",
         "005",
         "006",
+        "006MCX",
+        "006MCY",
         "007",
         "008",
         "009",
+        "009MB",
         "010",
         "011",
         "012",
         "013",
         "014",
         "015",
+        "015MB",
         "016",
         "017",
         "018",
+        "018MP",
         "019",
+        "019AR",
         "020",
+        "020AR",
         "021",
         "022",
         "023",
         "024",
         "025",
         "026",
+        "026AR",
         "027",
+        "027AS",
         "028",
+        "028AS",
         "029",
         "030",
         "031",
@@ -8103,7 +10934,9 @@
         "035",
         "036",
         "037",
+        "037AV",
         "038",
+        "038AN",
         "039",
         "040",
         "041",
@@ -8116,9 +10949,13 @@
         "048",
         "049",
         "050",
+        "050AD",
         "051",
+        "051AD",
         "052",
+        "052AM",
         "053",
+        "053AP",
         "054",
         "055",
         "056",
@@ -8131,6 +10968,7 @@
         "063",
         "064",
         "065",
+        "065MA",
         "066",
         "067",
         "068",
@@ -8140,12 +10978,16 @@
         "072",
         "073",
         "074",
+        "074AG",
         "075",
+        "075AG",
         "076",
+        "076AG",
         "077",
         "078",
         "079",
         "080",
+        "080MS",
         "081",
         "082",
         "083",
@@ -8154,12 +10996,15 @@
         "086",
         "087",
         "088",
+        "088AG",
         "089",
+        "089AM",
         "090",
         "091",
         "092",
         "093",
         "094",
+        "094MG",
         "095",
         "096",
         "097",
@@ -8169,8 +11014,10 @@
         "101",
         "102",
         "103",
+        "103AE",
         "104",
         "105",
+        "105AM",
         "106",
         "107",
         "108",
@@ -8181,6 +11028,7 @@
         "113",
         "114",
         "115",
+        "115MK",
         "116",
         "117",
         "118",
@@ -8193,9 +11041,11 @@
         "125",
         "126",
         "127",
+        "127MP",
         "128",
         "129",
         "130",
+        "130MG",
         "131",
         "132",
         "133",
@@ -8208,6 +11058,7 @@
         "140",
         "141",
         "142",
+        "142MA",
         "143",
         "144",
         "145",
@@ -8216,6 +11067,8 @@
         "148",
         "149",
         "150",
+        "150MMX",
+        "150MMY",
         "151",
         "152",
         "153",
@@ -8247,6 +11100,7 @@
         "179",
         "180",
         "181",
+        "181MA",
         "182",
         "183",
         "184",
@@ -8274,12 +11128,15 @@
         "206",
         "207",
         "208",
+        "208MS",
         "209",
         "210",
         "211",
         "212",
+        "212MS",
         "213",
         "214",
+        "214MH",
         "215",
         "216",
         "217",
@@ -8295,6 +11152,7 @@
         "227",
         "228",
         "229",
+        "229MH",
         "230",
         "231",
         "232",
@@ -8314,18 +11172,22 @@
         "246",
         "247",
         "248",
+        "248MT",
         "249",
         "250",
         "251",
         "252",
         "253",
         "254",
+        "254MS",
         "255",
         "256",
         "257",
+        "257MB",
         "258",
         "259",
         "260",
+        "260MS",
         "261",
         "262",
         "263",
@@ -8348,6 +11210,7 @@
         "280",
         "281",
         "282",
+        "282MG",
         "283",
         "284",
         "285",
@@ -8368,14 +11231,19 @@
         "300",
         "301",
         "302",
+        "302MS",
         "303",
+        "303MM",
         "304",
         "305",
         "306",
+        "306MA",
         "307",
         "308",
+        "308MM",
         "309",
         "310",
+        "310MM",
         "311",
         "312",
         "313",
@@ -8385,10 +11253,12 @@
         "317",
         "318",
         "319",
+        "319MS",
         "320",
         "321",
         "322",
         "323",
+        "323MC",
         "324",
         "325",
         "326",
@@ -8400,6 +11270,7 @@
         "332",
         "333",
         "334",
+        "334MA",
         "335",
         "336",
         "337",
@@ -8420,14 +11291,17 @@
         "352",
         "353",
         "354",
+        "354MB",
         "355",
         "356",
         "357",
         "358",
         "359",
+        "359MA",
         "360",
         "361",
         "362",
+        "362MG",
         "363",
         "364",
         "365",
@@ -8439,17 +11313,24 @@
         "371",
         "372",
         "373",
+        "373MS",
         "374",
         "375",
         "376",
+        "376MM",
         "377",
         "378",
         "379",
         "380",
+        "380ML",
         "381",
+        "381ML",
         "382",
+        "382PK",
         "383",
+        "383PG",
         "384",
+        "384MR",
         "385",
         "386NF",
         "386AF",
@@ -8499,6 +11380,7 @@
         "426",
         "427",
         "428",
+        "428ML",
         "429",
         "430",
         "431",
@@ -8516,9 +11398,11 @@
         "443",
         "444",
         "445",
+        "445MG",
         "446",
         "447",
         "448",
+        "448ML",
         "449",
         "450",
         "451",
@@ -8531,6 +11415,7 @@
         "458",
         "459",
         "460",
+        "460MA",
         "461",
         "462",
         "463",
@@ -8546,10 +11431,11 @@
         "473",
         "474",
         "475",
+        "475MG",
         "476",
         "477",
         "478",
-        "479NR",
+        "479",
         "479HR",
         "479WR",
         "479FR",
@@ -8609,6 +11495,7 @@
         "529",
         "530",
         "531",
+        "531MA",
         "532",
         "533",
         "534",
@@ -8733,6 +11620,174 @@
         "647",
         "648AF",
         "648PF",
-        "649"
+        "649",
+        "650",
+        "651",
+        "652",
+        "653",
+        "654",
+        "655",
+        "656",
+        "657",
+        "658",
+        "658A",
+        "659",
+        "660",
+        "661",
+        "662",
+        "663",
+        "664",
+        "665",
+        "666",
+        "667",
+        "668",
+        "669",
+        "670",
+        "671",
+        "672",
+        "673",
+        "674",
+        "675",
+        "676",
+        "677",
+        "678",
+        "679",
+        "680",
+        "681SF",
+        "681BF",
+        "682",
+        "683",
+        "684",
+        "685",
+        "686",
+        "687",
+        "688",
+        "689",
+        "690",
+        "691",
+        "692",
+        "693",
+        "694",
+        "695",
+        "696",
+        "697",
+        "698",
+        "699",
+        "700",
+        "701",
+        "702",
+        "703",
+        "704",
+        "705",
+        "706",
+        "707",
+        "708",
+        "709",
+        "710SS",
+        "710AS",
+        "710LS",
+        "710SSI",
+        "711SS",
+        "711AS",
+        "711LS",
+        "711SSI",
+        "712",
+        "713",
+        "714",
+        "715",
+        "716",
+        "717",
+        "7185F",
+        "7181F",
+        "718CF",
+        "719",
+        "719MD",
+        "720HC",
+        "720HU",
+        "721",
+        "722",
+        "723",
+        "724",
+        "725",
+        "726",
+        "727",
+        "728",
+        "729",
+        "730",
+        "731",
+        "732",
+        "733",
+        "734",
+        "735",
+        "736",
+        "737",
+        "738",
+        "739",
+        "740",
+        "741",
+        "742",
+        "743",
+        "744",
+        "745MF",
+        "745MFI",
+        "746SF",
+        "746SFI",
+        "747",
+        "748",
+        "749",
+        "750",
+        "751",
+        "752",
+        "753",
+        "754",
+        "755",
+        "756",
+        "757",
+        "758",
+        "759",
+        "760",
+        "761",
+        "762",
+        "763",
+        "764",
+        "765",
+        "766",
+        "767",
+        "768",
+        "769",
+        "770",
+        "771",
+        "772",
+        "773",
+        "774MF",
+        "774CF",
+        "775",
+        "776",
+        "777",
+        "778",
+        "779",
+        "780",
+        "781",
+        "782",
+        "783",
+        "784",
+        "785",
+        "786",
+        "787",
+        "788",
+        "789",
+        "790",
+        "791",
+        "792",
+        "793",
+        "794",
+        "795",
+        "796",
+        "797",
+        "798",
+        "799",
+        "800",
+        "801",
+        "802"
     ]
 }

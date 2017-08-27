@@ -11,6 +11,8 @@ __license__    = "MIT"
 import sys
 import json
 import datetime
+import requests
+import os
 from bs4 import BeautifulSoup
 from collections import OrderedDict
 
@@ -22,8 +24,16 @@ def dump_to_file(data, filename, format=True):
         else:
             json.dump(data, outfile, ensure_ascii=False)
 
+def download_html(html_path, url):
+    print("Downloading: {}".format(url))
+    r = requests.get(url)
+    with open(html_path, "wb") as dest:
+        dest.write(r.content)
+
 def generate_main(file_name, url, stat_order, stat_names, title):
     input_path = "res/html/"+file_name+".html"
+    if not os.path.exists(input_path):
+        download_html(input_path, url)
     print("Opening: "+input_path)
     soup = BeautifulSoup(open(input_path), 'html.parser')
     print("Document title: "+soup.title.string)
@@ -51,7 +61,7 @@ def generate_main(file_name, url, stat_order, stat_names, title):
     stat_meta = OrderedDict()
     stat_meta["order"] = stat_order
     stat_meta["names"] = stat_abbrev
-
+    order = []
     for mon in lines:
         monster = OrderedDict()
 
@@ -84,9 +94,10 @@ def generate_main(file_name, url, stat_order, stat_names, title):
             stats.append(int(fields[i+3].string))
         monster["stats"] = stats
 
-        # Enter the monster into both main dict and lookup dict
+        # Enter the monster into main dict, lookup dict and order list
         dex[num] = monster
         lookup[name] = num
+        order.append(num)
 
     lookup = OrderedDict(sorted(lookup.items(), key=lambda t: t[0]))
 
@@ -130,15 +141,17 @@ def generate_main(file_name, url, stat_order, stat_names, title):
     data["stats"] = stat_meta
     data["lookup"] = lookup
     data["dex"] = dex
-    assert len(dex) == len(lookup)
+    data["order"] = order
+    assert len(dex) == len(lookup) and len(dex) == len(order)
 
     # Dump(save) json files: mini is small
     dump_to_file(data, "res/json/"+file_name+".json")
     dump_to_file(data, "res/json/"+file_name+".mini.json", format=False)
+
 if __name__ == '__main__':
     generate_main(\
         file_name = "gen1",\
-        url = "http://bulbapedia.bulbagarden.net/wiki/" + \
+        url = "http://bulbapedia.bulbagarden.net/wiki/"\
               "List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)",\
         stat_order  = ["HP", "ATK", "DEF", "SPE", "SPC"],\
         stat_names  = ["Hit Points", "Attack", "Defense", "Speed", "Special"],\
@@ -146,7 +159,7 @@ if __name__ == '__main__':
                 "for all 151 Pokémon (Red/Blue/Yellow)")
     generate_main(\
         file_name = "gen2-5",\
-        url = "http://bulbapedia.bulbagarden.net/wiki/"+\
+        url = "http://bulbapedia.bulbagarden.net/wiki/"\
               "List_of_Pok%C3%A9mon_by_base_stats_(Generation_II-V)",\
         stat_order  = ["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],\
         stat_names  = ["Hit Points", "Attack", "Defense", \
@@ -155,10 +168,19 @@ if __name__ == '__main__':
                 "for all 649 Pokémon (GSC/RSE/DPP/BW)")
     generate_main(\
         file_name = "gen6",\
-        url = "http://bulbapedia.bulbagarden.net/wiki/"+\
+        url = "http://bulbapedia.bulbagarden.net/wiki/"\
               "List_of_Pok%C3%A9mon_by_base_stats_(Generation_VI-present)",\
         stat_order  = ["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],\
         stat_names  = ["Hit Points", "Attack", "Defense", \
                       "Special Attack", "Special Defense", "Speed"],\
         title = "Generation 6 Base stats JSON "+\
                 "for all 721 Pokémon (XY/ORAS)")
+    generate_main(\
+        file_name = "gen7",\
+        url = "https://bulbapedia.bulbagarden.net/wiki/"\
+              "List_of_Pok%C3%A9mon_by_base_stats_(Generation_VII-present)",\
+        stat_order  = ["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],\
+        stat_names  = ["Hit Points", "Attack", "Defense", \
+                      "Special Attack", "Special Defense", "Speed"],\
+        title = "Generation 7 Base stats JSON "+\
+                "for all 802 Pokémon (Sun/Moon)")
