@@ -8,7 +8,7 @@ function calc_main_term(level, base, DV, EV) {
 }
 
 function calc_stat(stat, level, base, DV, EV) {
-    var mt = calcMainTerm(level, base, DV, EV);
+    var mt = calc_main_term(level, base, DV, EV);
     if (stat == "HP") {
         return mt + level + 10;
     } else {
@@ -22,8 +22,8 @@ function calc_ranges() {
     var stats = ["HP", "ATK", "DEF", "SPE", "SPC"];
     stats.forEach(function(st) {
         var base = Number(document.getElementById('base' + st).value);
-        var min = calcStat(st, level, base, 0, 0);
-        var max = calcStat(st, level, base, 15, 0);
+        var min = calc_stat(st, level, base, 0, 0);
+        var max = calc_stat(st, level, base, 15, 0);
         document.getElementById('range' + st).value = "" + min + "-" + max;
     });
 }

@@ -8,29 +8,29 @@ ga('create', 'UA-79005632-2', 'auto');
 // Change url in address bar, add history entry and load new "site" into main:
 function navigate(site){
   window.history.pushState(site, "PokRes - "+site, "/pokres/index.html?site="+site);
-  loadMain(site);
+  load_main(site);
 }
 
 // Get parameters from url and load appropriate "site":
 $( document ).ready(function() {
   var site = $.urlParam('site');
   if(site){
-    loadMain(site);
+    load_main(site);
   }else{
-    loadMain('calc');
+    load_main('calc');
   }
 });
 
 // Back button, get state variable and load that "site":
 window.onpopstate = function(event) {
   var site = event.state;
-  loadMain(site);
+  load_main(site);
 };
 
 // =============================== STACKOVERFLOW ===============================
 // Function to replace contents of main
 // http://stackoverflow.com/a/24336884
-function dataInclude(){
+function data_include(){
   $("[data-include]").each(function(){
     var that = $(this);
     that.load(that.attr('data-include'), function(){
@@ -52,8 +52,8 @@ $.urlParam = function(name){
 
 // Put the contents of a "site"(.html) into the main div:
 // http://stackoverflow.com/a/6949658
-function loadMain(site){
-  $("#main").load('web/sites/'+site+'.html', dataInclude);
+function load_main(site){
+  $("#main").load('web/sites/'+site+'.html', data_include);
   ga('set', 'location', window.location.href);
   ga('send', 'pageview');
 }
