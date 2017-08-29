@@ -1,4 +1,4 @@
-function calc_main_term(level, base, DV, EV) {
+function gen1_calc_main_term(level, base, DV, EV) {
     var EVpart = Math.floor(Math.ceil(Math.sqrt(EV)) / 4);
     var basepart = (base + DV) * 2;
 
@@ -7,8 +7,8 @@ function calc_main_term(level, base, DV, EV) {
     return Math.floor(levelpart / 100);
 }
 
-function calc_stat(stat, level, base, DV, EV) {
-    var mt = calc_main_term(level, base, DV, EV);
+function gen1_calc_stat(stat, level, base, DV, EV) {
+    var mt = gen1_calc_main_term(level, base, DV, EV);
     if (stat == "HP") {
         return mt + level + 10;
     } else {
@@ -17,18 +17,18 @@ function calc_stat(stat, level, base, DV, EV) {
     return 0;
 }
 
-function calc_ranges() {
+function gen1_calc_ranges() {
     var level = Number(document.getElementById('level').value);
     var stats = ["HP", "ATK", "DEF", "SPE", "SPC"];
     stats.forEach(function(st) {
         var base = Number(document.getElementById('base' + st).value);
-        var min = calc_stat(st, level, base, 0, 0);
-        var max = calc_stat(st, level, base, 15, 0);
+        var min = gen1_calc_stat(st, level, base, 0, 0);
+        var max = gen1_calc_stat(st, level, base, 15, 0);
         document.getElementById('range' + st).value = "" + min + "-" + max;
     });
 }
 
-function init_pok() {
+function gen1_init_species() {
     $.getJSON("web/files/gen1.mini.json", function(data) {
         var items = [];
         $.each(data.dex, function(key, val) {
@@ -46,10 +46,10 @@ function init_pok() {
             }));
         });
     });
-    select_species();
+    gen1_select_species();
 }
 
-function select_species(){
+function gen1_select_species(){
     var choice = $('#species').find(":selected").val();
     $.getJSON("web/files/gen1.mini.json", function(data) {
         if (choice in data.dex){

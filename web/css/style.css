@@ -8,7 +8,7 @@
 	/*background: transparent;
 	background-color: inherit;*/
 	text-align: left;
-	font-size: inherit;
+	font-size: 16px;
 	vertical-align: baseline;
 	font-family: 'Segoe UI',Helvetica, Verdana, Arial, Sans-Serif;
 }
@@ -87,6 +87,33 @@ body{
 
 p{
 	padding: 16px;
+}
+
+.ui-autocomplete {
+    background: #FFFFFF;
+    border-radius: 0px;
+	width: 100px;
+}
+.ui-menu .ui-menu-item a {
+    color: #96f226;
+    border-radius: 0px;
+}
+.ui-menu-item:hover {
+    background: #FFDDDD;
+    color: #000000;
+}
+
+#species_search:hover {
+    background: #FFDDDD;
+}
+
+li{
+	list-style: none;
+	font-size: 10px;
+}
+
+.calc_button{
+	padding: 2px 6px 2px 6px;
 }
 
 .headerbg{
