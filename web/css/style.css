@@ -164,7 +164,7 @@ a:active {
 
 /* ============================== Github logo ============================= */
 
-.github{
+.icon-link{
 	width: 32px;
 	height: 32px;
 	font-size: 48px;
@@ -175,7 +175,10 @@ a:active {
 	margin: 2px;
 }
 
-.github:hover{
+.icon-link:link{
+	text-decoration: none;
+}
+.icon-link:hover{
 	background-color: #AAAAAA;
 }
 
