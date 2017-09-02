@@ -6,9 +6,13 @@
 	outline: 0;
 	color: inherit;
 	text-align: left;
-	font-size: inherit;
+	font-size: 16px;
 	vertical-align: baseline;
 	font-family: Helvetica, 'Segoe UI', Verdana, Arial, Sans-Serif;
+}
+
+a {
+	font-size: inherit;
 }
 
 /* ============================ Spatial Layout ============================ */
@@ -194,7 +198,8 @@ a:active {
 	border-radius: 0px;
 	width: 100px;
 }
-.ui-menu .ui-menu-item a {
+
+.ui-menu:link .ui-menu-item:link {
 	color: #96f226;
 	border-radius: 0px;
 }
@@ -204,5 +209,5 @@ a:active {
 }
 
 #species_search:hover {
-	background: #FFDDDD;
+	background: #DDDDDD;
 }
