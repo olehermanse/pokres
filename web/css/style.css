@@ -1,16 +1,14 @@
 /* STANDARD RESET */
-*{
+*, html{
 	margin: 0;
 	padding: 0;
 	border: 0;
 	outline: 0;
 	color: inherit;
-	/*background: transparent;
-	background-color: inherit;*/
 	text-align: left;
 	font-size: 16px;
 	vertical-align: baseline;
-	font-family: 'Segoe UI',Helvetica, Verdana, Arial, Sans-Serif;
+	font-family: Helvetica, 'Segoe UI', Verdana, Arial, Sans-Serif;
 }
 
 input,select{
@@ -23,59 +21,55 @@ input{
 	padding-left: 4px;
 }
 
-.home{
-	line-height: 200%;
-}
-
 /*
- NAVBAR     #FFFFFF
+     NAVBAR #FFFFFF
  CONTENT_BG #505050
  BACKGROUND #BBBBBB
- HEADER     #D00000
+     HEADER #D00000
 */
 
 h1{
-    font-size: 24px;
-    margin-bottom: 3px;
-    font-weight: bold;
-    /*border-bottom: thin solid #FFFFFF;*/
+	font-size: 24px;
+	margin-bottom: 8px;
+	margin-top: 16px;
+	font-weight: bold;
+	/*border-bottom: thin solid #FFFFFF;*/
 }
 
 h2{
-    font-size: 18px;
-    margin-bottom: 9px;
+	font-size: 18px;
+	margin-bottom: 9px;
 	margin-top: 12px;
-    font-weight: bold;
+	font-weight: bold;
 }
 
 h3{
-    font-size: inherit;
-    font-weight: bold;
-    margin-top: 16px;
-    margin-bottom: 4px;
+	font-size: inherit;
+	font-weight: bold;
+	margin-top: 16px;
+	margin-bottom: 4px;
 }
 
-td
-{
-    padding:0 15px 0 0;
+td{
+	padding:0 15px 0 0;
 }
 
 a:link {
-    text-decoration: none;
+	text-decoration: underline;
 }
 
 a:visited {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
-    background-color: #D00000; /* HEADER */
+	text-decoration: underline;
+	background-color: #D00000; /* HEADER */
 	color: #FFFFFF; /* NAVBAR */
 }
 
 a:active {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 body{
@@ -89,27 +83,27 @@ p{
 	padding: 16px;
 }
 
-.ui-autocomplete {
-    background: #FFFFFF;
-    border-radius: 0px;
-	width: 100px;
-}
-.ui-menu .ui-menu-item a {
-    color: #96f226;
-    border-radius: 0px;
-}
-.ui-menu-item:hover {
-    background: #FFDDDD;
-    color: #000000;
-}
-
-#species_search:hover {
-    background: #FFDDDD;
-}
-
 li{
 	list-style: none;
 	font-size: 10px;
+}
+
+.ui-autocomplete {
+	background: #FFFFFF;
+	border-radius: 0px;
+	width: 100px;
+}
+.ui-menu .ui-menu-item a {
+	color: #96f226;
+	border-radius: 0px;
+}
+.ui-menu-item:hover {
+	background: #FFDDDD;
+	color: #000000;
+}
+
+#species_search:hover {
+	background: #FFDDDD;
 }
 
 .calc_button{
@@ -122,31 +116,31 @@ li{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin: 0;
-	margin-bottom: 0;
 	width: 100%;
 	text-align: left;
 }
 
 .header{
 	color: #FFFFFF; /* NAVBAR */
-	padding: 10px;
+	padding: 2px;
 	margin: 0 auto;
 	margin-bottom: 0;
-	width: 720px;
+	width: 1000px;
 	text-align: left;
 	font-size: 32px;
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .navbar{
-	width: 720px;
+	background-color: #FFFFFF; /* NAVBAR */
+	width: 1000px;
 	margin: 0 auto;
 	height: 48px;
 	padding: 0 32px;
-	background-color: #FFFFFF; /* NAVBAR */
 }
 
 .navitem{
+	text-decoration: none;
 	margin: 0;
 	padding: 10px 16px 10px 16px;
 	font-size: 18px;
@@ -154,14 +148,29 @@ li{
 	float: left;
 }
 
+.navitem:link{
+	text-decoration: none;
+}
+
+.navitem:hover{
+	text-decoration: none;
+}
+
+.github:hover{
+	background-color: inherit;
+}
+
 .main{
 	background-color: #505050; /* CONTENT_BG */
-	color: #FFFFFF; /* NAVBAR */
+	color:            #FFFFFF; /* NAVBAR */
 	padding: 32px;
+	padding-top: 1px;
 	margin: 0 auto;
+	margin-top: 0px;
 	margin-bottom: 100px;
-	width: 720px;
+	width: 998px;
 	min-height: 720px;
 	font-size: 16px;
 	text-align: left;
+	line-height: 200%;
 }

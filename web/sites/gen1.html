@@ -1,23 +1,7 @@
-<div class="home">
-<h1>Base stat lookup</h1>
-<select name="select" id="generation_select" onchange="fill_autocomplete()">
-    <option value="web/files/gen1.mini.json" selected>Generation 1</option>
-    <option value="web/files/gen2-5.mini.json">Generation 2-5</option>
-    <option value="web/files/gen6.mini.json">Generation 6</option>
-    <option value="web/files/gen7.mini.json">Generation 7</option>
-</select>
-  <label for="species_search">Species: </label>
-  <input id="species_search"/>
-<script>fill_autocomplete();</script>
-<input class="calc_button" type="button" onclick="get_base_stats();" value="Get base stats">
-</input>
-<br />
-<table id="base_display_table">
-</table>
-<br />
 
+<h1>Generation 1</h1>
 
-<h1>Generation 1 Encounter Stat Ranges</h1>
+<h2>Encounter Stat Ranges</h2>
 Species: <select name="select" id="species" onchange="gen1_select_species()">
 </select>
 Encounter Level: <input type="text" size="5" id="level" />
@@ -35,11 +19,11 @@ Encounter Level: <input type="text" size="5" id="level" />
 </tr>
 <tr>
     <td>Base</td>
-    <td><input type="text" size="7" id="baseHP"></input> </td>
-    <td><input type="text" size="7" id="baseATK"></input> </td>
-    <td><input type="text" size="7" id="baseDEF"></input> </td>
-    <td><input type="text" size="7" id="baseSPE"></input> </td>
-    <td><input type="text" size="7" id="baseSPC"></input> </td>
+    <td><input type="text" size="7" id="baseHP"></input></td>
+    <td><input type="text" size="7" id="baseATK"></input></td>
+    <td><input type="text" size="7" id="baseDEF"></input></td>
+    <td><input type="text" size="7" id="baseSPE"></input></td>
+    <td><input type="text" size="7" id="baseSPC"></input></td>
 </tr>
 <tr>
     <td>Range</td>
@@ -51,4 +35,3 @@ Encounter Level: <input type="text" size="5" id="level" />
 </tr>
 </table>
 <script>gen1_init_species();</script>
-</div>
