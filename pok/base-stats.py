@@ -151,16 +151,14 @@ def generate_main(file_name, url, stat_order, stat_names, title):
 if __name__ == '__main__':
     generate_main(\
         file_name = "gen1",\
-        url = "http://bulbapedia.bulbagarden.net/wiki/"\
-              "List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)",\
+        url = "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)",\
         stat_order  = ["HP", "ATK", "DEF", "SPE", "SPC"],\
         stat_names  = ["Hit Points", "Attack", "Defense", "Speed", "Special"],\
         title = "Generation 1 Base stats JSON "+\
                 "for all 151 Pokémon (Red/Blue/Yellow)")
     generate_main(\
         file_name = "gen2-5",\
-        url = "http://bulbapedia.bulbagarden.net/wiki/"\
-              "List_of_Pok%C3%A9mon_by_base_stats_(Generation_II-V)",\
+        url = "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_II-V)",\
         stat_order  = ["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],\
         stat_names  = ["Hit Points", "Attack", "Defense", \
                       "Special Attack", "Special Defense", "Speed"],\
@@ -168,8 +166,7 @@ if __name__ == '__main__':
                 "for all 649 Pokémon (GSC/RSE/DPP/BW)")
     generate_main(\
         file_name = "gen6",\
-        url = "http://bulbapedia.bulbagarden.net/wiki/"\
-              "List_of_Pok%C3%A9mon_by_base_stats_(Generation_VI-present)",\
+        url = "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VI)",\
         stat_order  = ["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],\
         stat_names  = ["Hit Points", "Attack", "Defense", \
                       "Special Attack", "Special Defense", "Speed"],\
@@ -177,8 +174,7 @@ if __name__ == '__main__':
                 "for all 721 Pokémon (XY/ORAS)")
     generate_main(\
         file_name = "gen7",\
-        url = "https://bulbapedia.bulbagarden.net/wiki/"\
-              "List_of_Pok%C3%A9mon_by_base_stats_(Generation_VII-present)",\
+        url = "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VII-present)",\
         stat_order  = ["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],\
         stat_names  = ["Hit Points", "Attack", "Defense", \
                       "Special Attack", "Special Defense", "Speed"],\
