@@ -1,4 +1,4 @@
-/* STANDARD RESET */
+/* ============================ Standard reset ============================ */
 *, html{
 	margin: 0;
 	padding: 0;
@@ -11,6 +11,7 @@
 	font-family: Helvetica, 'Segoe UI', Verdana, Arial, Sans-Serif;
 }
 
+/* ============================ Spatial Layout ============================ */
 input,select{
 	color: black;
 	margin-left: 2px;
@@ -21,19 +22,11 @@ input{
 	padding-left: 4px;
 }
 
-/*
-     NAVBAR #FFFFFF
- CONTENT_BG #505050
- BACKGROUND #BBBBBB
-     HEADER #D00000
-*/
-
 h1{
 	font-size: 24px;
 	margin-bottom: 8px;
 	margin-top: 16px;
 	font-weight: bold;
-	/*border-bottom: thin solid #FFFFFF;*/
 }
 
 h2{
@@ -54,6 +47,34 @@ td{
 	padding:0 15px 0 0;
 }
 
+p{
+	padding: 16px;
+}
+
+li{
+	list-style: none;
+	font-size: 10px;
+}
+
+
+/* ================================ Colors ================================ */
+/*
+     NAVBAR #FFFFFF
+ CONTENT_BG #505050
+ BACKGROUND #BBBBBB
+     HEADER #D00000
+*/
+
+body{
+	background-color: #BBBBBB; /* BACKGROUND */
+	text-align: center;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+
+
+/* ================================= Links ================================ */
+
 a:link {
 	text-decoration: underline;
 }
@@ -72,39 +93,8 @@ a:active {
 	text-decoration: underline;
 }
 
-body{
-	background-color: #BBBBBB; /* BACKGROUND */
-	text-align: center;
-	font-size: 10px;
-	padding-bottom: 10px;
-}
 
-p{
-	padding: 16px;
-}
-
-li{
-	list-style: none;
-	font-size: 10px;
-}
-
-.ui-autocomplete {
-	background: #FFFFFF;
-	border-radius: 0px;
-	width: 100px;
-}
-.ui-menu .ui-menu-item a {
-	color: #96f226;
-	border-radius: 0px;
-}
-.ui-menu-item:hover {
-	background: #FFDDDD;
-	color: #000000;
-}
-
-#species_search:hover {
-	background: #FFDDDD;
-}
+/* ================================ Classes =============================== */
 
 .calc_button{
 	padding: 2px 6px 2px 6px;
@@ -156,6 +146,24 @@ li{
 	text-decoration: none;
 }
 
+.main{
+	background-color: #505050; /* CONTENT_BG */
+	color:            #FFFFFF; /* NAVBAR */
+	padding: 32px;
+	padding-top: 1px;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-bottom: 32px;
+	width: 998px;
+	min-height: 720px;
+	font-size: 16px;
+	text-align: left;
+	line-height: 200%;
+}
+
+
+/* ============================== Github logo ============================= */
+
 .github{
 	width: 32px;
 	height: 32px;
@@ -171,17 +179,27 @@ li{
 	background-color: #AAAAAA;
 }
 
-.main{
-	background-color: #505050; /* CONTENT_BG */
-	color:            #FFFFFF; /* NAVBAR */
-	padding: 32px;
-	padding-top: 1px;
-	margin: 0 auto;
-	margin-top: 0px;
-	margin-bottom: 32px;
-	width: 998px;
-	min-height: 720px;
-	font-size: 16px;
-	text-align: left;
-	line-height: 200%;
+
+/* =============================== JQuery UI ============================== */
+
+.ui-helper-hidden-accessible {
+	display:none;
+}
+
+.ui-autocomplete {
+	background: #FFFFFF;
+	border-radius: 0px;
+	width: 100px;
+}
+.ui-menu .ui-menu-item a {
+	color: #96f226;
+	border-radius: 0px;
+}
+.ui-menu-item:hover {
+	background: #FFDDDD;
+	color: #000000;
+}
+
+#species_search:hover {
+	background: #FFDDDD;
 }
