@@ -17,7 +17,7 @@ $( document ).ready(function() {
   if(site){
     load_main(site);
   }else{
-    load_main('gen1');
+    load_main('home');
   }
 });
 
