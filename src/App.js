@@ -8,10 +8,10 @@ import MenuItem from 'material-ui/MenuItem';
 import StatCalculator from './StatCalculator';
 import InfoPage from './InfoPage';
 
-import g1 from '../web/files/gen1.mini.json';
-import g2 from '../web/files/gen2-5.mini.json';
-import g6 from '../web/files/gen6.mini.json';
-import g7 from '../web/files/gen7.mini.json';
+import g1 from '../res/json/gen1.mini.json';
+import g2 from '../res/json/gen2-5.mini.json';
+import g6 from '../res/json/gen6.mini.json';
+import g7 from '../res/json/gen7.mini.json';
 
 export default class PokresApp extends React.Component {
   state = {data: g1,
