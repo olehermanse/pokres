@@ -78,17 +78,17 @@
                  "enc     enc     enc"
                  "ehp     eatk    edef"
                  "espa    espd    espe";
-  margin: 0;
+  margin: 0 auto;
   padding: 1em;
-  max-width: 50em;
+  max-width: 32em;
 }
 
-@media screen and (min-width: 34em) {
+@media screen and (min-width: 46em) {
   .calc_grid {
     grid-template-columns: repeat(7, 1fr);
-    grid-template:  "spec  spec spec spec spec spec spec"
-                    "level bhp  batk bdef bspa bspd bspe"
-                    "enc   ehp  eatk edef espa espd espe";
-    margin: 0 auto;
+    grid-template: "spec  spec spec spec spec spec spec"
+                   "level bhp  batk bdef bspa bspd bspe"
+                   "enc   ehp  eatk edef espa espd espe";
+    max-width: 58em;
   }
 }
