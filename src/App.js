@@ -6,6 +6,7 @@ import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import StatCalculator from './StatCalculator';
+import InfoPage from './InfoPage';
 
 import g1 from '../web/files/gen1.mini.json';
 import g2 from '../web/files/gen2-5.mini.json';
@@ -34,8 +35,17 @@ export default class PokresApp extends React.Component {
   gen7 = () => {
     this.setState({open: false, title: "Generation 7", data: g7});
   }
+  info = () => {
+    this.setState({open: false, title: "Information", data: null});
+  }
 
   render() {
+    var mainContent;
+    if (this.state.data === null) {
+      mainContent = <InfoPage />;
+    } else {
+      mainContent = <StatCalculator data={this.state.data}/>;
+    }
     return (
       <div>
         <div className="nav_bar">
@@ -53,10 +63,9 @@ export default class PokresApp extends React.Component {
           <MenuItem onClick={this.gen25}>Generation 2-5</MenuItem>
           <MenuItem onClick={this.gen6}>Generation 6</MenuItem>
           <MenuItem onClick={this.gen7}>Generation 7</MenuItem>
-          <MenuItem onClick={this.gen1}>Information</MenuItem>
+          <MenuItem onClick={this.info}>Information</MenuItem>
         </Drawer>
-
-        <StatCalculator data={this.state.data}/>
+        {mainContent}
       </div>
     );
   }

@@ -1,5 +1,5 @@
 {
-  "name": "web_experiment",
+  "name": "pokres",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -32,16 +32,17 @@
     "build:overwrite": "mv build/temp.html  build/index.html",
     "build:clean": "rm -rf ./build ; mkdir ./build",
     "prebuild": "mkdir -p build ; mkdir -p tmp",
-    "build": "npm run build:js && npm run build:css && npm run build:inline && npm run build:overwrite"
+    "build": "npm run build:js && npm run build:css && npm run build:inline && npm run build:overwrite",
+    "postbuild": "cp build/index.html ./index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olehermanse/web_experiment.git"
+    "url": "git+https://github.com/olehermanse/pokres.git"
   },
   "author": "olehermanse",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/olehermanse/web_experiment/issues"
+    "url": "https://github.com/olehermanse/pokres/issues"
   },
-  "homepage": "https://github.com/olehermanse/web_experiment#readme"
+  "homepage": "https://github.com/olehermanse/pokres#readme"
 }

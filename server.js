@@ -5,7 +5,7 @@ app.use(express.static('src'))
 app.use(express.static('build'))
 
 app.get('/', function(request, response){
-  response.sendFile('main.html', {"root": "src"});
+  response.sendFile('index.html');
 });
 
 var port = process.argv[2] || 3000;
