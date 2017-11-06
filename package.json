@@ -11,6 +11,7 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-plugin-inline-json-import": "^0.2.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
@@ -26,8 +27,8 @@
   "scripts": {
     "test": "mocha test -u bdd -R spec",
     "build:css": "cp ./src/main.css ./build/main.css",
-    "build:js": "browserify -t [ babelify  --presets [ env stage-0 react ] ] src/main.jsx | uglifyjs -mc > ./tmp/main.js && mv ./tmp/main.js ./build/main.js",
-    "build:inline": "inline-source --root ./build ./src/main.html > build/temp.html",
+    "build:js": "browserify -t [ babelify  --plugins [inline-json-import] --presets [ env stage-0 react ] ] src/main.jsx | uglifyjs -mc > ./tmp/main.js && mv ./tmp/main.js ./build/main.js",
+    "build:inline": "inline-source --compress true --root ./build ./src/main.html > build/temp.html",
     "build:overwrite": "mv build/temp.html  build/index.html",
     "build:clean": "rm -rf ./build ; mkdir ./build",
     "prebuild": "mkdir -p build ; mkdir -p tmp",
