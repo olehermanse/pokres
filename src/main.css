@@ -60,6 +60,55 @@
   grid-area: espe;
 }
 
+
+.ev_HP {
+  grid-area: evhp;
+}
+
+.ev_ATK {
+  grid-area: evatk;
+}
+
+.ev_DEF {
+  grid-area: evdef;
+}
+
+.ev_SPA {
+  grid-area: evspa;
+}
+
+.ev_SPD {
+  grid-area: evspd;
+}
+
+.ev_SPE {
+  grid-area: evspe;
+}
+
+.iv_HP {
+  grid-area: ivhp;
+}
+
+.iv_ATK {
+  grid-area: ivatk;
+}
+
+.iv_DEF {
+  grid-area: ivdef;
+}
+
+.iv_SPA {
+  grid-area: ivspa;
+}
+
+.iv_SPD {
+  grid-area: ivspd;
+}
+
+.iv_SPE {
+  grid-area: ivspe;
+}
+
 .level {
   grid-area: level;
 }
