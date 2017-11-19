@@ -28,7 +28,7 @@
     "test": "mocha test -u bdd -R spec",
     "build:css": "cp ./src/main.css ./build/main.css",
     "build:js": "browserify -t [ babelify  --plugins [inline-json-import] --presets [ env stage-0 react ] ] src/main.jsx | uglifyjs -mc > ./tmp/main.js && mv ./tmp/main.js ./build/main.js",
-    "build:inline": "inline-source --compress true --root ./build ./src/main.html > build/temp.html",
+    "build:inline": "inline-source --root ./build ./src/main.html > build/temp.html",
     "build:overwrite": "mv build/temp.html  build/index.html",
     "build:clean": "rm -rf ./build ; mkdir ./build",
     "prebuild": "mkdir -p build ; mkdir -p tmp",

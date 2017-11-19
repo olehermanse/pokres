@@ -171,7 +171,7 @@ export default class StatCalculator extends React.Component {
     }
     return (
       <div className="calc_grid">
-        <AutoComplete floatingLabelText="Species"
+        <AutoComplete hintText="Species"
                       fullWidth={true}
                       maxSearchResults={5}
                       filter={AutoComplete.caseInsensitiveFilter}
@@ -182,109 +182,109 @@ export default class StatCalculator extends React.Component {
                       onNewRequest={this.handleNewRequest}
                       style={{"gridArea": "spec"}}/>
 
-        <TextField floatingLabelText="Level" id="level" className="level"
+        <TextField hintText="Level" id="level" className="level"
         onChange={this.textChange} value={this.state.level} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="HP" id="base_HP" className="base_HP"
+        <TextField hintText="HP" id="base_HP" className="base_HP"
         onChange={this.textChange} value={this.state.base_HP} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="Atk" id="base_ATK" className="base_ATK"
+        <TextField hintText="Atk" id="base_ATK" className="base_ATK"
         onChange={this.textChange} value={this.state.base_ATK} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="Def" id="base_DEF" className="base_DEF"
+        <TextField hintText="Def" id="base_DEF" className="base_DEF"
         onChange={this.textChange} value={this.state.base_DEF} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="SpA" id="base_SPA" className="base_SPA"
+        <TextField hintText="SpA" id="base_SPA" className="base_SPA"
         onChange={this.textChange} value={this.state.base_SPA} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="SpD" id="base_SPD" className="base_SPD"
+        <TextField hintText="SpD" id="base_SPD" className="base_SPD"
         onChange={this.textChange} value={this.state.base_SPD} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="Spe" id="base_SPE" className="base_SPE"
+        <TextField hintText="Spe" id="base_SPE" className="base_SPE"
         onChange={this.textChange} value={this.state.base_SPE} style={{width:"1fr"}}
         />
 
         <RaisedButton onClick={this.handleEncounter} label="Encounter:" className="encounter"/>
 
-        <TextField floatingLabelText="HP" id="enc_HP"className="enc_HP"
+        <TextField hintText="HP" id="enc_HP"className="enc_HP"
         onChange={this.textChange} value={this.state.enc_HP} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="Atk" id="enc_ATK" className="enc_ATK"
+        <TextField hintText="Atk" id="enc_ATK" className="enc_ATK"
         onChange={this.textChange} value={this.state.enc_ATK} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="Def" id="enc_DEF" className="enc_DEF"
+        <TextField hintText="Def" id="enc_DEF" className="enc_DEF"
         onChange={this.textChange} value={this.state.enc_DEF} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="SpA" id="enc_SPA" className="enc_SPA"
+        <TextField hintText="SpA" id="enc_SPA" className="enc_SPA"
         onChange={this.textChange} value={this.state.enc_SPA} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="SpD" id="enc_SPD" className="enc_SPD"
+        <TextField hintText="SpD" id="enc_SPD" className="enc_SPD"
         onChange={this.textChange} value={this.state.enc_SPD} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="Spe" id="enc_SPE" className="enc_SPE"
+        <TextField hintText="Spe" id="enc_SPE" className="enc_SPE"
         onChange={this.textChange} value={this.state.enc_SPE} style={{width:"1fr"}}
         />
 
         <RaisedButton onClick={this.handleEncounter} label="EV:" className="ev"/>
 
-        <TextField floatingLabelText="HP" id="ev_HP"className="ev_HP"
+        <TextField hintText="HP" id="ev_HP"className="ev_HP"
         onChange={this.textChange} value={this.state.ev_HP} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="Atk" id="ev_ATK" className="ev_ATK"
+        <TextField hintText="Atk" id="ev_ATK" className="ev_ATK"
         onChange={this.textChange} value={this.state.ev_ATK} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="Def" id="ev_DEF" className="ev_DEF"
+        <TextField hintText="Def" id="ev_DEF" className="ev_DEF"
         onChange={this.textChange} value={this.state.ev_DEF} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="SpA" id="ev_SPA" className="ev_SPA"
+        <TextField hintText="SpA" id="ev_SPA" className="ev_SPA"
         onChange={this.textChange} value={this.state.ev_SPA} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="SpD" id="ev_SPD" className="ev_SPD"
+        <TextField hintText="SpD" id="ev_SPD" className="ev_SPD"
         onChange={this.textChange} value={this.state.ev_SPD} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="Spe" id="ev_SPE" className="ev_SPE"
+        <TextField hintText="Spe" id="ev_SPE" className="ev_SPE"
         onChange={this.textChange} value={this.state.ev_SPE} style={{width:"1fr"}}
         />
 
         <RaisedButton onClick={this.handleIV} label={ivlabel} className="iv"/>
 
-        <TextField floatingLabelText="HP" id="iv_HP"className="iv_HP"
+        <TextField hintText="HP" id="iv_HP"className="iv_HP"
         onChange={this.textChange} value={this.state.iv_HP} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="Atk" id="iv_ATK" className="iv_ATK"
+        <TextField hintText="Atk" id="iv_ATK" className="iv_ATK"
         onChange={this.textChange} value={this.state.iv_ATK} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="Def" id="iv_DEF" className="iv_DEF"
+        <TextField hintText="Def" id="iv_DEF" className="iv_DEF"
         onChange={this.textChange} value={this.state.iv_DEF} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="SpA" id="iv_SPA" className="iv_SPA"
+        <TextField hintText="SpA" id="iv_SPA" className="iv_SPA"
         onChange={this.textChange} value={this.state.iv_SPA} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="SpD" id="iv_SPD" className="iv_SPD"
+        <TextField hintText="SpD" id="iv_SPD" className="iv_SPD"
         onChange={this.textChange} value={this.state.iv_SPD} style={{width:"1fr"}}
         />
 
-        <TextField floatingLabelText="Spe" id="iv_SPE" className="iv_SPE"
+        <TextField hintText="Spe" id="iv_SPE" className="iv_SPE"
         onChange={this.textChange} value={this.state.iv_SPE} style={{width:"1fr"}}
         />
 
