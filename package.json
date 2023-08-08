@@ -20,7 +20,7 @@
     "express": "^4.18.2",
     "inline-source": "^5.2.7",
     "inline-source-cli": "^1.2.0",
-    "mocha": "^4.1.0",
+    "mocha": "^10.2.0",
     "should": "^13.2.3",
     "uglify": "^0.1.5"
   },
