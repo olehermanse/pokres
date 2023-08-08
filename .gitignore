@@ -59,6 +59,5 @@ typings/
 
 
 build
-package-lock.json
 tmp
 .DS_Store
