@@ -18,7 +18,7 @@
     "babelify": "^10.0.0",
     "browserify": "^17.0.0",
     "express": "^4.19.2",
-    "inline-source": "^5.2.7",
+    "inline-source": "^8.0.3",
     "inline-source-cli": "^2.0.0",
     "mocha": "^10.2.0",
     "should": "^13.2.3",
