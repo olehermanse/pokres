@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
-import PokresApp from "./App";
+import PokresApp from "./App.jsx";
 
 const App = () => (
   <MuiThemeProvider>

@@ -5,8 +5,8 @@ import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import AppBar from "material-ui/AppBar";
 import Drawer from "material-ui/Drawer";
 import MenuItem from "material-ui/MenuItem";
-import StatCalculator from "./StatCalculator";
-import InfoPage from "./InfoPage";
+import StatCalculator from "./StatCalculator.jsx";
+import InfoPage from "./InfoPage.jsx";
 
 import g1 from "../res/json/gen1.mini.json";
 import g25 from "../res/json/gen2-5.mini.json";
