@@ -60,7 +60,6 @@
   grid-area: espe;
 }
 
-
 .ev_HP {
   grid-area: evhp;
 }
@@ -129,18 +128,19 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1em;
-  grid-template: "spec    spec    level"
-                 "bhp     batk    bdef"
-                 "bspa    bspd    bspe"
-                 "enc     enc     enc"
-                 "ehp     eatk    edef"
-                 "espa    espd    espe"
-                 "ev      ev      ev"
-                 "evhp    evatk   evdef"
-                 "evspa   evspd   evspe"
-                 "iv      iv      iv"
-                 "ivhp    ivatk   ivdef"
-                 "ivspa   ivspd   ivspe";
+  grid-template:
+    "spec    spec    level"
+    "bhp     batk    bdef"
+    "bspa    bspd    bspe"
+    "enc     enc     enc"
+    "ehp     eatk    edef"
+    "espa    espd    espe"
+    "ev      ev      ev"
+    "evhp    evatk   evdef"
+    "evspa   evspd   evspe"
+    "iv      iv      iv"
+    "ivhp    ivatk   ivdef"
+    "ivspa   ivspd   ivspe";
   margin: 0 auto;
   padding: 0 1em;
   max-width: 32em;
@@ -150,11 +150,12 @@
   .calc_grid {
     grid-template-columns: repeat(7, 1fr);
     grid-row-gap: 1em;
-    grid-template: "spec  spec spec  spec  spec  spec  spec"
-                   "level bhp  batk  bdef  bspa  bspd  bspe"
-                   "enc   ehp  eatk  edef  espa  espd  espe"
-                   "ev    evhp evatk evdef evspa evspd evspe"
-                   "iv    ivhp ivatk ivdef ivspa ivspd ivspe";
+    grid-template:
+      "spec  spec spec  spec  spec  spec  spec"
+      "level bhp  batk  bdef  bspa  bspd  bspe"
+      "enc   ehp  eatk  edef  espa  espd  espe"
+      "ev    evhp evatk evdef evspa evspd evspe"
+      "iv    ivhp ivatk ivdef ivspa ivspd ivspe";
     max-width: 58em;
   }
 }
