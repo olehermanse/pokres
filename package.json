@@ -16,7 +16,6 @@
     "@babel/preset-react": "^7.26.3",
     "babelify": "^10.0.0",
     "browserify": "^17.0.1",
-    "express": "^4.21.2",
     "inline-source": "^5.2.7",
     "inline-source-cli": "^2.0.0",
     "uglify": "^0.1.5"
