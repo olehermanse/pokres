@@ -31,9 +31,13 @@ def download_html(html_path, url):
     r = requests.get(url)
     with open(html_path, "wb") as dest:
         dest.write(r.content)
+        if not r.content.endswith("\n".encode()):
+            dest.write("\n".encode())
 
 
 def generate_main(file_name, url, stat_order, stat_names, title):
+    os.makedirs("res/html/", exist_ok=True)
+    os.makedirs("res/json/", exist_ok=True)
     input_path = "res/html/" + file_name + ".html"
     if not os.path.exists(input_path):
         download_html(input_path, url)
@@ -43,9 +47,9 @@ def generate_main(file_name, url, stat_order, stat_names, title):
     print("Document title: " + soup.title.string)
 
     # We are interested in the first table:
-    table = soup.find_all("table")[0]
-    if table.find_all("b")[0].string == "Shortcuts":
-        table = soup.find_all("table")[1]
+    tables = soup.find_all("table", class_="sortable")
+    assert len(tables) == 1
+    table = tables[0]
 
     # Extract all rows (lines) and remove first one(header):
     lines = []
@@ -73,15 +77,22 @@ def generate_main(file_name, url, stat_order, stat_names, title):
         # num | icon | name | HP | ...
         fields = []
         for td in mon.find_all("td"):
+            # print("td:")
+            # print(td)
             fields.append(td)
         # Extract non-stat fields:
-        num = fields[0].find_all("b")[0].string
+        num = list(fields[0].stripped_strings)[0].lstrip("0")
+        while len(num) < 3:
+            num = "0" + num
         # icon = fields[1].find_all("img")[0].get("src")
-        name = fields[2].find_all("a")[0].string
-        small = fields[2].find_all("small")
-        if len(small) > 0:
-            num = num[0:3]
-            small = small[0].string
+        name = fields[2].find("a").string
+        small = fields[2].find("small")
+        if small:
+            small = small.string
+            if not small.startswith("("):
+                small = "(" + small
+            if not small.endswith(")"):
+                small = small + ")"
             name += small
             small = small.replace("(", "").replace(")", "")
             small = "".join([word[0] for word in small.split()])
@@ -151,7 +162,8 @@ def generate_main(file_name, url, stat_order, stat_names, title):
     data["lookup"] = lookup
     data["dex"] = dex
     data["order"] = order
-    assert len(dex) == len(lookup) and len(dex) == len(order)
+    assert len(dex) == len(lookup)
+    assert len(dex) == len(order)
 
     # Dump(save) json files: mini is small
     dump_to_file(data, "res/json/" + file_name + ".json")
@@ -161,14 +173,14 @@ def generate_main(file_name, url, stat_order, stat_names, title):
 if __name__ == "__main__":
     generate_main(
         file_name="gen1",
-        url="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)",
+        url="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_I",
         stat_order=["HP", "ATK", "DEF", "SPE", "SPC"],
         stat_names=["Hit Points", "Attack", "Defense", "Speed", "Special"],
         title="Generation 1 Base stats JSON " + "for all 151 Pokémon (Red/Blue/Yellow)",
     )
     generate_main(
         file_name="gen2-5",
-        url="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_II-V)",
+        url="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generations_II-V",
         stat_order=["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],
         stat_names=[
             "Hit Points",
@@ -183,7 +195,7 @@ if __name__ == "__main__":
     )
     generate_main(
         file_name="gen6",
-        url="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VI)",
+        url="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_VI",
         stat_order=["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],
         stat_names=[
             "Hit Points",
@@ -197,7 +209,7 @@ if __name__ == "__main__":
     )
     generate_main(
         file_name="gen7",
-        url="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VII-present)",
+        url="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_VII",
         stat_order=["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],
         stat_names=[
             "Hit Points",

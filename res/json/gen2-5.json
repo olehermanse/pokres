@@ -22,8 +22,8 @@
         ],
         "disclaimer": "Warning: All data and software is provided as-is, with no guarantee of any kind. Use at own risk.",
         "source": {
-            "title": "List of Pokémon by base stats (Generation II-V) - Bulbapedia, the community-driven Pokémon encyclopedia",
-            "url": "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_II-V)"
+            "title": "List of Pokémon by base stats in Generations II-V - Bulbapedia, the community-driven Pokémon encyclopedia",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generations_II-V"
         }
     },
     "stats": {
@@ -331,8 +331,8 @@
         "Krokorok": "552",
         "Krookodile": "553",
         "Kyogre": "382",
+        "Kyurem": "646",
         "Kyurem(Black Kyurem)": "646BK",
-        "Kyurem(Normal Kyurem)": "646NK",
         "Kyurem(White Kyurem)": "646WK",
         "Lairon": "305",
         "Lampent": "608",
@@ -515,11 +515,11 @@
         "Roggenrola": "524",
         "Roselia": "315",
         "Roserade": "407",
+        "Rotom": "479",
         "Rotom(Fan Rotom)": "479FRI",
         "Rotom(Frost Rotom)": "479FR",
         "Rotom(Heat Rotom)": "479HR",
         "Rotom(Mow Rotom)": "479MR",
-        "Rotom(Normal Rotom)": "479NR",
         "Rotom(Wash Rotom)": "479WR",
         "Rufflet": "627",
         "Sableye": "302",
@@ -6028,8 +6028,8 @@
                 110
             ]
         },
-        "479NR": {
-            "name": "Rotom(Normal Rotom)",
+        "479": {
+            "name": "Rotom",
             "stats": [
                 50,
                 50,
@@ -7986,8 +7986,8 @@
                 91
             ]
         },
-        "646NK": {
-            "name": "Kyurem(Normal Kyurem)",
+        "646": {
+            "name": "Kyurem",
             "stats": [
                 125,
                 130,
@@ -8548,7 +8548,7 @@
         "476",
         "477",
         "478",
-        "479NR",
+        "479",
         "479HR",
         "479WR",
         "479FR",
@@ -8726,7 +8726,7 @@
         "644",
         "645IF",
         "645TF",
-        "646NK",
+        "646",
         "646BK",
         "646WK",
         "647",

@@ -22,8 +22,8 @@
         ],
         "disclaimer": "Warning: All data and software is provided as-is, with no guarantee of any kind. Use at own risk.",
         "source": {
-            "title": "List of Pokémon by base stats (Generation VII-present) - Bulbapedia, the community-driven Pokémon encyclopedia",
-            "url": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VII-present)"
+            "title": "List of Pokémon by base stats in Generation VII - Bulbapedia, the community-driven Pokémon encyclopedia",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_VII"
         }
     },
     "stats": {
@@ -111,6 +111,7 @@
         "Bidoof": "399",
         "Binacle": "688",
         "Bisharp": "625",
+        "Blacephalon": "806",
         "Blastoise": "009",
         "Blastoise(Mega Blastoise)": "009MB",
         "Blaziken": "257",
@@ -258,6 +259,7 @@
         "Eelektrik": "603",
         "Eelektross": "604",
         "Eevee": "133",
+        "Eevee(Partner Eevee)": "133PE",
         "Ekans": "023",
         "Electabuzz": "125",
         "Electivire": "466",
@@ -444,8 +446,8 @@
         "Krookodile": "553",
         "Kyogre": "382",
         "Kyogre(Primal Kyogre)": "382PK",
+        "Kyurem": "646",
         "Kyurem(Black Kyurem)": "646BK",
-        "Kyurem(Normal Kyurem)": "646NK",
         "Kyurem(White Kyurem)": "646WK",
         "Lairon": "305",
         "Lampent": "608",
@@ -489,6 +491,7 @@
         "Luvdisc": "370",
         "Luxio": "404",
         "Luxray": "405",
+        "Lycanroc(Dusk Form)": "745DF",
         "Lycanroc(Midday Form)": "745MF",
         "Lycanroc(Midnight Form)": "745MFI",
         "Machamp": "068",
@@ -528,8 +531,10 @@
         "Medicham(Mega Medicham)": "308MM",
         "Meditite": "307",
         "Meganium": "154",
+        "Melmetal": "809",
         "Meloetta(Aria Forme)": "648AF",
         "Meloetta(Pirouette Forme)": "648PF",
+        "Meltan": "808",
         "Meowstic": "678",
         "Meowth": "052",
         "Meowth(Alolan Meowth)": "052AM",
@@ -550,7 +555,7 @@
         "Mime Jr.": "439",
         "Mimikyu": "778",
         "Minccino": "572",
-        "Minior(Core Form)": "774CF",
+        "Minior(Core)": "774C",
         "Minior(Meteor Form)": "774MF",
         "Minun": "312",
         "Misdreavus": "200",
@@ -569,8 +574,12 @@
         "Munna": "517",
         "Murkrow": "198",
         "Musharna": "518",
+        "Naganadel": "804",
         "Natu": "177",
         "Necrozma": "800",
+        "Necrozma(Dawn Wings Necrozma)": "800DWN",
+        "Necrozma(Dusk Mane Necrozma)": "800DMN",
+        "Necrozma(Ultra Necrozma)": "800UN",
         "Nidoking": "034",
         "Nidoqueen": "031",
         "Nidoran♀": "029",
@@ -626,6 +635,7 @@
         "Pidove": "519",
         "Pignite": "499",
         "Pikachu": "025",
+        "Pikachu(Partner Pikachu)": "025PP",
         "Pikipek": "731",
         "Piloswine": "221",
         "Pineco": "204",
@@ -633,6 +643,7 @@
         "Pinsir(Mega Pinsir)": "127MP",
         "Piplup": "393",
         "Plusle": "311",
+        "Poipole": "803",
         "Politoed": "186",
         "Poliwag": "060",
         "Poliwhirl": "061",
@@ -791,6 +802,7 @@
         "Spoink": "325",
         "Spritzee": "682",
         "Squirtle": "007",
+        "Stakataka": "805",
         "Stantler": "234",
         "Staraptor": "398",
         "Staravia": "397",
@@ -940,6 +952,7 @@
         "Zapdos": "145",
         "Zebstrika": "523",
         "Zekrom": "644",
+        "Zeraora": "807",
         "Zigzagoon": "263",
         "Zoroark": "571",
         "Zorua": "570",
@@ -1311,6 +1324,17 @@
                 50,
                 50,
                 90
+            ]
+        },
+        "025PP": {
+            "name": "Pikachu(Partner Pikachu)",
+            "stats": [
+                45,
+                80,
+                50,
+                75,
+                60,
+                120
             ]
         },
         "026": {
@@ -2741,6 +2765,17 @@
                 45,
                 65,
                 55
+            ]
+        },
+        "133PE": {
+            "name": "Eevee(Partner Eevee)",
+            "stats": [
+                65,
+                75,
+                70,
+                65,
+                85,
+                75
             ]
         },
         "134": {
@@ -8958,8 +8993,8 @@
                 91
             ]
         },
-        "646NK": {
-            "name": "Kyurem(Normal Kyurem)",
+        "646": {
+            "name": "Kyurem",
             "stats": [
                 125,
                 130,
@@ -10234,6 +10269,17 @@
                 82
             ]
         },
+        "745DF": {
+            "name": "Lycanroc(Dusk Form)",
+            "stats": [
+                75,
+                117,
+                65,
+                55,
+                65,
+                110
+            ]
+        },
         "746SF": {
             "name": "Wishiwashi(Solo Form)",
             "stats": [
@@ -10564,8 +10610,8 @@
                 60
             ]
         },
-        "774CF": {
-            "name": "Minior(Core Form)",
+        "774C": {
+            "name": "Minior(Core)",
             "stats": [
                 60,
                 100,
@@ -10861,6 +10907,39 @@
                 79
             ]
         },
+        "800DMN": {
+            "name": "Necrozma(Dusk Mane Necrozma)",
+            "stats": [
+                97,
+                157,
+                127,
+                113,
+                109,
+                77
+            ]
+        },
+        "800DWN": {
+            "name": "Necrozma(Dawn Wings Necrozma)",
+            "stats": [
+                97,
+                113,
+                109,
+                157,
+                127,
+                77
+            ]
+        },
+        "800UN": {
+            "name": "Necrozma(Ultra Necrozma)",
+            "stats": [
+                97,
+                167,
+                97,
+                167,
+                97,
+                129
+            ]
+        },
         "801": {
             "name": "Magearna",
             "stats": [
@@ -10881,6 +10960,83 @@
                 90,
                 90,
                 125
+            ]
+        },
+        "803": {
+            "name": "Poipole",
+            "stats": [
+                67,
+                73,
+                67,
+                73,
+                67,
+                73
+            ]
+        },
+        "804": {
+            "name": "Naganadel",
+            "stats": [
+                73,
+                73,
+                73,
+                127,
+                73,
+                121
+            ]
+        },
+        "805": {
+            "name": "Stakataka",
+            "stats": [
+                61,
+                131,
+                211,
+                53,
+                101,
+                13
+            ]
+        },
+        "806": {
+            "name": "Blacephalon",
+            "stats": [
+                53,
+                127,
+                53,
+                151,
+                79,
+                107
+            ]
+        },
+        "807": {
+            "name": "Zeraora",
+            "stats": [
+                88,
+                112,
+                75,
+                102,
+                80,
+                143
+            ]
+        },
+        "808": {
+            "name": "Meltan",
+            "stats": [
+                46,
+                65,
+                65,
+                55,
+                35,
+                34
+            ]
+        },
+        "809": {
+            "name": "Melmetal",
+            "stats": [
+                135,
+                143,
+                143,
+                80,
+                65,
+                34
             ]
         }
     },
@@ -10918,6 +11074,7 @@
         "023",
         "024",
         "025",
+        "025PP",
         "026",
         "026AR",
         "027",
@@ -11048,6 +11205,7 @@
         "131",
         "132",
         "133",
+        "133PE",
         "134",
         "135",
         "136",
@@ -11613,7 +11771,7 @@
         "644",
         "645IF",
         "645TF",
-        "646NK",
+        "646",
         "646BK",
         "646WK",
         "647",
@@ -11729,6 +11887,7 @@
         "744",
         "745MF",
         "745MFI",
+        "745DF",
         "746SF",
         "746SFI",
         "747",
@@ -11759,7 +11918,7 @@
         "772",
         "773",
         "774MF",
-        "774CF",
+        "774C",
         "775",
         "776",
         "777",
@@ -11786,7 +11945,17 @@
         "798",
         "799",
         "800",
+        "800DMN",
+        "800DWN",
+        "800UN",
         "801",
-        "802"
+        "802",
+        "803",
+        "804",
+        "805",
+        "806",
+        "807",
+        "808",
+        "809"
     ]
 }
