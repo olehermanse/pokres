@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Parses a html file and extracts stats to JSON."""
+"""Download and parse data from bulbapedia."""
 
 __authors__ = ["Ole Herman Schumacher Elgesem"]
 __credits__ = ["Bulbagarden"]
@@ -9,7 +9,6 @@ __license__ = "MIT"
 # file 'LICENSE.txt', which is part of this source code package.
 
 import json
-import datetime
 import requests
 import os
 from bs4 import BeautifulSoup
@@ -21,8 +20,10 @@ def dump_to_file(data, filename, format=True):
     with open(filename, "w") as outfile:
         if format:
             json.dump(data, outfile, indent=4, ensure_ascii=False)
+            outfile.write("\n")
         else:
             json.dump(data, outfile, ensure_ascii=False)
+            outfile.write("\n")
 
 
 def download_html(html_path, url):
@@ -38,6 +39,7 @@ def generate_main(file_name, url, stat_order, stat_names, title):
         download_html(input_path, url)
     print("Opening: " + input_path)
     soup = BeautifulSoup(open(input_path), "html.parser")
+    assert soup.title is not None and soup.title.string is not None
     print("Document title: " + soup.title.string)
 
     # We are interested in the first table:
@@ -137,7 +139,7 @@ def generate_main(file_name, url, stat_order, stat_names, title):
     )
 
     # JSON file last updated timestamp:
-    meta["updated"] = datetime.datetime.utcnow().isoformat()
+    # meta["updated"] = datetime.datetime.now().isoformat()
 
     # Source html file used to generate data:
     meta["source"] = {"title": soup.title.string, "url": url}
