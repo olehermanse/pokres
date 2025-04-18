@@ -10,5 +10,3 @@ const App = () => (
 );
 
 ReactDOM.render(<App />, document.getElementById("body_main"));
-
-//document.body.style.overflow = "hidden";

@@ -1,11 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
-
-import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 
 import RaisedButton from "material-ui/RaisedButton";
 import TextField from "material-ui/TextField";
-import AppBar from "material-ui/AppBar";
 import AutoComplete from "material-ui/AutoComplete";
 
 function gen1_calc_stat(name, level, base, DV, EV) {
@@ -195,7 +191,6 @@ export default class StatCalculator extends React.Component {
           onNewRequest={this.handleNewRequest}
           searchText={this.state.speciesName}
           onUpdateInput={this.handleUpdateInput}
-          onNewRequest={this.handleNewRequest}
           style={{ gridArea: "spec" }}
         />
 

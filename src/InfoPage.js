@@ -1,14 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
-
-import {
-  Table,
-  TableBody,
-  TableHeader,
-  TableHeaderColumn,
-  TableRow,
-  TableRowColumn,
-} from "material-ui/Table";
 import FlatButton from "material-ui/FlatButton";
 
 export default class InfoPage extends React.Component {
