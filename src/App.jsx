@@ -15,6 +15,8 @@ import g1 from "../res/json/gen1.mini.json";
 import g25 from "../res/json/gen2-5.mini.json";
 import g6 from "../res/json/gen6.mini.json";
 import g7 from "../res/json/gen7.mini.json";
+import g8 from "../res/json/gen8.mini.json";
+import g9 from "../res/json/gen9.mini.json";
 
 function getData(gen) {
   if (gen === "1") {
@@ -25,6 +27,12 @@ function getData(gen) {
   }
   if (gen === "7") {
     return g7;
+  }
+  if (gen === "8") {
+    return g8;
+  }
+  if (gen === "9") {
+    return g9;
   }
   return g25;
 }
@@ -66,6 +74,16 @@ export default function PokresApp() {
   const gen7 = () => {
     setView("default");
     setGeneration("7");
+  };
+
+  const gen8 = () => {
+    setView("default");
+    setGeneration("8");
+  };
+
+  const gen9 = () => {
+    setView("default");
+    setGeneration("9");
   };
 
   const info = () => {
@@ -118,6 +136,8 @@ export default function PokresApp() {
         <MenuItem onClick={gen5}>Generation 5</MenuItem>
         <MenuItem onClick={gen6}>Generation 6</MenuItem>
         <MenuItem onClick={gen7}>Generation 7</MenuItem>
+        <MenuItem onClick={gen8}>Generation 8</MenuItem>
+        <MenuItem onClick={gen9}>Generation 9</MenuItem>
         <MenuItem onClick={info}>Information</MenuItem>
       </Drawer>
       {mainContent}
