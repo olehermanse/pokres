@@ -26,24 +26,20 @@ function gen1_calc_stat(name, level, base, DV, EV) {
   return 0;
 }
 
-function gen3_calc_stat(name, level, base, IV, EV, nature) {
-  console.log("Generation 3 calculator");
+function gen3_calc_stat(name, level, base, IV, EV) {
+  const nature = 1.0;
   level = Number(level);
   base = Number(base);
   IV = Number(IV);
   EV = Number(EV);
-  nature = Number(nature);
   const EVpart = Math.floor(EV / 4);
   const levelpart = level * (2 * base + IV + EVpart);
-
   const mt = Math.floor(levelpart / 100);
 
   if (name == "HP") {
     return mt + level + 10;
-  } else {
-    return (mt + 5) * nature;
   }
-  return 0;
+  return (mt + 5) * nature;
 }
 
 function encounter_calc(level, names, baseStats, generation) {
@@ -85,9 +81,7 @@ function getStats(name, gen_json) {
   const order = gen_json.stats.order.map(function (x) {
     return "base_" + x;
   });
-  console.log("Name: " + name);
   const num = gen_json.lookup[name];
-  console.log("Num: " + name);
   const stats = gen_json.dex[num].stats;
   var dict = {};
   for (var i = 0; i < order.length; ++i) {
@@ -97,7 +91,6 @@ function getStats(name, gen_json) {
     dict["base_SPA"] = dict["base_SPD"] = dict["base_SPC"];
     delete dict["base_SPC"];
   }
-  console.log(dict);
   return dict;
 }
 
