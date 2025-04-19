@@ -88,7 +88,10 @@ def generate_main(file_name, url, stat_order, stat_names, title):
         name = fields[2].find("a").string
         small = fields[2].find("small")
         if small:
-            small = small.string
+            if small.string:
+                small = small.string
+            else:
+                small = list(small.stripped_strings)[0]
             if not small.startswith("("):
                 small = "(" + small
             if not small.endswith(")"):
@@ -220,4 +223,32 @@ if __name__ == "__main__":
             "Speed",
         ],
         title="Generation 7 Base stats JSON " + "for all 802 Pokémon (Sun/Moon)",
+    )
+    generate_main(
+        file_name="gen8",
+        url="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_VIII",
+        stat_order=["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],
+        stat_names=[
+            "Hit Points",
+            "Attack",
+            "Defense",
+            "Special Attack",
+            "Special Defense",
+            "Speed",
+        ],
+        title="Generation 8 Base stats JSON " + "for all 905 Pokémon (Sword/Shield)",
+    )
+    generate_main(
+        file_name="gen9",
+        url="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_IX",
+        stat_order=["HP", "ATK", "DEF", "SPA", "SPD", "SPE"],
+        stat_names=[
+            "Hit Points",
+            "Attack",
+            "Defense",
+            "Special Attack",
+            "Special Defense",
+            "Speed",
+        ],
+        title="Generation 9 Base stats JSON " + "for all 1025 Pokémon (Scarlet/Violet)",
     )
