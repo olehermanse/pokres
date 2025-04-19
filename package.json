@@ -22,7 +22,7 @@
     "babel-plugin-inline-json-import": "^0.3.2",
     "babelify": "^10.0.0",
     "browserify": "^17.0.1",
-    "inline-source": "^5.2.7",
+    "inline-source": "^8.0.3",
     "inline-source-cli": "^2.0.0"
   },
   "scripts": {
