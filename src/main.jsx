@@ -1,12 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+import { createRoot } from "react-dom/client";
 import PokresApp from "./App.jsx";
 
-const App = () => (
-  <MuiThemeProvider>
-    <PokresApp />
-  </MuiThemeProvider>
-);
+const App = () => <PokresApp />;
 
-ReactDOM.render(<App />, document.getElementById("body_main"));
+const root = createRoot(document.getElementById("body_main"));
+root.render(<App />);

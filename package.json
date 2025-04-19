@@ -4,25 +4,30 @@
   "description": "",
   "main": "index.html",
   "dependencies": {
-    "material-ui": "^0.19.4",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.2.5",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
-    "babel-loader": "^10.0.0",
-    "babel-plugin-inline-json-import": "^0.3.2",
     "@babel/preset-env": "^7.26.9",
     "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^10.0.0",
+    "babel-plugin-inline-json-import": "^0.3.2",
     "babelify": "^10.0.0",
     "browserify": "^17.0.1",
     "inline-source": "^5.2.7",
-    "inline-source-cli": "^2.0.0",
-    "uglify": "^0.1.5"
+    "inline-source-cli": "^2.0.0"
   },
   "scripts": {
     "build:css": "cp ./src/main.css ./build/main.css",
-    "build:js": "browserify -t [ babelify  --plugins [inline-json-import] --presets [ @babel/preset-env @babel/preset-react ] ] src/main.jsx | uglifyjs -mc > ./build/tmp/main.js && mv ./build/tmp/main.js ./build/main.js",
+    "build:js": "browserify -t [ babelify  --plugins [inline-json-import] --presets [ @babel/preset-env @babel/preset-react ] ] src/main.jsx > ./build/tmp/main.js && mv ./build/tmp/main.js ./build/main.js",
     "build:inline": "inline-source --root ./build ./src/main.html > build/temp.html",
     "build:overwrite": "mv build/temp.html  build/index.html",
     "build:clean": "rm -rf ./build ; mkdir ./build",

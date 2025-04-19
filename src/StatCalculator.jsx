@@ -1,8 +1,8 @@
-import React from "react";
+import * as React from "react";
 
-import RaisedButton from "material-ui/RaisedButton";
-import TextField from "material-ui/TextField";
-import AutoComplete from "material-ui/AutoComplete";
+import TextField from "@mui/material/TextField";
+import Autocomplete from "@mui/material/Autocomplete";
+import Button from "@mui/material/Button";
 
 function gen1_calc_stat(name, level, base, DV, EV) {
   console.log("Generation 1 calculator");
@@ -85,7 +85,9 @@ function getStats(name, gen_json) {
   const order = gen_json.stats.order.map(function (x) {
     return "base_" + x;
   });
+  console.log("Name: " + name);
   const num = gen_json.lookup[name];
+  console.log("Num: " + name);
   const stats = gen_json.dex[num].stats;
   var dict = {};
   for (var i = 0; i < order.length; ++i) {
@@ -129,14 +131,26 @@ export default class StatCalculator extends React.Component {
     ev_SPE: "",
   };
 
-  handleUpdateInput = (speciesName) => {
+  handleNewRequest = (event) => {
+    console.log("Request:");
+    console.log(event);
+    let speciesName = event.target.innerText;
+    if (
+      speciesName === undefined ||
+      speciesName === null ||
+      speciesName === ""
+    ) {
+      speciesName = event.target.value;
+    }
+    if (speciesName === "") {
+      return;
+    }
+    console.log("speciesName:");
+    console.log(speciesName);
     this.setState({
       speciesName: speciesName,
     });
-  };
-
-  handleNewRequest = () => {
-    this.setState(getStats(this.state.speciesName, this.props.data));
+    this.setState(getStats(speciesName, this.props.data));
   };
 
   handleEncounter = () => {
@@ -176,26 +190,25 @@ export default class StatCalculator extends React.Component {
   };
 
   render() {
-    var ivlabel = "IV:";
+    var ivlabel = "IV";
     if (this.props.generation === "1" || this.props.generation === "2") {
-      ivlabel = "DV:";
+      ivlabel = "DV";
     }
     return (
       <div className="calc_grid">
-        <AutoComplete
-          hintText="Species"
+        <Autocomplete
           fullWidth={true}
-          maxSearchResults={5}
-          filter={AutoComplete.caseInsensitiveFilter}
-          dataSource={getSpecies(this.props.data)}
-          onNewRequest={this.handleNewRequest}
-          searchText={this.state.speciesName}
-          onUpdateInput={this.handleUpdateInput}
+          filter={Autocomplete.caseInsensitiveFilter}
+          options={getSpecies(this.props.data)}
+          onChange={this.handleNewRequest}
           style={{ gridArea: "spec" }}
+          renderInput={(params) => (
+            <TextField {...params} label="Species" variant="standard" />
+          )}
         />
 
         <TextField
-          hintText="Level"
+          label="Level"
           id="level"
           className="level"
           onChange={this.textChange}
@@ -204,7 +217,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="HP"
+          label="HP"
           id="base_HP"
           className="base_HP"
           onChange={this.textChange}
@@ -213,7 +226,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="Atk"
+          label="Atk"
           id="base_ATK"
           className="base_ATK"
           onChange={this.textChange}
@@ -222,7 +235,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="Def"
+          label="Def"
           id="base_DEF"
           className="base_DEF"
           onChange={this.textChange}
@@ -231,7 +244,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="SpA"
+          label="SpA"
           id="base_SPA"
           className="base_SPA"
           onChange={this.textChange}
@@ -240,7 +253,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="SpD"
+          label="SpD"
           id="base_SPD"
           className="base_SPD"
           onChange={this.textChange}
@@ -249,7 +262,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="Spe"
+          label="Spe"
           id="base_SPE"
           className="base_SPE"
           onChange={this.textChange}
@@ -257,14 +270,16 @@ export default class StatCalculator extends React.Component {
           style={{ width: "1fr" }}
         />
 
-        <RaisedButton
+        <Button
+          style={{ height: "100%" }}
           onClick={this.handleEncounter}
-          label="Encounter:"
-          className="encounter"
-        />
+          variant="outlined"
+        >
+          Encounter
+        </Button>
 
         <TextField
-          hintText="HP"
+          label="HP"
           id="enc_HP"
           className="enc_HP"
           onChange={this.textChange}
@@ -273,7 +288,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="Atk"
+          label="Atk"
           id="enc_ATK"
           className="enc_ATK"
           onChange={this.textChange}
@@ -282,7 +297,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="Def"
+          label="Def"
           id="enc_DEF"
           className="enc_DEF"
           onChange={this.textChange}
@@ -291,7 +306,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="SpA"
+          label="SpA"
           id="enc_SPA"
           className="enc_SPA"
           onChange={this.textChange}
@@ -300,7 +315,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="SpD"
+          label="SpD"
           id="enc_SPD"
           className="enc_SPD"
           onChange={this.textChange}
@@ -309,7 +324,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="Spe"
+          label="Spe"
           id="enc_SPE"
           className="enc_SPE"
           onChange={this.textChange}
@@ -317,14 +332,16 @@ export default class StatCalculator extends React.Component {
           style={{ width: "1fr" }}
         />
 
-        <RaisedButton
+        <Button
+          style={{ height: "100%" }}
           onClick={this.handleEncounter}
-          label="EV:"
-          className="ev"
-        />
+          variant="outlined"
+        >
+          EV
+        </Button>
 
         <TextField
-          hintText="HP"
+          label="HP"
           id="ev_HP"
           className="ev_HP"
           onChange={this.textChange}
@@ -333,7 +350,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="Atk"
+          label="Atk"
           id="ev_ATK"
           className="ev_ATK"
           onChange={this.textChange}
@@ -342,7 +359,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="Def"
+          label="Def"
           id="ev_DEF"
           className="ev_DEF"
           onChange={this.textChange}
@@ -351,7 +368,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="SpA"
+          label="SpA"
           id="ev_SPA"
           className="ev_SPA"
           onChange={this.textChange}
@@ -360,7 +377,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="SpD"
+          label="SpD"
           id="ev_SPD"
           className="ev_SPD"
           onChange={this.textChange}
@@ -369,7 +386,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="Spe"
+          label="Spe"
           id="ev_SPE"
           className="ev_SPE"
           onChange={this.textChange}
@@ -377,10 +394,17 @@ export default class StatCalculator extends React.Component {
           style={{ width: "1fr" }}
         />
 
-        <RaisedButton onClick={this.handleIV} label={ivlabel} className="iv" />
+        <Button
+          style={{ height: "100%" }}
+          onClick={this.handleIV}
+          variant="outlined"
+          className="iv"
+        >
+          {ivlabel}
+        </Button>
 
         <TextField
-          hintText="HP"
+          label="HP"
           id="iv_HP"
           className="iv_HP"
           onChange={this.textChange}
@@ -389,7 +413,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="Atk"
+          label="Atk"
           id="iv_ATK"
           className="iv_ATK"
           onChange={this.textChange}
@@ -398,7 +422,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="Def"
+          label="Def"
           id="iv_DEF"
           className="iv_DEF"
           onChange={this.textChange}
@@ -407,7 +431,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="SpA"
+          label="SpA"
           id="iv_SPA"
           className="iv_SPA"
           onChange={this.textChange}
@@ -416,7 +440,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="SpD"
+          label="SpD"
           id="iv_SPD"
           className="iv_SPD"
           onChange={this.textChange}
@@ -425,7 +449,7 @@ export default class StatCalculator extends React.Component {
         />
 
         <TextField
-          hintText="Spe"
+          label="Spe"
           id="iv_SPE"
           className="iv_SPE"
           onChange={this.textChange}
