@@ -88,7 +88,6 @@ export default function PokresApp() {
 
   const info = () => {
     setView("info");
-    setGeneration("7");
   };
 
   let mainContent;
@@ -120,6 +119,7 @@ export default function PokresApp() {
             >
               <MenuIcon />
             </IconButton>
+            <Box>PokRes</Box>
           </Toolbar>
         </AppBar>
       </div>

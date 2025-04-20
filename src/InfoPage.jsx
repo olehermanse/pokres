@@ -15,30 +15,44 @@ export default function InfoPage() {
         Individual values and stats in Pokémon games
       </Button>
       <div></div>
-      <Button href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)">
+      <Button href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_I">
         Pokémon base stats in generation I
       </Button>
       <Button href="https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/res/json/gen1.json">
         (JSON)
       </Button>
-      <Button href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_II-V)">
+      <Button href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generations_II-V">
         Pokémon base stats in generation II - V
       </Button>
       <Button href="https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/res/json/gen2-5.json">
         (JSON)
       </Button>
-      <Button href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VI)">
+      <Button href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_VI">
         Pokémon base stats in generation VI
       </Button>
       <Button href="https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/res/json/gen6.json">
         (JSON)
       </Button>
-      <Button href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VII-present)">
+      <Button href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_VII">
         Pokémon base stats in generation VII
       </Button>
       <Button href="https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/res/json/gen7.json">
         (JSON)
       </Button>
+      <Button href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_VIII">
+        Pokémon base stats in generation VIII
+      </Button>
+      <Button href="https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/res/json/gen8.json">
+        (JSON)
+      </Button>
+      <Button href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_IX">
+        Pokémon base stats in generation IX
+      </Button>
+      <Button href="https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/res/json/gen9.json">
+        (JSON)
+      </Button>
+      <Button href="https://github.com/olehermanse/pokres">GitHub repo</Button>
+      <div></div>
       <Button href="https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/LICENSE.txt">
         License/Copyright ©
       </Button>

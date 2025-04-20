@@ -1,6 +1,7 @@
 <!doctype html>
 <html manifest="https://olehermanse.github.io/pokres/pokres.appcache">
   <head>
+    <title>PokRes</title>
     <meta
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui"
@@ -9,7 +10,11 @@
       name="apple-mobile-web-app-status-bar-style"
       content="black-translucent"
     />
-    <style type="text/css">.nav_bar {
+    <style type="text/css">* {
+  font-family: sans-serif;
+}
+
+.nav_bar {
   grid-row: 1;
   grid-column: 1 / 4;
   height: 3em;
@@ -109604,7 +109609,6 @@ function PokresApp() {
   };
   var info = function info() {
     setView("info");
-    setGeneration("7");
   };
   var mainContent;
   if (view === "info") {
@@ -109632,7 +109636,7 @@ function PokresApp() {
         setView("default");
       }
     }
-  }, /*#__PURE__*/React.createElement(_Menu["default"], null))))), /*#__PURE__*/React.createElement(_Drawer["default"], {
+  }, /*#__PURE__*/React.createElement(_Menu["default"], null)), /*#__PURE__*/React.createElement(_Box["default"], null, "PokRes")))), /*#__PURE__*/React.createElement(_Drawer["default"], {
     onClose: function onClose() {
       setView("default");
     },
@@ -109685,22 +109689,32 @@ function InfoPage() {
   }, /*#__PURE__*/React.createElement(_Button["default"], {
     href: "https://bulbapedia.bulbagarden.net/wiki/Individual_values"
   }, "Individual values and stats in Pok\xE9mon games"), /*#__PURE__*/React.createElement("div", null), /*#__PURE__*/React.createElement(_Button["default"], {
-    href: "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)"
+    href: "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_I"
   }, "Pok\xE9mon base stats in generation I"), /*#__PURE__*/React.createElement(_Button["default"], {
     href: "https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/res/json/gen1.json"
   }, "(JSON)"), /*#__PURE__*/React.createElement(_Button["default"], {
-    href: "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_II-V)"
+    href: "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generations_II-V"
   }, "Pok\xE9mon base stats in generation II - V"), /*#__PURE__*/React.createElement(_Button["default"], {
     href: "https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/res/json/gen2-5.json"
   }, "(JSON)"), /*#__PURE__*/React.createElement(_Button["default"], {
-    href: "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VI)"
+    href: "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_VI"
   }, "Pok\xE9mon base stats in generation VI"), /*#__PURE__*/React.createElement(_Button["default"], {
     href: "https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/res/json/gen6.json"
   }, "(JSON)"), /*#__PURE__*/React.createElement(_Button["default"], {
-    href: "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VII-present)"
+    href: "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_VII"
   }, "Pok\xE9mon base stats in generation VII"), /*#__PURE__*/React.createElement(_Button["default"], {
     href: "https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/res/json/gen7.json"
   }, "(JSON)"), /*#__PURE__*/React.createElement(_Button["default"], {
+    href: "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_VIII"
+  }, "Pok\xE9mon base stats in generation VIII"), /*#__PURE__*/React.createElement(_Button["default"], {
+    href: "https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/res/json/gen8.json"
+  }, "(JSON)"), /*#__PURE__*/React.createElement(_Button["default"], {
+    href: "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_in_Generation_IX"
+  }, "Pok\xE9mon base stats in generation IX"), /*#__PURE__*/React.createElement(_Button["default"], {
+    href: "https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/res/json/gen9.json"
+  }, "(JSON)"), /*#__PURE__*/React.createElement(_Button["default"], {
+    href: "https://github.com/olehermanse/pokres"
+  }, "GitHub repo"), /*#__PURE__*/React.createElement("div", null), /*#__PURE__*/React.createElement(_Button["default"], {
     href: "https://raw.githubusercontent.com/olehermanse/pokres/gh-pages/LICENSE.txt"
   }, "License/Copyright \xA9"));
 }
