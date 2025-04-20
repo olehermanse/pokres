@@ -22,7 +22,7 @@ docker build --tag pokres . && docker run -it -p 8000:80 --name pokres --rm pokr
 Or podman:
 
 ```
-podman build --tag pokres . && docker run -it -p 8000:80 --name pokres --rm pokres
+podman build --tag pokres . && podman run -it -p 8000:80 --name pokres --rm pokres
 ```
 
 Open the app in your browser:
