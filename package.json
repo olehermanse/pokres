@@ -7,17 +7,17 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@fontsource/roboto": "^5.2.10",
-    "@mui/icons-material": "^7.3.9",
-    "@mui/material": "^7.3.9"
+    "@mui/icons-material": "^7.3.11",
+    "@mui/material": "^7.3.11"
   },
   "peerDependencies": {
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.0",
-    "@babel/preset-env": "^7.29.2",
-    "@babel/preset-react": "^7.28.5",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@babel/preset-react": "^7.29.7",
     "babel-loader": "^10.1.1",
     "babel-plugin-inline-json-import": "^0.3.2",
     "babelify": "^10.0.0",
